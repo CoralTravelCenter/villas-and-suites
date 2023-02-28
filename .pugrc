@@ -1,0 +1,144 @@
+{
+    "options": {
+        "qwe": 123
+    },
+    locals: {
+        data: {
+            countries: {
+                turkey: {
+                    name: 'Турция',
+                    // language=html,
+                    introMarkup: "<p>Ценителей роскоши в&nbsp;Турции ждет масса приятных открытий: великолепные отели, живописные пляжи, рестораны высокой\n    кухни, яркие развлекательные шоу, прекрасный сервис, множество возможностей сделать свой отдых по-настоящему\n    интересным.</p>\n<p>Отдых на виллах уровня премиум – безусловно, одно из них. Изысканные и&nbsp;комфортные, просторные и&nbsp;элегантные\n    &mdash; мы предлагаем вам лучшие виллы на&nbsp;Средиземноморском и&nbsp;Эгейском побережье.</p>\n<p>Если вы не&nbsp;нашли то, что искали, обратитесь, пожалуйста, к&nbsp;нам в&nbsp;чате или по&nbsp;телефону. \n    Мы&nbsp;обязательно подберем вариант, соответствующий вашим&nbsp;требованиям.</p>",
+                    selector: {
+                        poster: '/site/coral.ru/assets/turkey/selector-poster.jpg',
+                        vid: '800787500'
+                    },
+                    regions: {
+                        antalia: {
+                            name: 'Анталийское побережье',
+                            default: true,
+                            hotels: {
+                                MaxxRoyalKemerResort: {
+                                    name: 'Maxx Royal Kemer Resort',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/maxx-royal/logo-maxx-royal.png',
+                                    location: 'Кемер',
+                                    stars: 5,
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    price: 123456,
+                                    url: './maxx-royal-kemer-resort/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/maxx-royal/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/maxx-royal/poster-frame-x720.jpg'
+                                        },
+                                        vid: '723670109'
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-05.jpg',
+                                    ]
+                                },
+                                SusesiLuxuryResortDeluxe: {
+                                    name: 'Susesi Luxury Resort 5* Deluxe',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/logo-susesi-luxury.png',
+                                    location: 'Белек',
+                                    stars: 5,
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    price: 123456,
+                                    url: './susesi-luxury-resort-deluxe/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/poster-frame-x720.jpg'
+                                        },
+                                        vid: '776227411'
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-05.jpg',
+                                    ]
+                                }
+                            }
+                        },
+                        aegean: {
+                            name: 'Эгейское побережье',
+                            hotels: {
+                                Lujo: {
+                                    name: 'Lujo Hotel',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/lujo/logo-lujo.png',
+                                    location: 'Бодрум',
+                                    stars: 5,
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    price: 123456,
+                                    url: './lujo/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/lujo/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/lujo/poster-frame-x720.jpg'
+                                        },
+                                        vid: '781010856'
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-05.jpg',
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                egypt: {
+                    name: 'Египет',
+                    // language=html
+                    introMarkup: "<p>Внимание к&nbsp;каждой детали и&nbsp;эксклюзивные привилегии &mdash; главные ориентиры премиального отдыха в&nbsp;Египте. Гостей ждет\n    поистине богемным отдых: современные отели с&nbsp;дизайнерскими номерами, авторские блюда от известных шеф-поваров,\n    экскурсии с&nbsp;персональными гидами и&nbsp;ненавязчивый персонал, который исполнит любое ваше желание.</p>\n<p>Виллы класса люкс приятно удивят даже самого искушенного гостя: элегантный интерьер, живописный вид на море или сад, отдельный\n    выход к&nbsp;бассейну, персональный павильон на&nbsp;пляже, услуги личного дворецкого и&nbsp;повара. На этой странице представлены\n    лучшие виллы знаменитых отельных брендов в&nbsp;Хургаде и&nbsp;Шарм-эш-Шейхе.</p>\n<p>Не смогли определиться с&nbsp;выбором? Напишите нам в&nbsp;чат или позвоните по&nbsp;телефону. Мы подберем для вас идеальный вариант \n    под все ваши&nbsp;требования!</p>",
+                    selector: {
+                        poster: '/site/coral.ru/assets/egypt/selector-poster.jpg',
+                        vid: '800787528'
+                    },
+                    regions: {
+                        all: {
+                            name: '---',
+                            default: true,
+                            hotels: {
+                                RixosPremiumMagawish: {
+                                    name: 'Rixos Premium Magawish',
+                                    logo: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/logo-rixos.png',
+                                    location: 'Хургада',
+                                    stars: 5,
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    price: 123456,
+                                    url: './rixos-premium-magawish/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame-x720.jpg'
+                                        },
+                                        vid: ''
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+/*
+                uae: {
+                    name: 'ОАЭ',
+                    selector: {
+                        poster: '/site/coral.ru/assets/uae/selector-poster.jpg',
+                        vid: '800787469'
+                    }
+                }
+*/
+            }
+        }
+    }
+}

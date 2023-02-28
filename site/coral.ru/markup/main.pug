@@ -1,0 +1,64 @@
+body
+    link(rel='stylesheet', href='/site/coral.ru/css/main.less')
+
+    section.hero.underbrow.kv
+        article
+            .contenu
+                h2.h1 Элитный отдых для тех, кто ценит комфорт
+                p Приватные виллы, где все продумано до мелочей
+
+    section.hero.country-select
+        article
+            .contenu
+                nav
+                    each country, key in data.countries
+                        .item(data-content-control=key)
+                            .inhalt(style!=({ 'background-image': `url(${ country.selector.poster })` }))
+                                .vimeo-video-box
+                                    .vimeo-player(data-vimeo-vid=country.selector.vid)
+                                .blur: span  
+                                .label= country.name
+
+    section.hero.country-intro
+        article
+            .contenu
+                each country, key in data.countries
+                    .intro-text(data-content-marker=key)!= country.introMarkup
+
+    section.hero.region-select
+        article
+            .contenu
+                div
+                    each country, country_key in data.countries
+                        if Object.keys(country.regions).length > 1
+                            div.country-region-select(data-content-marker=country_key)
+                                each region, region_key in country.regions
+                                    button(class=(region.default ? 'selected' : ''), data-content-control=`${country_key}.${region_key}`)= region.name
+
+    section.hero.hotel-select
+        article
+            .contenu
+                .videos-descriptions-comp
+                    .inhalt
+                        .videos-comp
+                            each country, country_key in data.countries
+                                each region, region_key in country.regions
+                                    - content_marker = Object.keys(country.regions).length > 1 ? `${ country_key }.${ region_key }` : country_key
+                                    each hotel, hotel_key in region.hotels
+                                        .vimeo-video-box(data-content-marker=content_marker)
+                                            picture
+                                                source(media='(max-width: 768px)', srcset=hotel.video.poster.mobile)
+                                                img(src=hotel.video.poster.desktop)
+                                            .vimeo-player(data-vimeo-vid=hotel.video.vid)
+
+                        .descriptions-comp
+                .logo-nav-flicker
+                    each country, country_key in data.countries
+                        each region, region_key in country.regions
+                            - content_marker = Object.keys(country.regions).length > 1 ? `${ country_key }.${ region_key }` : country_key
+                            each hotel, hotel_key in region.hotels
+                                .logo-slide(data-content-marker=content_marker)
+                                    .logo-visual(style!=({ 'background-image': `url(${ hotel.logo })` }))
+                                    .hilite-bar
+
+    script(type='module', src='/site/coral.ru/js/main.coffee')

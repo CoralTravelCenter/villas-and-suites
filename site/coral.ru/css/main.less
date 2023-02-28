@@ -1,0 +1,263 @@
+@import "/site/common/css/coral-landing.less";
+
+section.hero {
+	background: white;
+	&.kv {
+		.hero-visual(@desktop-visual-url: '/site/coral.ru/assets/main-kv-desktop.jpg', @mobile-visual-url: '/site/coral.ru/assets/main-kv-mobile.jpg');
+		color: white;
+		.contenu {
+			max-width: 50%;
+			padding-bottom: 25%;
+			@media screen and (max-width: @mobile-breakpoint) {
+				max-width: none;
+				text-align: center;
+				justify-content: flex-start;
+				padding: 10% 1.5em!important;
+				> :nth-child(n+2) {
+					margin-top: 10%;
+				}
+			}
+		}
+	}
+
+	&.country-select {
+		nav {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			.flickity-viewport {
+				width: 100%;
+				order: 1;
+			}
+			.flickity-page-dots {
+				width: 100%;
+				order: 2;
+				display: flex;
+				justify-content: center;
+				padding: 0!important;
+				margin: 0;
+				.dot {
+					list-style: none;
+					width: 1.5em;
+					height: 4px;
+					background: @coral-main-yellow;
+					margin: 1em .25em;
+					opacity: .4;
+					.transit(opacity);
+					&.is-selected {
+						opacity: 1;
+					}
+				}
+			}
+			.flickity-prev-next-button {
+				.interactive();
+				order: 3;
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				border: 0;
+				width: 2.5em;
+				height: 2.5em;
+				background: white;
+				border-radius: 50%;
+				margin: .5em .5em;
+				padding: .62em;
+				filter: drop-shadow(4px 4px 32px rgba(0, 0, 0, 0.15));
+				.transit(opacity);
+				.transit(filter);
+				cursor: pointer;
+				@media screen and (max-width: @narrow-breakpoint) {
+					display: none;
+				}
+				&[disabled] {
+					pointer-events: none;
+					opacity: .5;
+					filter: none;
+				}
+				>svg {
+					opacity: .5;
+				}
+			}
+			.item {
+				padding: 1em;
+				cursor: pointer;
+				@media screen and (max-width: @mobile-breakpoint) {
+					padding: 1em .5em;
+				}
+				&.is-selected {
+					cursor: default;
+					.inhalt {
+						transform: none;
+						.blur {
+							opacity: 0;
+						}
+					}
+				}
+				.inhalt {
+					.visual(@desktop-visual-url: '/site/coral.ru/assets/turkey/selector-poster.jpg');
+					width: (314/20em);
+					.rounded-corners-overflow-fix();
+					overflow: hidden;
+					transform: scale(.9);
+					.transit(transform);
+					@media screen and (max-width: @mobile-breakpoint) {
+						width: 8em;
+					}
+					.blur {
+						background: rgba(0, 0, 0, .2);
+						backdrop-filter: blur(4px);
+						.transit(opacity);
+					}
+					.label {
+						.flex-center();
+						top: auto;
+						bottom: 0;
+						font-size: (24/20em);
+						font-weight: 500;
+						height: 2.8em;
+						background: fade(black, 30%);
+						color: white;
+						line-height: 1;
+						letter-spacing: normal;
+						@media screen and (max-width: @mobile-breakpoint) {
+							height: 2em;
+							font-size: 1em;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.country-intro {
+		.intro-text {
+			max-width: 50em;
+			margin: auto;
+			text-align: center;
+			p + p {
+				margin-top: .618em;
+			}
+		}
+	}
+
+	&.region-select {
+		>article .contenu {
+			padding: 0;
+		}
+		.country-region-select {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			button {
+				.buttonlike();
+				margin: 0 .5em;
+				.transit(box-shadow);
+				&.selected {
+					pointer-events: none;
+				}
+				&:not(.selected) {
+					background: transparent;
+					color: black!important;
+					box-shadow: inset 0 0 0 2px black;
+				}
+				&:first-child:last-child {
+					display: none;
+				}
+			}
+		}
+	}
+
+	&.hotel-select {
+		.videos-descriptions-comp {
+			.proportional(unit(@max-content-width)/800);
+			width: 100%;
+			.inhalt {
+				.flex-column;
+				align-items: center;
+				.videos-comp {
+					width: 100vw;
+					max-width: none;
+					height: 100%;
+					background: #abc;
+					display: flex;
+					flex-flow: row nowrap;
+					overflow-y: hidden;
+					overflow-x: auto;
+					scroll-snap-type: both mandatory;
+					&::-webkit-scrollbar {
+						display: none;
+					}
+					>.vimeo-video-box {
+						position: relative;
+						scroll-snap-align: center;
+						flex: 0 0 100%;
+						height: 100%;
+						>picture {
+							.abs100x100;
+							object-fit: cover;
+							object-position: center;
+						}
+						.vimeo-player {
+							.abs100x100;
+							>iframe {
+								.abs100x100;
+							}
+						}
+					}
+				}
+				.descriptions-comp {
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 50%;
+					height: 100%;
+					background: linear-gradient(179.97deg, rgba(31, 31, 31, 0.44) 0.03%, rgba(0, 0, 0, 0.4) 105.62%);
+					backdrop-filter: blur(16px);
+				}
+			}
+		}
+		.logo-nav-flicker {
+			width: 100%;
+			margin-top: 0!important;
+			.logo-slide {
+				.proportional(140/112);
+				width: (140/20em);
+				height: (112/20em);
+				background: white;
+				.transit(background);
+				cursor: pointer;
+				&.is-selected {
+					background: black;
+					cursor: default;
+					.logo-visual {
+						filter: invert(1);
+					}
+					.hilite-bar {
+						opacity: 1;
+						width: 100%;
+					}
+				}
+				.logo-visual {
+					background: center / contain no-repeat;
+					.transit(filter);
+				}
+				.hilite-bar {
+					top: auto;
+					bottom: 0;
+					height: 4px;
+					background: @coral-ramp-bg;
+					opacity: 0;
+					width: 0;
+					.transit(opacity);
+					.transit(width);
+				}
+			}
+		}
+	}
+
+}
+
+*[data-content-marker]:not(.shown) {
+	display: none!important;
+}
