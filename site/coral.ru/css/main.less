@@ -1,5 +1,13 @@
 @import "/site/common/css/coral-landing.less";
 
+@font-face {
+	font-family: 'Glyphter';
+	src: url('data-url:/site/coral.ru/inline-assets/Glyphter.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 section.hero {
 	background: white;
 	&.kv {
@@ -199,9 +207,13 @@ section.hero {
 							object-position: center;
 						}
 						.vimeo-player {
-							.abs100x100;
+							.abs100x100();
+							overflow: hidden;
 							>iframe {
-								.abs100x100;
+								position: absolute;
+								left: 50%;
+								top: 50%;
+								transform: translate(-50%,-50%);
 							}
 						}
 					}
@@ -214,6 +226,44 @@ section.hero {
 					height: 100%;
 					background: linear-gradient(179.97deg, rgba(31, 31, 31, 0.44) 0.03%, rgba(0, 0, 0, 0.4) 105.62%);
 					backdrop-filter: blur(16px);
+					.descriptions {
+						.abs100x100;
+						display: flex;
+						flex-flow: column nowrap;
+						overflow-x: hidden;
+						overflow-y: auto;
+						scroll-snap-type: both mandatory;
+						&::-webkit-scrollbar {
+							display: none;
+						}
+						>.hotel-card {
+							scroll-snap-align: center;
+							flex: 0 0 100%;
+							width: 100%;
+							.flex-column;
+							justify-content: center;
+							align-items: center;
+							padding: 2em;
+							color: white;
+							.location {
+								align-self: flex-start;
+							}
+							.stars {
+								font-family: Glyphter;
+								font-weight: normal;
+								color: @coral-main-yellow;
+								letter-spacing: .3em;
+							}
+							.name {
+								font-size: (40/20em);
+								font-weight: 700;
+								text-align: center;
+							}
+							.msg {
+								font-size: (14/20em);
+							}
+						}
+					}
 				}
 			}
 		}
