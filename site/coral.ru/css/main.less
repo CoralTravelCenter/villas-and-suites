@@ -181,13 +181,12 @@ section.hero {
 			.proportional(unit(@max-content-width)/800);
 			width: 100%;
 			.inhalt {
-				.flex-column;
+				display: flex;
+				flex-flow: column nowrap;
 				align-items: center;
 				.videos-comp {
 					width: 100vw;
-					max-width: none;
 					height: 100%;
-					background: #abc;
 					display: flex;
 					flex-flow: row nowrap;
 					overflow-y: hidden;
