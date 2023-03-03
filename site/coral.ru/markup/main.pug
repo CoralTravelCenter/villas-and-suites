@@ -62,6 +62,11 @@ body
                                                 .stars= hotel.stars
                                                 .name= hotel.name
                                                 .msg= hotel.msg
+                                                .price-info.rur от #{ hotel.price }
+                                                .actions
+                                                    a.about-hotel(href=hotel.url) Подробнее об отеле
+                                                    button.learn-more Узнать больше
+                                                div  
 
                 .logo-nav-flicker
                     each country, country_key in data.countries

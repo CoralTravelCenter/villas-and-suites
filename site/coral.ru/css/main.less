@@ -210,6 +210,7 @@ section.hero {
 						flex: 0 0 100%;
 						height: 100%;
 						display: grid;
+						overflow: hidden;
 						>picture {
 							.abs100x100;
 							object-fit: cover;
@@ -274,8 +275,28 @@ section.hero {
 							align-items: center;
 							padding: 1.5em 2em;
 							color: white;
+							opacity: 0;
+							.transit(opacity);
+							&.in-view {
+								opacity: 1;
+							}
+							>*:nth-child(n+2) {
+								margin-top: 5%;
+							}
+							>*:first-child, >*:last-child {
+								margin-bottom: auto;
+							}
 							.location {
 								align-self: flex-start;
+								display: inline-flex;
+								align-items: center;
+								&:before {
+									content: '';
+									height: 1em;
+									width: (15/19)*1em;
+									background: url("data-url:/site/coral.ru/inline-assets/location-marker.svg") center / contain no-repeat;
+									margin-right: .5em;
+								}
 							}
 							.stars {
 								font-family: Glyphter;
@@ -287,9 +308,25 @@ section.hero {
 								font-size: (40/20em);
 								font-weight: 700;
 								text-align: center;
+								line-height: 1.1;
 							}
 							.msg {
 								font-size: (14/20em);
+							}
+							.price-info {
+								font-weight: 700;
+								font-size: (40/20em);
+							}
+							.actions {
+								.about-hotel {
+									background: @coral-ramp-bg;
+								}
+								.learn-more {
+									background: transparent;
+									color: @coral-main-yellow!important;
+									box-shadow: inset 0 0 0 2px @coral-main-yellow;
+									margin-left: 1em;
+								}
 							}
 						}
 					}

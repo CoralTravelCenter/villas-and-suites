@@ -30,6 +30,22 @@ export queryParam = (p, nocase) ->
             return decodeURIComponent params[p]
     params
 
+export arrayOfNodesWith = (what) ->
+    if what.jquery
+        nodes = what.toArray()
+    else if what instanceof Array
+        nodes = Array.from what
+    else if what instanceof Node
+        nodes = [what]
+    else if what instanceof NodeList
+        nodes = Array.from what
+    else if typeof what == 'string'
+        nodes = Array.from document.querySelectorAll what
+    else
+        throw "*** arrayOfNodesWith: Got something unusable as 'what' param"
+    nodes
+
+
 export responsiveHandler = (media_query, match_handler, unmatch_handler) ->
     layout = matchMedia media_query
     layout.addEventListener 'change', (e) ->
@@ -65,12 +81,12 @@ export autoplayVimeo = (lookup_selector = '.vimeo-video-box [data-vimeo-vid]', v
             , { threshold: 0.33, observer_options... }
             io.observe vbox for vbox in vboxes
 
-export watchIntersection = (target, options, yes_handler, no_handler) ->
+export watchIntersection = (targets, options, yes_handler, no_handler) ->
     io = new IntersectionObserver (entries, observer) ->
         for entry in entries
-            if entry.isIntersecting then yes_handler?() else no_handler?()
+            if entry.isIntersecting then yes_handler?.call(entry.target) else no_handler?.call(entry.target)
     , { threshold: 1, options... }
-    io.observe target
+    io.observe target for target in arrayOfNodesWith targets
     io
 
 

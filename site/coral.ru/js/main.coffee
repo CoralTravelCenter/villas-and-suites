@@ -1,4 +1,4 @@
-import { ASAP, fixLayout, autoplayVimeo, preload, watchIntersection } from '/site/common/js/utils.coffee'
+import { ASAP, fixLayout, autoplayVimeo, preload, watchIntersection, arrayOfNodesWith } from '/site/common/js/utils.coffee'
 
 fixLayout()
 
@@ -21,6 +21,7 @@ manageContent = (controls, state_true_false) ->
                     prevNextButtons: no
                     pageDots: no
                 .on 'staticClick.flickity', (e, p, el, idx) -> $(this).flickity 'select', idx
+                .on 'select.flickity', (e, idx) -> scrollToPageIdx '.videos-comp', idx
 
 
 contentMonitor = (what) ->
@@ -31,20 +32,45 @@ contentMonitor = (what) ->
                     manageContent m.target, yes
                 else
                     manageContent m.target, no
-    if what.jquery
-        nodes = what.toArray()
-    else if what instanceof Array
-        nodes = Array.from what
-    else if what instanceof Node
-        nodes = [what]
-    else if typeof what == 'string'
-        nodes = Array.from document.querySelectorAll what
-    else
-        throw "*** contentMonitor: Got something unusable as 'what' param"
-
-    for node in nodes
+    for node in arrayOfNodesWith what
         mo.observe node, attributeFilter: ['class']
     mo
+
+syncScroll = (source, follower, flickity) ->
+    timeout = null
+    $source = $(source)
+    $follower = $(follower)
+    $flickity = $(flickity) if flickity
+    $source.on 'scroll', (e) ->
+        clearTimeout timeout
+        timeout = setTimeout ->
+            source = e.target
+            follower = $follower.get(0)
+            $source = $(e.target)
+            source_scroll_axis = $source.css('overflow').split(' ').indexOf('auto')
+            source_scroll_pos = ['scrollLeft','scrollTop'][source_scroll_axis]
+            # source_scroll_dim = ['scrollWidth','scrollHeight'][source_scroll_axis]
+            source_el_dim = ['clientWidth','clientHeight'][source_scroll_axis]
+            source_page_idx = Math.round source[source_scroll_pos] / source[source_el_dim]
+            follower_scroll_axis = $follower.css('overflow').split(' ').indexOf('auto')
+            follower_scroll_prop = ['left','top'][follower_scroll_axis]
+            follower_el_dim = ['clientWidth','clientHeight'][follower_scroll_axis]
+            scroll_opt = behavior: 'smooth'
+            scroll_opt[follower_scroll_prop] = follower[follower_el_dim] * source_page_idx
+            $follower.get(0).scroll scroll_opt
+            $flickity?.flickity 'select', source_page_idx
+        , 200
+
+scrollToPageIdx = (el_or_selector, idx) ->
+    $el = $(el_or_selector)
+    el = $el.get(0)
+    scroll_axis = $el.css('overflow').split(' ').indexOf('auto')
+    scroll_prop = ['left','top'][scroll_axis]
+    el_dim = ['clientWidth','clientHeight'][scroll_axis]
+    scroll_opt = behavior: 'smooth'
+    scroll_opt[scroll_prop] = el[el_dim] * idx
+    el.scroll scroll_opt
+
 
 ASAP ->
     $flickityReady = $.Deferred()
@@ -69,6 +95,13 @@ ASAP ->
             threshold: 1, root: $slider.find('.flickity-viewport').get(0), rootMargin: '0px -30%'
         autoplayVimeo 'section.hotel-select .vimeo-player', 'data-vimeo-vid', threshold: .5
 
-    watchIntersection $('section.kv').get(0), { threshold: .25 },
+    watchIntersection 'section.kv', { threshold: .25 },
         -> $('.container-tabItem.activeTab.sticky').removeClass 'hidden'
         -> $('.container-tabItem.activeTab.sticky').addClass 'hidden'
+
+    watchIntersection '.descriptions .hotel-card', { threshold: .5, root: $('.descriptions').get(0) },
+        -> this.classList.add 'in-view'
+        -> this.classList.remove 'in-view'
+
+    syncScroll '.descriptions', '.videos-comp', '.logo-nav-flicker'
+    syncScroll '.videos-comp', '.descriptions', '.logo-nav-flicker'
