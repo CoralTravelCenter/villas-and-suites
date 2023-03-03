@@ -1,4 +1,4 @@
-import { ASAP, fixLayout, autoplayVimeo, preload } from '/site/common/js/utils.coffee'
+import { ASAP, fixLayout, autoplayVimeo, preload, watchIntersection } from '/site/common/js/utils.coffee'
 
 fixLayout()
 
@@ -69,3 +69,6 @@ ASAP ->
             threshold: 1, root: $slider.find('.flickity-viewport').get(0), rootMargin: '0px -30%'
         autoplayVimeo 'section.hotel-select .vimeo-player', 'data-vimeo-vid', threshold: .5
 
+    watchIntersection $('section.kv').get(0), { threshold: .25 },
+        -> $('.container-tabItem.activeTab.sticky').removeClass 'hidden'
+        -> $('.container-tabItem.activeTab.sticky').addClass 'hidden'

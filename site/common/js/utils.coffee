@@ -65,6 +65,14 @@ export autoplayVimeo = (lookup_selector = '.vimeo-video-box [data-vimeo-vid]', v
             , { threshold: 0.33, observer_options... }
             io.observe vbox for vbox in vboxes
 
+export watchIntersection = (target, options, yes_handler, no_handler) ->
+    io = new IntersectionObserver (entries, observer) ->
+        for entry in entries
+            if entry.isIntersecting then yes_handler?() else no_handler?()
+    , { threshold: 1, options... }
+    io.observe target
+    io
+
 
 export fixLayout = () ->
     if document.querySelector('section.underbrow')

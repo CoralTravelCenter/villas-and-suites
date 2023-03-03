@@ -124,7 +124,8 @@
                                             desktop: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame.jpg',
                                             mobile: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame-x720.jpg'
                                         },
-                                        vid: '803785010'
+                                        vid: '803785010',
+                                        anamorphic: true
                                     }
                                 }
                             }
