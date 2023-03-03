@@ -263,6 +263,11 @@ section.hero {
 						overflow-x: hidden;
 						overflow-y: auto;
 						scroll-snap-type: both mandatory;
+						@media screen and (max-width: @mobile-breakpoint) {
+							flex-flow: row nowrap;
+							overflow-x: auto;
+							overflow-y: hidden;
+						}
 						&::-webkit-scrollbar {
 							display: none;
 						}
