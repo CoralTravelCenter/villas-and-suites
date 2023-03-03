@@ -1,6 +1,3 @@
-mixin video_dims_tweak(vid, height_tweak)
-    | .vimeo-player[data-vimeo-vid='#{ vid }'] iframe { height: #{ height_tweak }!important }
-
 body
     link(rel='stylesheet', href='/site/coral.ru/css/main.less')
 
@@ -38,13 +35,6 @@ body
                                 each region, region_key in country.regions
                                     button(class=(region.default ? 'selected' : ''), data-content-control=`${country_key}.${region_key}`)= region.name
 
-    style
-        each country in data.countries
-            each region in country.regions
-                each hotel, hotel_key in region.hotels
-                    if hotel.video.vid && hotel.video.heightTweak
-                        +video_dims_tweak(hotel.video.vid, hotel.video.heightTweak)
-
     section.hero.hotel-select
         article
             .contenu
@@ -59,7 +49,7 @@ body
                                             picture
                                                 source(media='(max-width: 768px)', srcset=hotel.video.poster.mobile)
                                                 img(src=hotel.video.poster.desktop)
-                                            .vimeo-player(data-vimeo-vid=hotel.video.vid)
+                                            .vimeo-player(data-vimeo-vid=hotel.video.vid, class=hotel.video.anamorphic ? 'anamorphic':'')
 
                         .descriptions-comp
                             .descriptions

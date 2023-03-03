@@ -32,7 +32,6 @@
                                             mobile: '/site/coral.ru/assets/turkey/hotels/maxx-royal/poster-frame-x720.jpg'
                                         },
                                         vid: '723670109',
-                                        heightTweak: '140%'
                                     },
                                     visuals: [
                                         '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-01.jpg',
@@ -56,7 +55,7 @@
                                             mobile: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/poster-frame-x720.jpg'
                                         },
                                         vid: '776227411',
-                                        heightTweak: '140%'
+                                        anamorphic: true
                                     },
                                     visuals: [
                                         '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-01.jpg',
@@ -85,7 +84,7 @@
                                             mobile: '/site/coral.ru/assets/turkey/hotels/lujo/poster-frame-x720.jpg'
                                         },
                                         vid: '781010856',
-                                        heightTweak: '140%'
+                                        anamorphic: true
                                     },
                                     visuals: [
                                         '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-01.jpg',
@@ -125,8 +124,7 @@
                                             desktop: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame.jpg',
                                             mobile: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame-x720.jpg'
                                         },
-                                        vid: '803785010',
-                                        heightTweak: '140%'
+                                        vid: '803785010'
                                     }
                                 }
                             }
