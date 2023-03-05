@@ -52,6 +52,7 @@ body
                                             .vimeo-player(data-vimeo-vid=hotel.video.vid, class=hotel.video.anamorphic ? 'anamorphic':'')
 
                         .descriptions-comp
+                            .progress-indicator: .indicator
                             .descriptions
                                 each country, country_key in data.countries
                                     each region, region_key in country.regions

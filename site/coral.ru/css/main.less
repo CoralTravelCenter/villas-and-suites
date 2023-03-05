@@ -256,6 +256,19 @@ section.hero {
 						height: 25em;
 						background: linear-gradient(179.97deg, rgba(31, 31, 31, 0.44), rgba(0, 0, 0, 0.4)), url('/site/coral.ru/assets/decor-bg-mobile.jpg') center / cover no-repeat;
 					}
+					.progress-indicator {
+						position: absolute;
+						left: 0;
+						background-color: black;
+						.indicator {
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: (100% / 9);
+							background: @coral-main-yellow;
+						}
+					}
 					.descriptions {
 						.abs100x100;
 						display: flex;
@@ -272,7 +285,6 @@ section.hero {
 							display: none;
 						}
 						>.hotel-card {
-							scroll-snap-align: center;
 							flex: 0 0 100%;
 							width: 100%;
 							.flex-column;
@@ -282,6 +294,9 @@ section.hero {
 							color: white;
 							opacity: 0;
 							.transit(opacity);
+							&.shown {
+								scroll-snap-align: center;
+							}
 							&.in-view {
 								opacity: 1;
 							}

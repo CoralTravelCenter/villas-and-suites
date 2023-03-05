@@ -39,17 +39,15 @@ contentMonitor = (what) ->
 syncScroll = (source, follower, flickity) ->
     timeout = null
     $source = $(source)
+    source = $source.get(0)
     $follower = $(follower)
     $flickity = $(flickity) if flickity
-    $source.on 'scroll', (e) ->
+    source.addEventListener 'scroll', (e) ->
         clearTimeout timeout
         timeout = setTimeout ->
-            source = e.target
             follower = $follower.get(0)
-            $source = $(e.target)
             source_scroll_axis = $source.css('overflow').split(' ').indexOf('auto')
             source_scroll_pos = ['scrollLeft','scrollTop'][source_scroll_axis]
-            # source_scroll_dim = ['scrollWidth','scrollHeight'][source_scroll_axis]
             source_el_dim = ['clientWidth','clientHeight'][source_scroll_axis]
             source_page_idx = Math.round source[source_scroll_pos] / source[source_el_dim]
             follower_scroll_axis = $follower.css('overflow').split(' ').indexOf('auto')
@@ -60,6 +58,36 @@ syncScroll = (source, follower, flickity) ->
             $follower.get(0).scroll scroll_opt
             $flickity?.flickity 'select', source_page_idx
         , 200
+
+scrollProgressIndicator = (scrollable, progress_indicator) ->
+    $scrollable = $(scrollable)
+    scrollable_el = $scrollable.get(0)
+    $progress_indicator = $(progress_indicator)
+    $indicator = $(progress_indicator).find('.indicator')
+    handler = () ->
+        scroll_axis = $scrollable.css('overflow').split(' ').indexOf('auto')
+        scroll_pos = ['scrollLeft','scrollTop'][scroll_axis]
+        scroll_dim = ['scrollWidth','scrollHeight'][scroll_axis]
+        el_dim = ['clientWidth','clientHeight'][scroll_axis]
+        indicator_dim_set = ['width','height'][scroll_axis]
+        indicator_dim_auto = ['height','width'][scroll_axis]
+        indicator_anchor_set = ['bottom','top'][scroll_axis]
+        indicator_anchor_auto = ['top','bottom'][scroll_axis]
+        indicator_shift_set = ['left', 'top'][scroll_axis]
+        indicator_shift_auto = ['top', 'left'][scroll_axis]
+        op = ['hide', 'show'][(scrollable_el[scroll_dim] > scrollable_el[el_dim]) * 1]
+        $progress_indicator[op]()
+        $progress_indicator.css indicator_anchor_set, 0
+        $progress_indicator.css indicator_anchor_auto, 'auto'
+        $progress_indicator.css indicator_dim_set, '100%'
+        $progress_indicator.css indicator_dim_auto, '4px'
+        $indicator.css indicator_dim_set, scrollable_el[el_dim] / scrollable_el[scroll_dim] * 100 + '%'
+        $indicator.css indicator_dim_auto, '100%'
+        $indicator.css indicator_shift_set, scrollable_el[scroll_pos] / scrollable_el[scroll_dim] * 100 + '%'
+        $indicator.css indicator_shift_auto, 0
+    $scrollable.on 'scroll', handler
+    mo = new MutationObserver handler
+    mo.observe scrollable_el, { subtree: yes, attributeFilter: ['class'] }
 
 scrollToPageIdx = (el_or_selector, idx) ->
     $el = $(el_or_selector)
@@ -93,7 +121,7 @@ ASAP ->
         .on 'staticClick.flickity', (e, p, el, idx) -> $(this).flickity 'select', idx
         autoplayVimeo 'section.country-select .vimeo-player', 'data-vimeo-vid',
             threshold: 1, root: $slider.find('.flickity-viewport').get(0), rootMargin: '0px -30%'
-        autoplayVimeo 'section.hotel-select .vimeo-player', 'data-vimeo-vid', threshold: .5
+        autoplayVimeo 'section.hotel-select .vimeo-player', 'data-vimeo-vid', threshold: .25
 
     watchIntersection 'section.kv', { threshold: .25 },
         -> $('.container-tabItem.activeTab.sticky').removeClass 'hidden'
@@ -105,3 +133,4 @@ ASAP ->
 
     syncScroll '.descriptions', '.videos-comp', '.logo-nav-flicker'
     syncScroll '.videos-comp', '.descriptions', '.logo-nav-flicker'
+    scrollProgressIndicator '.descriptions', '.descriptions-comp .progress-indicator'

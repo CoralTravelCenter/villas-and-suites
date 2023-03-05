@@ -64,6 +64,30 @@
                                         '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-04.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-05.jpg',
                                     ]
+                                },
+                                KempinskiVillasBelek: {
+                                    name: 'Kempinski Villas Belek',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/logo-kempinski-villas.png',
+                                    location: 'Белек',
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    price: 123456,
+                                    url: './kempinski-villas-belek/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/poster-frame-x720.jpg'
+                                        },
+                                        vid: '778055603',
+                                        anamorphic: true
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-05.jpg',
+                                    ]
                                 }
                             }
                         },
