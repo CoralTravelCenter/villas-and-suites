@@ -90,7 +90,7 @@ body
             each region, region_key in country.regions
                 - content_marker = Object.keys(country.regions).length > 1 ? `${ country_key }.${ region_key }` : country_key
                 each hotel, hotel_key in region.hotels
-                    | { key: '#{ hotel_key }', content_marker: '#{ content_marker }', name: '#{ hotel.name }', latlng: #{ JSON.stringify(hotel.latlng) } },
+                    | { #{ hotel.default ? 'default:true, ' : '' } key: '#{ hotel_key }', content_marker: '#{ content_marker }', name: '#{ hotel.name }', latlng: #{ JSON.stringify(hotel.latlng) } },
         | ]
 
     script(type='module', src='/site/coral.ru/js/main.coffee')

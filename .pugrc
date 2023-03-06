@@ -19,6 +19,7 @@
                             default: true,
                             hotels: {
                                 MaxxRoyalKemerResort: {
+                                    default: true,
                                     name: 'Maxx Royal Kemer Resort',
                                     logo: '/site/coral.ru/assets/turkey/hotels/maxx-royal/logo-maxx-royal.png',
                                     location: 'Кемер',

@@ -1,4 +1,5 @@
-import { ASAP, fixLayout, autoplayVimeo, preload, watchIntersection, arrayOfNodesWith } from '/site/common/js/utils.coffee'
+import { ASAP, fixLayout, autoplayVimeo, preload, watchIntersection, arrayOfNodesWith, queryParam } from '/site/common/js/utils.coffee'
+import { AppState } from './app-state.js'
 import { Ymap } from './Ymap.coffee'
 
 fixLayout()
@@ -111,6 +112,12 @@ ASAP ->
 
     $(document).on 'click', 'section.region-select [data-content-control]', ->
         $(this).addClass('selected').siblings('.selected').removeClass('selected')
+
+    preselect_hotel_key = queryParam 'hotel'
+    preselect_hotel = preselect_hotel_key and _(HOTELS_DATA).find(key: preselect_hotel_key) or _(HOTELS_DATA).find('default') or HOTELS_DATA[0]
+    console.log "=== preselecting: %o", preselect_hotel
+
+    window.app_state = app_state = new AppState selected_hotel_key: preselect_hotel.key
 
     $.when($flickityReady).done ->
         $slider = $('section.country-select nav')
