@@ -310,12 +310,31 @@ section.hero {
 								align-self: flex-start;
 								display: inline-flex;
 								align-items: center;
+								line-height: 1;
 								&:before {
 									content: '';
 									height: 1em;
 									width: (15/19)*1em;
 									background: url("data-url:/site/coral.ru/inline-assets/location-marker.svg") center / contain no-repeat;
 									margin-right: .5em;
+								}
+								button {
+									.buttonlike();
+									background: transparent;
+									color: @coral-yellow-lite!important;
+									box-shadow: inset 0 0 0 2px @coral-yellow-lite;
+									margin-left: 1em;
+									font-size: (14/20em) !important;
+									font-weight: 300;
+									&.active:before {
+										content: 'Скрыть карту';
+									}
+									&:before {
+										content: 'Показать на карте';
+									}
+									&:hover {
+										background: transparent;
+									}
 								}
 							}
 							.stars {
@@ -348,6 +367,62 @@ section.hero {
 									margin-left: 1em;
 								}
 							}
+						}
+					}
+				}
+				.ymap-comp {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 50%;
+					height: 100%;
+					background: linear-gradient(179.97deg, rgba(31, 31, 31, 0.44), rgba(0, 0, 0, 0.4));
+					backdrop-filter: blur(16px);
+					opacity: 0;
+					transform-origin: top right;
+					transform: scaleX(0);
+					.transit(opacity);
+					.transit(transform);
+					&.open {
+						opacity: 1;
+						transform: none;
+					}
+
+					@media screen and (max-width: @mobile-breakpoint) {
+						position: relative;
+						width: 100vw;
+						height: 25em;
+						background: linear-gradient(179.97deg, rgba(31, 31, 31, 0.44), rgba(0, 0, 0, 0.4)), url('/site/coral.ru/assets/decor-bg-mobile.jpg') center / cover no-repeat;
+					}
+					#ymap {
+						.abs100x100();
+					}
+					.scrollzoom-hint {
+						position: absolute;
+						left: 50%;
+						top: 50%;
+						transform: translate(-50%,-50%);
+						pointer-events: none;
+						text-align: center;
+						padding: 1em 2em;
+						white-space: nowrap;
+						background: fade(black, 80%);
+						color: white;
+						backdrop-filter: blur(4px);
+						border-radius: 1em;
+						box-shadow: 0 2px 8px fade(black, 20%);
+						opacity: 0;
+						.transit(opacity);
+						&.shown {
+							opacity: 1;
+						}
+						.key {
+							display: inline-block;
+							line-height: 1;
+							padding: .3em 1em;
+							border-radius: .5em;
+							box-shadow: inset 0 0 1px 1px currentColor;
+							font-weight: 500;
 						}
 					}
 				}

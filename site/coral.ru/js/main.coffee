@@ -1,4 +1,5 @@
 import { ASAP, fixLayout, autoplayVimeo, preload, watchIntersection, arrayOfNodesWith } from '/site/common/js/utils.coffee'
+import { Ymap } from './Ymap.coffee'
 
 fixLayout()
 
@@ -41,11 +42,11 @@ syncScroll = (source, follower, flickity) ->
     $source = $(source)
     source = $source.get(0)
     $follower = $(follower)
+    follower = $follower.get(0)
     $flickity = $(flickity) if flickity
     source.addEventListener 'scroll', (e) ->
         clearTimeout timeout
         timeout = setTimeout ->
-            follower = $follower.get(0)
             source_scroll_axis = $source.css('overflow').split(' ').indexOf('auto')
             source_scroll_pos = ['scrollLeft','scrollTop'][source_scroll_axis]
             source_el_dim = ['clientWidth','clientHeight'][source_scroll_axis]
@@ -101,6 +102,7 @@ scrollToPageIdx = (el_or_selector, idx) ->
 
 
 ASAP ->
+    ymap = null
     $flickityReady = $.Deferred()
     preload 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js', -> $flickityReady.resolve()
 
@@ -134,3 +136,8 @@ ASAP ->
     syncScroll '.descriptions', '.videos-comp', '.logo-nav-flicker'
     syncScroll '.videos-comp', '.descriptions', '.logo-nav-flicker'
     scrollProgressIndicator '.descriptions', '.descriptions-comp .progress-indicator'
+
+    $(document).on 'click', '[data-action=ymap-toggle]', ->
+        $('[data-action=ymap-toggle]').toggleClass 'active'
+        $('.ymap-comp').toggleClass 'open'
+        window.ymap = ymap = new Ymap().init() unless ymap

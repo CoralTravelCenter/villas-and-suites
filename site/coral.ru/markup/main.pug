@@ -50,6 +50,11 @@ body
                                                 source(media='(max-width: 768px)', srcset=hotel.video.poster.mobile)
                                                 img(src=hotel.video.poster.desktop)
                                             .vimeo-player(data-vimeo-vid=hotel.video.vid, class=hotel.video.anamorphic ? 'anamorphic':'')
+                        .ymap-comp
+                            div#ymap
+                            .scrollzoom-hint.
+                                    Нажмите и удеживайте клавишу <span class="key">Alt</span>,
+                                    <br>чтобы менять масштаб колесом прокрутки
 
                         .descriptions-comp
                             .progress-indicator: .indicator
@@ -60,6 +65,7 @@ body
                                         each hotel, hotel_key in region.hotels
                                             .hotel-card(data-content-marker=content_marker)
                                                 .location= hotel.location
+                                                    button(data-action='ymap-toggle') &zwj;
                                                 .stars= hotel.stars
                                                 .name= hotel.name
                                                 .msg= hotel.msg
@@ -77,5 +83,14 @@ body
                                 .logo-slide(data-content-marker=content_marker)
                                     .logo-visual(style!=({ 'background-image': `url(${ hotel.logo })` }))
                                     .hilite-bar
+
+    script
+        | var HOTELS_DATA = [
+        each country, country_key in data.countries
+            each region, region_key in country.regions
+                - content_marker = Object.keys(country.regions).length > 1 ? `${ country_key }.${ region_key }` : country_key
+                each hotel, hotel_key in region.hotels
+                    | { key: '#{ hotel_key }', content_marker: '#{ content_marker }', name: '#{ hotel.name }', latlng: #{ JSON.stringify(hotel.latlng) } },
+        | ]
 
     script(type='module', src='/site/coral.ru/js/main.coffee')
