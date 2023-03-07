@@ -120,6 +120,9 @@ ASAP ->
     console.log "=== preselecting: %o", preselect_hotel
 
     window.app_state = app_state = new AppState selected_hotel_key: preselect_hotel.key
+    $(app_state).on 'changed', () ->
+        $scroll2hotel = $(".hotel-card[data-hotel-key='#{ app_state.get('selected_hotel_key') }']")
+        $scroll2hotel.parent().scrollTo $scroll2hotel
 
     [country_content_marker, region_content_marker] = preselect_hotel.content_marker.split('.')
     preselect_country_idx = $("section.country-select nav .item[data-content-control='#{ country_content_marker }']").index()
@@ -166,4 +169,4 @@ ASAP ->
     $(document).on 'click', '[data-action=ymap-toggle]', ->
         $('[data-action=ymap-toggle]').toggleClass 'active'
         $('.ymap-comp').toggleClass 'open'
-        window.ymap = ymap = new Ymap(appState: app_state).init() unless ymap
+        window.ymap = ymap = new Ymap(hotels: HOTELS_DATA, appState: app_state).init() unless ymap

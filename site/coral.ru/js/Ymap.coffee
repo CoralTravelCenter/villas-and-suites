@@ -1,48 +1,18 @@
 import { AppState } from './app-state.js'
 
-ymapFeatureWithHotelData = (hotel, hilite=no) ->
-    feature =
-        type: 'Feature'
-        id: hotel.key
-        geometry:
-            type: 'Point'
-            coordinates: hotel.latlng
-        properties:
-            balloonContentHeader: hotel.name
-            balloonContentBody: "от <strong>#{ hotel.price }</strong> &#x20BD"
-            hotelData: hotel
-        options:
-#                    balloonLayout: @opt.balloonLayout
-#                    balloonPanelLayout: @opt.panelLayout
-#                    balloonPanelMaxMapArea: 700 * 500
-            #balloonPanelMaxHeightRatio: 0.6
-#                    iconColor: if Number(asc.IsServicePlaza) then '#0b239c' else '#3177c2'
-            iconLayout: 'default#image'
-            iconImageHref: ['/site/coral.ru/assets/ymap-marker-default.png','/site/coral.ru/assets/ymap-marker-hilite.png'][!!hilite * 1]
-            iconImageSize: [26,32]
-            iconImageOffset: [-13,-32]
-
-objectManagerData = () ->
-    omData =
-        type: 'FeatureCollection'
-        features: window.HOTELS_DATA.map (hotel) -> ymapFeatureWithHotelData hotel
-
-hotelByKey = (key) -> _(HOTELS_DATA).find key: key
-
-filterFunctionWithHotelKey = (key) ->
-    hotel = hotelByKey key
-    (feature_data) -> feature_data.properties.hotelData.content_marker == hotel.content_marker
-
-
 export class Ymap
     constructor: (options) ->
         @options = {
             el: '#ymap'
             ymaps_api: '//api-maps.yandex.ru/2.1.64/?lang=ru_RU'
+            hotels: null
             appState: null
+            iconDefault: '/site/coral.ru/assets/ymap-marker-default.png'
+            iconHilite: '/site/coral.ru/assets/ymap-marker-hilite.png'
             options...
         }
     init: () ->
+        @hotels = @options.hotels
         @$ymap = $ @options.el
         ymaps_api_callback = "ymaps_loaded_#{ Math.round(Math.random() * 1000000) }"
         window[ymaps_api_callback] = () => @ymapsInit()
@@ -58,8 +28,31 @@ export class Ymap
                 @zoom_modifier_down = e.type == 'keydown'
         @options.appState && $(@options.appState).on 'changed', => @selectionChanged()
         @
+
+    extendHotelsData: () ->
+        @hotels.forEach (hotel) =>
+            hotel.placemark = new ymaps.Placemark hotel.latlng,
+                balloonContentHeader: hotel.name
+                balloonContentBody: "от <strong>#{ hotel.price }</strong> &#x20BD"
+                hotelData: hotel
+            ,
+                zIndex: 0
+                iconLayout: 'default#image'
+                iconImageHref: '/site/coral.ru/assets/ymap-marker-default.png'
+                iconImageSize: [26,32]
+                iconImageOffset: [-13,-32]
+            hotel.placemark.events.add 'click', (e) =>
+                hotel_key = e.originalEvent.target.properties.get('hotelData').key
+                @options.appState.set 'selected_hotel_key', hotel_key
+
+
+    hotelByKey: (key) -> _(HOTELS_DATA).find key: key
+    selectedHotel: () -> @hotelByKey @options.appState.get 'selected_hotel_key'
+
     ymapsInit: () ->
         console.log '*** ymapsInit'
+
+        @extendHotelsData()
 
         @ymap = new ymaps.Map @$ymap.get(0),
             center: [55.76, 37.64] # Москва
@@ -81,46 +74,31 @@ export class Ymap
                         @$scrollZoomHint.removeClass 'shown'
                     , 1000
 
-        @ymapObjectManager = new ymaps.ObjectManager
-            #syncOverlayInit: true
-            clusterize: false
-            clusterIconLayout: "default#pieChart"
-            gridSize: 64
+        @syncMapWithSelection()
 
+    syncMapWithSelection: () ->
+        selected_hotel = @selectedHotel()
+        if selected_hotel.content_marker != @recent_content_marker
+            @ymap.geoObjects.removeAll()
+            @hotels
+                .filter (hotel) => hotel.content_marker == selected_hotel.content_marker
+                .forEach (hotel) => @ymap.geoObjects.add hotel.placemark
+            @ymap.setBounds @ymap.geoObjects.getBounds(), duration: 1000, zoomMargin: 30
+            .then =>
+                @ymap.setZoom 11 if @ymap.getZoom() > 11
+            @recent_content_marker = selected_hotel.content_marker
+        else unless ymaps.util.bounds.containsPoint @ymap.getBounds(), selected_hotel.latlng
+            @ymap.setCenter selected_hotel.latlng, @ymap.getZoom(), duration: 500
+        @hiliteHotel selected_hotel
 
-        @ymapObjectManager.add objectManagerData()
-        if @options.appState
-            @ymapObjectManager.setFilter filterFunctionWithHotelKey @options.appState.get('selected_hotel_key')
-        @ymap.geoObjects.add @ymapObjectManager
-        @ymap.setBounds @ymapObjectManager.getBounds(), duration: 1000, zoomMargin: 30
-        .then =>
-            @ymap.setZoom 11 if @ymap.getZoom() > 11
-        selected_hotel_key = @options.appState.get 'selected_hotel_key'
-        @hiliteHotelWithKey selected_hotel_key
-
-#        hotel2hilite = hotelByKey selected_hotel_key
-#        geoObject = @ymapObjectManager.objects.getById selected_hotel_key
-#        @ymapObjectManager.remove geoObject
-#        setTimeout =>
-#            @ymapObjectManager.add ymapFeatureWithHotelData hotel2hilite, 'hilite'
-#            @ymap.setCenter hotel2hilite.latlng, @ymap.getZoom(), duration: 1000
-#        , 0
-        @
-
-    hiliteHotelWithKey: (key) ->
-        if @recentlyHilitedKey
-            recentGeoObject = @ymapObjectManager.objects.getById @recentlyHilitedKey
-            @ymapObjectManager.remove recentGeoObject
-            setTimeout =>
-                @ymapObjectManager.add ymapFeatureWithHotelData hotelByKey(@recentlyHilitedKey)
-            , 10
-        geoObject = @ymapObjectManager.objects.getById key
-        @ymapObjectManager.remove geoObject
-        setTimeout =>
-            @ymapObjectManager.add ymapFeatureWithHotelData hotelByKey(key), 'hilite'
-            @recentlyHilitedKey = key
-        , 20
+    hiliteHotel: (hotel) ->
+        if @recent_hilited_hotel
+            @recent_hilited_hotel.placemark.options.set 'iconImageHref', @options.iconDefault
+            @recent_hilited_hotel.placemark.options.set 'zIndex', 0
+            @recent_hilited_hotel.placemark.balloon.close()
+        hotel.placemark.options.set 'iconImageHref', @options.iconHilite
+        hotel.placemark.options.set 'zIndex', 1
+        @recent_hilited_hotel = hotel
 
     selectionChanged: () ->
-        key = @options.appState.get 'selected_hotel_key'
-        @hiliteHotelWithKey key
+        @syncMapWithSelection()
