@@ -105,7 +105,9 @@ scrollToPageIdx = (el_or_selector, idx) ->
 ASAP ->
     ymap = null
     $flickityReady = $.Deferred()
+    $scrolltoReady = $.Deferred()
     preload 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js', -> $flickityReady.resolve()
+    preload 'https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js', -> $scrolltoReady.resolve()
 
     contentMonitor 'section.country-select nav .item'
     contentMonitor 'section.region-select [data-content-control]'
@@ -119,15 +121,30 @@ ASAP ->
 
     window.app_state = app_state = new AppState selected_hotel_key: preselect_hotel.key
 
+    [country_content_marker, region_content_marker] = preselect_hotel.content_marker.split('.')
+    preselect_country_idx = $("section.country-select nav .item[data-content-control='#{ country_content_marker }']").index()
+    setTimeout ->
+        $scroll2hotel = $(".hotel-card[data-hotel-key='#{ preselect_hotel_key }']")
+        $.when($scrolltoReady).done ->
+            $scroll2hotel.parent().scrollTo $scroll2hotel
+    , 0
+
     $.when($flickityReady).done ->
         $slider = $('section.country-select nav')
         .flickity
+            initialIndex: preselect_country_idx
             cellSelector: '.item'
             cellAlign: 'center'
             wrapAround: no
             prevNextButtons: yes
             pageDots: yes
         .on 'staticClick.flickity', (e, p, el, idx) -> $(this).flickity 'select', idx
+        if region_content_marker
+            setTimeout ->
+                $("[data-content-control='#{ preselect_hotel.content_marker }']")
+                    .addClass('selected')
+                    .siblings('.selected').removeClass 'selected'
+            , 1
         autoplayVimeo 'section.country-select .vimeo-player', 'data-vimeo-vid',
             threshold: 1, root: $slider.find('.flickity-viewport').get(0), rootMargin: '0px -30%'
         autoplayVimeo 'section.hotel-select .vimeo-player', 'data-vimeo-vid', threshold: .25
@@ -137,7 +154,9 @@ ASAP ->
         -> $('.container-tabItem.activeTab.sticky').addClass 'hidden'
 
     watchIntersection '.descriptions .hotel-card', { threshold: .5, root: $('.descriptions').get(0) },
-        -> this.classList.add 'in-view'
+        ->
+            this.classList.add 'in-view'
+            app_state.set selected_hotel_key: $(this).attr('data-hotel-key')
         -> this.classList.remove 'in-view'
 
     syncScroll '.descriptions', '.videos-comp', '.logo-nav-flicker'
@@ -147,4 +166,4 @@ ASAP ->
     $(document).on 'click', '[data-action=ymap-toggle]', ->
         $('[data-action=ymap-toggle]').toggleClass 'active'
         $('.ymap-comp').toggleClass 'open'
-        window.ymap = ymap = new Ymap().init() unless ymap
+        window.ymap = ymap = new Ymap(appState: app_state).init() unless ymap

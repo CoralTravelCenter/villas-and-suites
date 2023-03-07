@@ -26,7 +26,7 @@
                                     latlng: [36.57905, 30.58471],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    price: 123456,
+                                    price: '123 456',
                                     url: './maxx-royal-kemer-resort/',
                                     video: {
                                         poster: {
@@ -50,7 +50,7 @@
                                     latlng: [36.856434, 31.039511],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    price: 123456,
+                                    price: '123 456',
                                     url: './susesi-luxury-resort-deluxe/',
                                     video: {
                                         poster: {
@@ -75,7 +75,7 @@
                                     latlng: [36.860012, 30.997336],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    price: 123456,
+                                    price: '123 456',
                                     url: './kempinski-villas-belek/',
                                     video: {
                                         poster: {
@@ -105,7 +105,7 @@
                                     latlng: [37.137846, 27.560884],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    price: 123456,
+                                    price: '123 456',
                                     url: './lujo/',
                                     video: {
                                         poster: {
@@ -147,7 +147,7 @@
                                     latlng: [27.142883, 33.827488],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    price: 123456,
+                                    price: '123 456',
                                     url: './rixos-premium-magawish/',
                                     video: {
                                         poster: {
