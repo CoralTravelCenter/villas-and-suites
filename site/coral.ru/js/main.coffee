@@ -23,7 +23,9 @@ manageContent = (controls, state_true_false) ->
                     prevNextButtons: no
                     pageDots: no
                 .on 'staticClick.flickity', (e, p, el, idx) -> $(this).flickity 'select', idx
-                .on 'select.flickity', (e, idx) -> scrollToPageIdx '.videos-comp', idx
+                .on 'select.flickity', (e, idx) ->
+                    selected_hotel_key = Flickity.data(this).selectedElement.getAttribute('data-hotel-key')
+                    app_state.set 'selected_hotel_key', selected_hotel_key
 
 
 contentMonitor = (what) ->

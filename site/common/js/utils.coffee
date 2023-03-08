@@ -45,6 +45,18 @@ export arrayOfNodesWith = (what) ->
         throw "*** arrayOfNodesWith: Got something unusable as 'what' param"
     nodes
 
+export debounce = (func, threshold, execAsap) ->
+    timeout = null
+    (args...) ->
+        obj = this
+        delayed = ->
+            func.apply(obj, args) unless execAsap
+            timeout = null
+        if timeout
+            clearTimeout(timeout)
+        else if (execAsap)
+            func.apply(obj, args)
+        timeout = setTimeout delayed, threshold || (1000 / 25)
 
 export responsiveHandler = (media_query, match_handler, unmatch_handler) ->
     layout = matchMedia media_query
