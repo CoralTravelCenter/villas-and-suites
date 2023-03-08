@@ -498,6 +498,253 @@ section.hero {
 		}
 	}
 
+	&.book-in-premium-offices {
+		.actions {
+			margin-top: 2em;
+		}
+		ul.office-benefits {
+			display: flex;
+			justify-content: center;
+			margin: 0;
+			padding: 0!important;
+			margin-top: 1em;
+			@media screen and (max-width: @mobile-breakpoint) {
+				flex-wrap: wrap;
+			}
+			>li {
+				.flex-column;
+				align-items: center;
+				text-align: center;
+				padding: 2em;
+				@media screen and (max-width: @mobile-breakpoint) {
+					flex: 0 1 50%;
+					padding: 1em;
+					font-size: 75%;
+				}
+				&:nth-child(1) .icon {
+					background-image: url(data-url:/site/coral.ru/inline-assets/icon-benefit-01.svg);
+				}
+				&:nth-child(2) .icon {
+					background-image: url(data-url:/site/coral.ru/inline-assets/icon-benefit-02.svg);
+				}
+				&:nth-child(3) .icon {
+					background-image: url(data-url:/site/coral.ru/inline-assets/icon-benefit-03.svg);
+				}
+				&:nth-child(4) .icon {
+					background-image: url(data-url:/site/coral.ru/inline-assets/icon-benefit-04.svg);
+				}
+				.icon {
+					.proportional(1/1);
+					width: 5em;
+					background: center no-repeat;
+					background-size: contain;
+					margin-bottom: 1em;
+				}
+				.label {
+					line-height: 1.2;
+				}
+			}
+		}
+		.apply-contact {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			@media screen and (max-width: @mobile-breakpoint) {
+				display: block;
+				margin-top: 2em;
+			}
+			>* {
+				width: calc(~"50% - 1em");
+				border-radius: .5em;
+			}
+			.visual {
+				.proportional(720/470);
+				background: url("/site/coral.ru/assets/apply-contact-visual.jpg") center no-repeat;
+				background-size: cover;
+				@media screen and (max-width: @mobile-breakpoint) {
+					width: 100%;
+				}
+			}
+			.info {
+				.flex-column;
+				justify-content: space-evenly;
+				align-items: center;
+				text-align: center;
+				background: white;
+				padding: 1em 5em;
+				@media screen and (max-width: @mobile-breakpoint) {
+					width: 100%;
+					padding: 2em 1em;
+					margin-top: 1em;
+				}
+				>* {
+					margin: auto;
+					&:nth-child(n+2) {
+						@media screen and (max-width: @mobile-breakpoint) {
+							margin-top: 5%;
+						}
+					}
+				}
+				p {
+					line-height: 1.2;
+				}
+				.icon {
+					.proportional(1/1);
+					background: center no-repeat;
+					background-image: url(data-url:/site/coral.ru/inline-assets/icon-contact.svg);
+					background-size: contain;
+					width: 5em;
+				}
+				.phone-number {
+					font-size: (44/20em);
+					color: #FFAE00;
+					font-weight: 700;
+					white-space: nowrap;
+				}
+			}
+		}
+		.additional-services {
+			.flex-column;
+			align-items: center;
+			background: white;
+			border-radius: 2em;
+			padding: 2em;
+			margin-top: 2em;
+			background: @coral-page-bg;
+			h2 {
+				font-size: (40/20em);
+				max-width: none;
+				@media screen and (max-width: @mobile-breakpoint) {
+					font-size: 1.5em;
+				}
+			}
+			>p {
+				font-size: (24/20em);
+				line-height: 1.2;
+				text-align: center;
+				margin-top: 1em;
+				@media screen and (max-width: @mobile-breakpoint) {
+					font-size: 1em;
+				}
+			}
+			ul.services {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				margin: 0;
+				padding: 0!important;
+				margin-top: 1em;
+				@media screen and (max-width: @mobile-breakpoint) {
+					flex-wrap: wrap;
+				}
+				>li {
+					flex: 1 1 30%;
+					.flex-column;
+					align-items: center;
+					text-align: center;
+					padding: 2em;
+					@media screen and (max-width: @mobile-breakpoint) {
+						flex: 0 1 50%;
+						padding: 1em;
+						font-size: 75%;
+					}
+					&:nth-child(1) .icon {
+						background-image: url(data-url:/site/coral.ru/inline-assets/icon-service-01.svg);
+					}
+					&:nth-child(2) .icon {
+						background-image: url(data-url:/site/coral.ru/inline-assets/icon-service-02.svg);
+					}
+					&:nth-child(3) .icon {
+						background-image: url(data-url:/site/coral.ru/inline-assets/icon-service-03.svg);
+					}
+					&:nth-child(4) .icon {
+						background-image: url(data-url:/site/coral.ru/inline-assets/icon-service-04.svg);
+					}
+					&:nth-child(5) .icon {
+						background-image: url(data-url:/site/coral.ru/inline-assets/icon-service-05.svg);
+					}
+					&:nth-child(6) .icon {
+						background-image: url(data-url:/site/coral.ru/inline-assets/icon-service-06.svg);
+					}
+					.icon {
+						.proportional(1/1);
+						width: 100%;
+						height: 5em;
+						background: center no-repeat;
+						background-size: contain;
+						margin-bottom: 1em;
+					}
+					.label {
+						line-height: 1.2;
+					}
+				}
+			}
+		}
+	}
+
+	&.fin-c2a {
+		.contact-block {
+			width: 100%;
+			.proportional(1440/453);
+			background: url("/site/coral.ru/assets/fin-c2a-desktop.jpg") center no-repeat;
+			background-size: cover;
+			@media screen and (max-width: @mobile-breakpoint) {
+				.proportional(720/458);
+				background-image: url("/site/coral.ru/assets/fin-c2a-mobile.jpg");
+				width: 100vw;
+				max-width: none;
+			}
+			.info {
+				width: 55%;
+				.flex-column;
+				justify-content: center;
+				padding: 0 4em;
+				@media screen and (max-width: @mobile-breakpoint) {
+					justify-content: flex-start;
+					font-size: 70%;
+					padding: 2em;
+					width: 65%;
+				}
+				h3 {
+					font-size: (32/20em);
+					text-align: left;
+					margin-bottom: 1em;
+				}
+			}
+		}
+	}
+
+}
+
+#app-form {
+	.jsless-popin();
+	.popin-container {
+		position: relative;
+		height: 90vh;
+		padding: 1em 1.5em 1em;
+		border-radius: 1em;
+		width: 90vw;
+		max-width: 450px;
+		overflow: hidden;
+		@media screen and (max-width: @mobile-breakpoint) {
+			height: 80vh;
+		}
+		iframe {
+			.abs100x100;
+		}
+		.dismiss {
+			.interactive;
+			position: absolute;
+			top: 0;
+			right: 0;
+			.flex-center;
+			color: inherit;
+			font-size: 2em;
+			line-height: 1;
+			width: 1.5em;
+			height: 1.5em;
+		}
+	}
 }
 
 #learn-more {
