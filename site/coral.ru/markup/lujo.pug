@@ -17,6 +17,12 @@ body
                 h2= this_hotel.name
                 div!= this_hotel.introMarkup
 
+    if this_hotel.exclusive
+        section.hero.exclusive-priviledges
+            article
+                .contenu
+                    include ./-exclusive-priviledges.pug
+
     section.hero.concept
         article
             .contenu

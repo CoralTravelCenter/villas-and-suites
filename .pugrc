@@ -99,6 +99,7 @@
                             name: 'Эгейское побережье',
                             hotels: {
                                 Lujo: {
+                                    exclusive: true,
                                     name: 'Lujo Hotel',
                                     logo: '/site/coral.ru/assets/turkey/hotels/lujo/logo-lujo.png',
                                     location: 'Бодрум',
