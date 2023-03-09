@@ -388,6 +388,9 @@ section.hero {
 								font-size: (40/20em);
 							}
 							.actions {
+								>*:nth-child(n+2) {
+									margin-left: 1em;
+								}
 								.about-hotel {
 									background: @coral-ramp-bg;
 								}
@@ -395,7 +398,6 @@ section.hero {
 									background: transparent;
 									color: @coral-main-yellow!important;
 									box-shadow: inset 0 0 0 2px @coral-main-yellow;
-									margin-left: 1em;
 								}
 							}
 						}

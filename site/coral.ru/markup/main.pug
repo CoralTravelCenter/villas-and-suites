@@ -71,7 +71,8 @@ body
                                                 .msg= hotel.msg
                                                 .price-info.rur от #{ hotel.price }
                                                 .actions
-                                                    a.about-hotel(href=hotel.url) Подробнее об отеле
+                                                    if hotel.url
+                                                        a.about-hotel(href=hotel.url) Подробнее об отеле
                                                     a.learn-more(href='#learn-more') Узнать больше
                                                 div  
 
