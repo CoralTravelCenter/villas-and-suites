@@ -22,3 +22,16 @@ ASAP ->
     watchIntersection 'section.kv', { threshold: .25 },
         -> $('.container-tabItem.activeTab.sticky').removeClass 'hidden'
         -> $('.container-tabItem.activeTab.sticky').addClass 'hidden'
+
+    $(document).on 'click', '[data-action="disclose"]', ->
+        $this = $(this)
+        $this.toggleClass 'open'
+        $this.next()[['slideUp', 'slideDown'][$this.hasClass('open') * 1]]()
+
+    $('.villa-showroom .nav-item').on 'click', ->
+        $this = $(this)
+        idx = $this.index()
+        $this.addClass('selected').siblings('.selected').removeClass('selected')
+        $this.closest('.villa-showroom')
+            .find('.main-item').eq(idx).addClass('shown')
+            .siblings('.shown').removeClass('shown')

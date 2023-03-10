@@ -17,11 +17,27 @@ body
                 h2= this_hotel.name
                 div!= this_hotel.introMarkup
 
-    if this_hotel.exclusive
-        section.hero.exclusive-priviledges
-            article
-                .contenu
-                    include ./-exclusive-priviledges.pug
+    section.hero.exclusive-privileges
+        article
+            .contenu
+                .exclusive-privileges
+                    h4(data-action='disclose') Эксклюзивные привилегии для&nbsp;клиентов Coral&nbsp;Travel
+                    .more
+                        p.note Привилегии распространяются на&nbsp;все типы&nbsp;размещения
+                        ul
+                            li
+                                .icon &zwj;
+                                .label.
+                                    #[strong Бесплатный доступ] в&nbsp;Бизнес лаунж в&nbsp;Московских а/п: Внуково и&nbsp;Домодедово
+                                    (при предъявлении ваучера Lujo&nbsp;Hotel&nbsp;Bodrum)
+                            li
+                                .icon &zwj;
+                                .label.
+                                    #[strong Одно бесплатное посещение] а-ля карт ресторана "Secret" для гостей, проживающих более 7&nbsp;ночей
+                            li
+                                .icon &zwj;
+                                .label.
+                                    #[strong Бесплатный доступ] в&nbsp;TAV Primeclass Lounge #[nobr в а/п Бодрум] (при предъявлении ваучера Lujo&nbsp;Hotel&nbsp;Bodrum)
 
     section.hero.concept
         article
@@ -30,6 +46,34 @@ body
                     each visual in this_hotel.visuals
                         .slide(style!=({ 'background-image': `url(${ visual })` }))
 
+    section.hero.villas-heading
+        article
+            .contenu
+                h2 Виллы
+                p Возможность уединения в&nbsp;условиях суперсовременного&nbsp;комфорта.
+
+    each villa in this_hotel.villas
+        section.hero.villa
+            article
+                .contenu
+                    h2= villa.name
+                    if villa.visuals && villa.visuals.length
+                        .villa-showroom
+                            - default_visual = villa.visuals.find(v => v.default) || villa.visuals[0]
+                            .main-pane
+                                each visual, idx in villa.visuals
+                                    .main-item(class={ shown: idx === 0 })
+                                        img(src=visual.xxl)
+                            .nav-pane
+                                each visual, idx in villa.visuals
+                                    .nav-item(class={ selected: idx === 0 }, style!=`background-image: url(${ visual.xxs })`)
+                    if villa.keyFacts && villa.keyFacts.length
+                        ul.key-facts
+                            each fact in villa.keyFacts
+                                li
+                                    .key!= fact.key
+                                    .value!= fact.value
+                    //if (villa.infos && villa.infos.length) || (villa.privileges && villa.privileges.length)
 
     section.hero.fin-c2a
         article

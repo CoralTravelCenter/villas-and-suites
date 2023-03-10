@@ -99,7 +99,6 @@
                             name: 'Эгейское побережье',
                             hotels: {
                                 Lujo: {
-                                    exclusive: true,
                                     name: 'Lujo Hotel',
                                     logo: '/site/coral.ru/assets/turkey/hotels/lujo/logo-lujo.png',
                                     location: 'Бодрум',
@@ -124,6 +123,96 @@
                                         '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-03.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-04.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/lujo/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Citrus Villa',
+                                            capacityWording: '4&nbsp;Взрослых + 2&nbsp;Ребенка',
+                                            capacityValue: '250&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '300 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '4 виллы площадью 250 м²' },
+                                                { i: '#View_sea', k: 'Вид на море' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса' },
+                                                { i: '#Pool', k: 'Терраса' },
+                                                { h: '1 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Living_room', k: 'Гостиная с&nbsp;камином', v: '1' },
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденный стол', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '2' },
+                                                { i: '#Fireplace', k: 'Камин' },
+                                                { i: '#Bar', k: 'Мини-бар' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон' }
+                                                { i: '#Jacuzzi', k: 'Джакузи' }
+                                            ],
+                                            privileges: [
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track'},
+                                                { i: '#Vip', k: 'VIP трансфер из&nbsp;аэропорта и&nbsp;обратно' },
+                                                { i: '#Registration', k: 'Индивидуальная регистрация на&nbsp;вилле'},
+                                                { i: '#Bathroom_accessories', k: 'Роскошные фирменные туалетные принадлежности' },
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Lounge', k: 'Бесплатный доступ в&nbsp;Бизнес лаунж в&nbsp;Московских а/п:&nbsp;Внуково и&nbsp;Домодедово (при&nbsp;предъявлении ваучера Lujo&nbsp;Hotel&nbsp;Bodrum)'},
+                                                { i: '#Gift', k: 'Сувенир в&nbsp;подарок' },
+                                                { i: '#Bar', k: 'Бар на&nbsp;вилле' },
+                                                { i: '#Restaurat', k: 'Бесплатные рестораны "а&nbsp;ля&nbsp;карт"' },
+                                                { i: '#Buggi', k: 'Багги' },
+                                                { i: '#Diamond', k: 'VIP приветствие и&nbsp;прощание' },
+                                                { i: '#Bungalo', k: 'Приватная кабана' },
+                                                { i: '#Lounge', k: 'Бесплатный доступ в&nbsp;TAV&nbsp;Primeclass Lounge в&nbsp;а/п&nbsp;Бодрум (при предъявлении ваучера Lujo&nbsp;Hotel&nbsp;Bodrum)'},
+                                                { i: '#Gamepad', k: 'Приставка Play&nbsp;Station по&nbsp;запросу'},
+                                                { i: '#Service', k: 'Обслуживание номеров'},
+                                                { i: '#Rattle', k: 'Подарки для детей'},
+                                                { i: '#Butler', k: 'Личный дворецкий'},
+                                                { i: '#Fruits', k: 'MyBar с&nbsp;эксклюзивными фирменными продуктами'},
+                                                { i: '#Restaurat', k: 'Одно бесплатное посещение а-ля карт ресторана "Secret" для гостей, проживающих более 7&nbsp;ночей' }
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/citrus-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Pina Villa',
+                                            capacityWording: '6&nbsp;Взрослых + 2&nbsp;Ребенка',
+                                            capacityValue: '300&nbsp;м&sup2;',
+                                            visuals: []
+                                        },
+                                        {
+                                            name: 'Presidential Villa',
+                                            capacityWording: '6&nbsp;Взрослых + 4&nbsp;Ребенка',
+                                            capacityValue: '800&nbsp;м&sup2;',
+                                            visuals: []
+                                        }
                                     ]
                                 }
                             }
