@@ -65,8 +65,24 @@ body
                 h2 Виллы
                 p Возможность уединения в&nbsp;условиях суперсовременного&nbsp;комфорта.
 
+    section.hero.villas-contactsheet
+        article
+            .contenu
+                ul
+                    each villa in this_hotel.villas
+                        - visual2show = villa.visuals && villa.visuals.length && villa.visuals.find(v => v.default) || villa.visuals[0]
+                        li
+                            if visual2show
+                                .visual(style={ 'background-image': `url(${ visual2show.xxl })` })
+                            .name= villa.name
+                            .capacity
+                                span!= villa.capacityWording
+                                span!= villa.capacityValue
+                            .actions
+                                button.with-down-arrow(data-scrollto=`[data-scrollto-target="${ villa.name }"]`) Подробнее
+
     each villa in this_hotel.villas
-        section.hero.villa
+        section.hero.villa(data-scrollto-target=villa.name)
             article
                 .contenu
                     h2= villa.name

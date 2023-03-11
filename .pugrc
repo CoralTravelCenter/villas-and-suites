@@ -130,10 +130,10 @@
                                             capacityWording: '4&nbsp;Взрослых + 2&nbsp;Ребенка',
                                             capacityValue: '250&nbsp;м&sup2;',
                                             keyFacts: [
-                                                { key: 'вилла', value: '1' },
-                                                { key: 'гостей', value: '8' },
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостей', value: '6' },
                                                 { key: 'этажа', value: '2' },
-                                                { key: 'площадь', value: '300 м&sup2;' },
+                                                { key: 'площадь', value: '250 м&sup2;' },
                                             ],
                                             infos: [
                                                 { h: '4 виллы площадью 250 м²' },
@@ -205,13 +205,162 @@
                                             name: 'Pina Villa',
                                             capacityWording: '6&nbsp;Взрослых + 2&nbsp;Ребенка',
                                             capacityValue: '300&nbsp;м&sup2;',
-                                            visuals: []
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '300 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '1 вилла площадью 300 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Pool', k: 'Частный бассейн с&nbsp;подогревом:', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v:'2' },
+                                                { i: '#Living_room', k: 'Гостиная с камином', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденный стол', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Fireplace', k: 'Камин', v: '&check;' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track' },
+                                                { i: '#Vip', k: 'VIP трансфер из аэропорта и обратно' },
+                                                { i: '#Registration', k: 'Индивидуальная регистрация на вилле' },
+                                                { i: '#Bathroom_accessories', k: 'Роскошные фирменные туалетные принадлежности' },
+                                                { i: '#Laundry', k: 'Услуги прачечной' },
+                                                { i: '#Lounge', k: 'Бесплатный доступ в Бизнес лаунж в Московских а/п: Внуково и Домодедово (при предъявлении ваучера Lujo Hotel Bodrum)' },
+                                                { i: '#Bar', k: 'Бар на вилле' },
+                                                { i: '#Restaurat', k: 'Бесплатные рестораны "а ля карт"' },
+                                                { i: '#Buggi', k: 'Багги' },
+                                                { i: '#Diamond', k: 'VIP приветствие и прощание' },
+                                                { i: '#Bungalo', k: 'Приватная кабана' },
+                                                { i: '#Lounge', k: 'Бесплатный доступ в TAV Primeclass Lounge в а/п Бодрум (при предъявлении ваучера Lujo Hotel Bodrum)' },
+                                                { i: '#Gift', k: 'Сувенир в подарок' },
+                                                { i: '#Gamepad', k: 'Приставка Play Station по запросу' },
+                                                { i: '#Service', k: 'Обслуживание номеров' },
+                                                { i: '#Rattle', k: 'Подарки для детей' },
+                                                { i: '#Butler', k: 'Личный Дворецкий' },
+                                                { i: '#Fruits', k: 'MyBar с эксклюзивными фирменными продуктами' },
+                                                { i: '#Restaurat', k: 'Одно бесплатное посещение а-ля карт ресторана "Secret" для гостей, проживающих более 7 ночей' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/pina-05-x200.jpg'
+                                                },
+                                            ]
                                         },
                                         {
                                             name: 'Presidential Villa',
                                             capacityWording: '6&nbsp;Взрослых + 4&nbsp;Ребенка',
                                             capacityValue: '800&nbsp;м&sup2;',
-                                            visuals: []
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спален', value: '5' },
+                                                { key: 'площадь', value: '800 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '1 вилла площадью 800 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса с джакузи', v: '&check;' },
+                                                { i: '#BBQ', k: 'Барбекю для сада', v: '&check;' },
+                                                { i: '#Pool', k: 'Частный бассейн с подогревом', v: '&check;' },
+                                                { i: '#Pool', k: 'Детский бассейн с подогревом', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Elevator', k: 'Лифт', v: '&check;' },
+                                                { i: '#Massage_Table', k: 'Комната для массажа', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Паровая комната', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Living_room', k: 'Гостиная с камином', v: '1' },
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденный стол', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '2' },
+                                                { i: '#Fireplace', k: 'Камин', v: '&check;' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Турецкий хаммам', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                {i: '#Fasttrack', k: 'Услуга Fast Track'},
+                                                {i: '#Vip', k: 'VIP трансфер из аэропорта и обратно'},
+                                                {i: '#Registration', k: 'Индивидуальная регистрация на вилле'},
+                                                {i: '#Bathroom_accessories', k: 'Роскошные фирменные туалетные принадлежности'},
+                                                {i: '#Laundry', k: 'Услуги прачечной'},
+                                                {i: '#Fruits', k: 'MyBar с эксклюзивными фирменными продуктами'},
+                                                {i: '#Lounge', k: 'Бесплатный доступ в Бизнес лаунж в Московских а/п: Внуково и Домодедово (при предъявлении ваучера Lujo Hotel Bodrum)'},
+                                                {i: '#Bar', k: 'Бар на вилле'},
+                                                {i: '#Restaurat', k: 'Бесплатные рестораны "а ля карт"'},
+                                                {i: '#Buggi', k: 'Багги'},
+                                                {i: '#Diamond', k: 'VIP приветствие и прощание'},
+                                                {i: '#Bungalo', k: 'Приватная кабана'},
+                                                {i: '#Lounge', k: 'Бесплатный доступ в TAV Primeclass Lounge в а/п Бодрум (при предъявлении ваучера Lujo Hotel Bodrum)'},
+                                                {i: '#Gift', k: 'Сувенир в подарок'},
+                                                {i: '#Gamepad', k: 'Приставка Play Station по запросу'},
+                                                {i: '#Rattle', k: 'Подарки для детей'},
+                                                {i: '#Service', k: 'Обслуживание номеров'},
+                                                {i: '#Butler', k: 'Личный Дворецкий'},
+                                                {i: '#Maid', k: 'Личная Горничная'},
+                                                {i: '#Restaurat', k: 'Одно бесплатное посещение а-ля карт ресторана "Secret" для гостей, проживающих более 7 ночей'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/lujo/villas/presidential-05-x200.jpg'
+                                                },
+                                            ]
                                         }
                                     ]
                                 }

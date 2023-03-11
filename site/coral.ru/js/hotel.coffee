@@ -8,6 +8,10 @@ ASAP ->
     preload 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js', -> $flickityReady.resolve()
     preload 'https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js', -> $scrolltoReady.resolve()
 
+    $.when($scrolltoReady).done ->
+        $(document).on 'click', '[data-scrollto]', ->
+            $(window).scrollTo $(this).attr('data-scrollto'), 500
+
     $.when($flickityReady).done ->
         $('.concept-slider')
         .on 'staticClick.flickity', (event, pointer, cellElement, cellIndex) -> $(this).flickity 'select', cellIndex

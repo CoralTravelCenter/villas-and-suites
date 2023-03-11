@@ -123,6 +123,45 @@ section.hero {
 		}
 	}
 
+	&.villas-contactsheet {
+		ul {
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 2em;
+			@media screen and (max-width: @mobile-breakpoint) {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			@media screen and (max-width: @narrow-breakpoint) {
+				grid-template-columns: repeat(1, 1fr);
+			}
+			>li {
+				.flex-column();
+				>* {
+					width: 100%;
+					line-height: 1;
+					&:nth-child(n+2) {
+						margin-top: 5%;
+					}
+				}
+				.visual {
+					.proportional(16/9);
+					background: center / cover no-repeat;
+					width: 100%;
+				}
+				.name {
+					font-weight: 700;
+					text-transform: uppercase;
+				}
+				.capacity {
+					display: flex;
+					justify-content: space-between;
+					font-size: (16/20em);
+				}
+			}
+		}
+	}
+
 	&.villa {
 		.villa-showroom {
 			width: 100%;
