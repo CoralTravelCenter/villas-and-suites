@@ -1,5 +1,18 @@
 - var this_hotel = data.countries.turkey.regions.aegean.hotels.Lujo
 
+mixin infosheet_list(list)
+    ul
+        each item in list
+            if item.h
+                li(class='heading')= item.h
+            else
+                li
+                    if item.i
+                        span.i: svg: use(href=item.i)
+                    span.k!= item.k
+                    if item.v
+                        span.v!= item.v
+
 body
     link(rel='stylesheet', href='/site/coral.ru/css/hotel.less')
 
@@ -73,7 +86,22 @@ body
                                 li
                                     .key!= fact.key
                                     .value!= fact.value
-                    //if (villa.infos && villa.infos.length) || (villa.privileges && villa.privileges.length)
+                    if (villa.infos && villa.infos.length) || (villa.privileges && villa.privileges.length)
+                        .infosheets
+                            .infosheets-nav
+                                if villa.infos && villa.infos.length
+                                    button Информация о вилле
+                                if villa.privileges && villa.privileges.length
+                                    button Привилегии
+                            .infosheets-slider
+                                if villa.infos && villa.infos.length
+                                    .slide.infos
+                                        h3 Информация о вилле
+                                        +infosheet_list(villa.infos)
+                                if villa.privileges && villa.privileges.length
+                                    .slide.privileges
+                                        h3 Привилегии
+                                        +infosheet_list(villa.privileges)
 
     section.hero.fin-c2a
         article

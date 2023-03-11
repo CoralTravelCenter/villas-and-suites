@@ -137,9 +137,9 @@
                                             ],
                                             infos: [
                                                 { h: '4 виллы площадью 250 м²' },
-                                                { i: '#View_sea', k: 'Вид на море' },
-                                                { i: '#Balcony-or-Terrace', k: 'Терраса' },
-                                                { i: '#Pool', k: 'Терраса' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Pool', k: 'Частный бассейн с&nbsp;подогревом:', v: '&check;' },
                                                 { h: '1 этаж' },
                                                 { i: '#Bedroom', k: 'Спальня', v: '2' },
                                                 { i: '#Living_room', k: 'Гостиная с&nbsp;камином', v: '1' },
@@ -147,14 +147,14 @@
                                                 { i: '#Dining_room', k: 'Обеденный стол', v: '1' },
                                                 { i: '#Bathroom', k: 'Ванная комната', v: '2' },
                                                 { i: '#Wardrobe', k: 'Гардероб', v: '2' },
-                                                { i: '#Fireplace', k: 'Камин' },
-                                                { i: '#Bar', k: 'Мини-бар' },
+                                                { i: '#Fireplace', k: 'Камин', v: '&check;' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;' },
                                                 { h: '2 этаж' },
                                                 { i: '#Bedroom', k: 'Спальня', v: '1' },
                                                 { i: '#Wardrobe', k: 'Гардероб', v: '1' },
                                                 { i: '#Bathroom', k: 'Ванная комната', v: '1' },
-                                                { i: '#Balcony-or-Terrace', k: 'Балкон' }
-                                                { i: '#Jacuzzi', k: 'Джакузи' }
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' }
                                             ],
                                             privileges: [
                                                 { i: '#Fasttrack', k: 'Услуга Fast Track'},

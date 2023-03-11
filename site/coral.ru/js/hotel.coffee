@@ -18,6 +18,25 @@ ASAP ->
             wrapAround: no
             prevNextButtons: yes
             pageDots: no
+        $('.infosheets').each (idx, el) ->
+            $infosheet = $(this)
+            $nav_buttons = $infosheet.find('.infosheets-nav button')
+            $nav_buttons.on 'click', () ->
+                $this = $(this)
+                $slider.flickity 'select', $this.index()
+            $slider = $infosheet.find('.infosheets-slider')
+            .on 'select.flickity', (e, idx) ->
+                $nav_buttons.eq(idx).addClass('selected').siblings('.selected').removeClass('selected')
+            .flickity
+                cellSelector: '.slide'
+                cellAlign: 'center'
+                adaptiveHeight: yes
+                wrapAround: no
+                prevNextButtons: no
+                pageDots: no
+        setTimeout ->
+            $('.flickity-enabled').flickity 'resize'
+        , 100
 
     watchIntersection 'section.kv', { threshold: .25 },
         -> $('.container-tabItem.activeTab.sticky').removeClass 'hidden'

@@ -214,16 +214,126 @@ section.hero {
 			display: flex;
 			justify-content: center;
 			font-size: (24/20em);
+			@media screen and (max-width: @mobile-breakpoint) {
+				font-size: unset;
+			}
 			>li {
 				display: flex;
 				flex-flow: column-reverse nowrap;
 				align-items: center;
 				text-align: center;
 				padding: 0 3em;
+				white-space: nowrap;
+				@media screen and (max-width: @mobile-breakpoint) {
+					padding: 1.5em;
+				}
 				.value {
 					font-size: (56/24em);
 					line-height: 1;
 					font-weight: 700;
+				}
+			}
+		}
+		.infosheets {
+			width: 100%	;
+			.flex-column;
+			.infosheets-nav {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				margin-bottom: 1.5em;
+				>button {
+					flex: 1 1 auto;
+					max-width: 13em;
+					display: inline-flex;
+					justify-content: center;
+					align-items: center;
+					font-size: (24/20em);
+					font-weight: 700;
+					line-height: 1;
+					height: 2em;
+					background: transparent;
+					bottom: 0;
+					outline: none;
+					border: 0;
+					border-bottom: 4px solid fade(black, 10%);
+					.transit(border-color);
+					cursor: pointer;
+					&.selected {
+						pointer-events: none;
+						border-bottom-color: @coral-main-blue;
+					}
+				}
+			}
+			.infosheets-slider {
+				border-radius: 1em;
+				box-shadow: 0 0 32px fade(black, 10%);
+				.flickity-viewport {
+					overflow: hidden;
+					.transit(height);
+				}
+				.slide {
+					width: 100%;
+					padding: 1.5em 2em;
+					.flex-column;
+					align-items: center;
+					opacity: 0;
+					.transit(opacity);
+					&.is-selected {
+						opacity: 1;
+					}
+					h3 {
+						color: @coral-main-blue;
+						line-height: 1;
+						margin-bottom: 1em;
+					}
+
+					> ul {
+						width: 100%;
+						column-count: 3;
+						column-gap: 3em;
+						@media screen and (max-width: @mobile-breakpoint) {
+							column-count: 2;
+							column-gap: 2em;
+						}
+
+						> li {
+							width: 100%;
+							display: flex;
+							font-size: (16/20em);
+							line-height: 1.2;
+							padding: .5em 0;
+
+							&.heading {
+								font-weight: 700;
+								break-after: avoid-column;
+
+								& + :not(.heading) {
+									break-after: avoid-column;
+								}
+							}
+
+							> .i {
+								flex-shrink: 0;
+								position: relative;
+								margin-right: 0.62em;
+								width: (20/16em);
+
+								> svg {
+									.abs100x100();
+								}
+							}
+
+							> .k {
+								margin-right: auto;
+							}
+
+							> .v {
+								margin-left: 0.62em;
+								flex-shrink: 0;
+							}
+						}
+					}
 				}
 			}
 		}
