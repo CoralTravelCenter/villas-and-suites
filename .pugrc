@@ -92,6 +92,83 @@
                                         '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-04.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-05.jpg',
                                     ]
+                                },
+                                BayouVillas: {
+                                    name: 'Bayou Villas',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/bayou-villas/logo-bayou-villas.png',
+                                    location: 'Анталья',
+                                    latlng: [36.856802, 30.856275],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    price: '123 456',
+                                    url: './bayou-villas/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/bayou-villas/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/bayou-villas/poster-frame-x720.jpg'
+                                        },
+                                        vid: '784348182',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Bayou Villa 1 Bedroom',
+                                            capacityWording: '2 Взрослых + 1 Ребенок',
+                                            capacityValue: '246 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостя', value: '3' },
+                                                { key: 'спальня', value: '1' },
+                                                { key: 'площадь', value: '246 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-01-x200.jpg'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            name: 'Bayou Villa 2 Bedroom',
+                                            capacityWording: '3 Взрослых + 1 Ребенок',
+                                            capacityValue: '502 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '7' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '502 м&sup2;' },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Bayou Villa 3 Bedroom',
+                                            capacityWording: '5 Взрослых + 1 Ребенок',
+                                            capacityValue: '693 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '8' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '693 м&sup2;' },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Bayou Villa 4 Bedroom',
+                                            capacityWording: '7 Взрослых + 1 Ребенок',
+                                            capacityValue: '983 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '983 м&sup2;' },
+                                            ]
+                                        },
+                                    ]
                                 }
                             }
                         },

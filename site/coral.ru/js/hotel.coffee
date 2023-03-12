@@ -5,8 +5,15 @@ fixLayout()
 ASAP ->
     $flickityReady = $.Deferred()
     $scrolltoReady = $.Deferred()
-    preload 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js', -> $flickityReady.resolve()
-    preload 'https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js', -> $scrolltoReady.resolve()
+    $stickyKitReady = $.Deferred()
+    preload [
+        'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js'
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js'
+        'https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js'
+    ], -> $flickityReady.resolve(); $scrolltoReady.resolve(); $stickyKitReady.resolve()
+
+    $.when($stickyKitReady).done ->
+        $('section.hotel-xnav').stick_in_parent()
 
     $.when($scrolltoReady).done ->
         $(document).on 'click', '[data-scrollto]', ->
