@@ -132,7 +132,55 @@
                                                     default: true,
                                                     xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-01-x1100.jpg',
                                                     xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-01-x200.jpg'
-                                                }
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-1b-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '5 вилл площадью 246 м²', v: '&check;' },
+                                                { i: '#Pool_View', k: 'Вид на бассейн/сад', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Кухня', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                                { i: '#Dress', k: 'Туалет', v: '2' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер из аэропорта и обратно' },
+                                                { i: '#Registration', k: 'Отдельная процедура заселения' },
+                                                { i: '#Laundry', k: 'Услуги прачечной' },
+                                                { i: '#Diamond', k: 'Услуга Premium CIP' },
+                                                { i: '#Consultant', k: 'Личный Помощник' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну' },
+                                                { i: '#Restaurat', k: 'Пользование рестораном «WEIK Villa A’la&nbsp;carte»' },
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании столика в A’la&nbsp;carte ресторанах' },
+                                                { i: '#Bar', k: 'Приветствие с&nbsp;игристым вином и&nbsp;цветами' },
+                                                { i: '#Fruits', k: 'Фруктовая тарелка' },
+                                                { i: '#Buggi', k: 'Багги' },
+                                                { i: '#Allergy', k: 'Особый ассистент гостя при наличии аллергий, болезней или прочих особых состояний' },
+                                                { i: '#Service', k: 'Обслуживание номеров' },
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет' },
+                                                { i: '#Meeting', k: 'Помощник при встрече/отправлении' },
+                                                { i: '#Tent', k: 'Павильон на пляже' },
                                             ]
                                         },
                                         {
@@ -144,6 +192,74 @@
                                                 { key: 'гостя', value: '4' },
                                                 { key: 'этажа', value: '3' },
                                                 { key: 'площадь', value: '502 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-2b-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                {h: '7 вилл площадью 502 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                {h: 'Цокольный этаж'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Турецкая баня', v: '&check;' },
+                                                { i: '#Massage_Table', k: 'Массажный кабинет', v: '&check;' },
+                                                { i: '#Sport', k: 'Зона с тренажерами', v: '&check;' },
+                                                { i: '#Billiard', k: 'Бильярд', v: '&check;' },
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { i: '#Dress', k: 'Туалет', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната:', v: '1' },
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v:  '1' },
+                                                { i: '#Dress', k: 'Туалет', v:  '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v:  '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v:  '1' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v:  '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер из аэропорта и обратно' },
+                                                { i: '#Registration', k: 'Отдельная процедура заселения' },
+                                                { i: '#Laundry', k: 'Услуги прачечной' },
+                                                { i: '#Diamond', k: 'Услуга Premium CIP' },
+                                                { i: '#Consultant', k: 'Личный Помощник' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну' },
+                                                { i: '#Restaurat', k: 'Пользование рестораном «WEIK Villa A’la&nbsp;carte»' },
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании столика в A’la&nbsp;carte ресторанах' },
+                                                { i: '#Bar', k: 'Приветствие с&nbsp;игристым вином и&nbsp;цветами' },
+                                                { i: '#Fruits', k: 'Фруктовая тарелка' },
+                                                { i: '#Buggi', k: 'Багги' },
+                                                { i: '#Allergy', k: 'Особый ассистент гостя при наличии аллергий, болезней или прочих особых состояний' },
+                                                { i: '#Service', k: 'Обслуживание номеров' },
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет' },
+                                                { i: '#Meeting', k: 'Помощник при встрече/отправлении' },
+                                                { i: '#Tent', k: 'Павильон на пляже' },
                                             ]
                                         },
                                         {
@@ -155,6 +271,74 @@
                                                 { key: 'гостей', value: '6' },
                                                 { key: 'этажа', value: '3' },
                                                 { key: 'площадь', value: '693 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-3b-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                {h: '8 вилл площадью 693 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                {h: 'Цокольный этаж'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Турецкая баня', v: '&check;' },
+                                                { i: '#Massage_Table', k: 'Массажный кабинет', v: '&check;' },
+                                                { i: '#Sport', k: 'Зона с тренажерами', v: '&check;' },
+                                                { i: '#Billiard', k: 'Бильярд', v: '&check;' },
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { i: '#Dress', k: 'Туалет', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната:', v: '1' },
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v:  '2' },
+                                                { i: '#Dress', k: 'Туалет', v:  '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v:  '2' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v:  '2' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v:  '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер из аэропорта и обратно' },
+                                                { i: '#Registration', k: 'Отдельная процедура заселения' },
+                                                { i: '#Laundry', k: 'Услуги прачечной' },
+                                                { i: '#Diamond', k: 'Услуга Premium CIP' },
+                                                { i: '#Consultant', k: 'Личный Помощник' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну' },
+                                                { i: '#Restaurat', k: 'Пользование рестораном «WEIK Villa A’la&nbsp;carte»' },
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании столика в A’la&nbsp;carte ресторанах' },
+                                                { i: '#Bar', k: 'Приветствие с&nbsp;игристым вином и&nbsp;цветами' },
+                                                { i: '#Fruits', k: 'Фруктовая тарелка' },
+                                                { i: '#Buggi', k: 'Багги' },
+                                                { i: '#Allergy', k: 'Особый ассистент гостя при наличии аллергий, болезней или прочих особых состояний' },
+                                                { i: '#Service', k: 'Обслуживание номеров' },
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет' },
+                                                { i: '#Meeting', k: 'Помощник при встрече/отправлении' },
+                                                { i: '#Tent', k: 'Павильон на пляже' },
                                             ]
                                         },
                                         {
@@ -166,6 +350,77 @@
                                                 { key: 'гостей', value: '8' },
                                                 { key: 'этажа', value: '3' },
                                                 { key: 'площадь', value: '983 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bayou-villas/villas/bayou-4b-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                {h: '4 виллы площадью 983 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Elevator_2', k: 'Лифт', v: '&check;' },
+                                                {h: 'Цокольный этаж'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Турецкая баня', v: '&check;' },
+                                                { i: '#Massage_Table', k: 'Массажный кабинет', v: '&check;' },
+                                                { i: '#Sport', k: 'Зона с тренажерами', v: '&check;' },
+                                                { i: '#Billiard', k: 'Бильярд', v: '&check;' },
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Living_room', k: 'Гостиная с пианино', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { i: '#Study', k: 'Рабочий кабинет', v: '1' },
+                                                { i: '#Dress', k: 'Туалет', v: '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната:', v: '1' },
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v:  '3' },
+                                                { i: '#Dress', k: 'Туалет', v:  '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v:  '3' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v:  '3' },
+                                                { i: '#Study', k: 'Рабочий кабинет', v: '1' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v:  '2' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер из аэропорта и обратно' },
+                                                { i: '#Registration', k: 'Отдельная процедура заселения' },
+                                                { i: '#Laundry', k: 'Услуги прачечной' },
+                                                { i: '#Diamond', k: 'Услуга Premium CIP' },
+                                                { i: '#Consultant', k: 'Личный Помощник' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну' },
+                                                { i: '#Restaurat', k: 'Пользование рестораном «WEIK Villa A’la&nbsp;carte»' },
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании столика в A’la&nbsp;carte ресторанах' },
+                                                { i: '#Bar', k: 'Приветствие с&nbsp;игристым вином и&nbsp;цветами' },
+                                                { i: '#Fruits', k: 'Фруктовая тарелка' },
+                                                { i: '#Buggi', k: 'Багги' },
+                                                { i: '#Allergy', k: 'Особый ассистент гостя при наличии аллергий, болезней или прочих особых состояний' },
+                                                { i: '#Service', k: 'Обслуживание номеров' },
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет' },
+                                                { i: '#Meeting', k: 'Помощник при встрече/отправлении' },
+                                                { i: '#Tent', k: 'Павильон на пляже' },
                                             ]
                                         },
                                     ]
@@ -182,8 +437,6 @@
                                     latlng: [37.137846, 27.560884],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    // language=html
-                                    introMarkup: "<p>Кредо отеля &mdash; отдых как Искусство и&nbsp;Радость как преобразующая сила.</p>\n<p>Основные ценности: простота, гуманизм, удовольствие, искренность и&nbsp;качество.</p>\n<p>Высокая репутация отеля свидетельствует о&nbsp;неукоснительном следовании своим&nbsp;принципам.</p>",
                                     price: '123 456',
                                     url: './lujo/',
                                     video: {
