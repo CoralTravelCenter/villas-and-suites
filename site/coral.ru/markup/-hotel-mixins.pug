@@ -1,0 +1,12 @@
+mixin infosheet_list(list)
+    ul
+        each item in list
+            if item.h
+                li(class='heading')= item.h
+            else
+                li
+                    if item.i
+                        span.i: svg: use(href=item.i)
+                    span.k!= item.k
+                    if item.v
+                        span.v!= item.v

@@ -1,17 +1,6 @@
 - var this_hotel = data.countries.turkey.regions.antalia.hotels.BayouVillas
 
-mixin infosheet_list(list)
-    ul
-        each item in list
-            if item.h
-                li(class='heading')= item.h
-            else
-                li
-                    if item.i
-                        span.i: svg: use(href=item.i)
-                    span.k!= item.k
-                    if item.v
-                        span.v!= item.v
+include ./-hotel-mixins.pug
 
 body
     link(rel='stylesheet', href='/site/coral.ru/css/hotel.less')
@@ -24,10 +13,7 @@ body
                 h2.h1 Элитный отдых для тех, кто ценит комфорт
                 p Приватные виллы, где все продумано до мелочей
 
-    section.hero.hotel-xnav
-        article
-            .contenu
-                h2= this_hotel.name
+    include ./-hotels-xnav.pug
 
     section.hero.hotel-intro: article: .contenu
         div

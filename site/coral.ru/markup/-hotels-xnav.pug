@@ -1,0 +1,14 @@
+section.hero.hotel-xnav
+    article
+        .contenu
+            ul.hotel-selector
+                each country, country_key in data.countries
+                    li.heading
+                        span.country-name= country.name
+                    each region, region_key in country.regions
+                        each hotel, hotel_key in region.hotels
+                            li(class={ selected: hotel === this_hotel })
+                                img.logo(src=hotel.logo)
+                                span.hotel-name= hotel.name
+                                span.location #{ hotel.location }, #{ country.name }
+                                span.action

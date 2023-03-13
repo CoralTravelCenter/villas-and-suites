@@ -19,6 +19,19 @@ ASAP ->
         $(document).on 'click', '[data-scrollto]', ->
             $(window).scrollTo $(this).attr('data-scrollto'), 500
 
+    $hotel_selector = $('.hotel-selector')
+    $(document).on 'click', '.hotel-selector li', ->
+        $this = $(this)
+        $hotel_selector.toggleClass 'open'
+        if $hotel_selector.hasClass 'open'
+            setTimeout (-> $this.get(0).scrollIntoView behavior: 'smooth'), 500
+    $(document).on 'keyup', (e) ->
+        $hotel_selector.removeClass 'open' if e.keyCode == 27
+    $(document).on 'click', (e) ->
+        if $hotel_selector.hasClass 'open'
+            unless $.contains $hotel_selector.closest('section').get(0), e.target
+                $hotel_selector.removeClass 'open'
+
     $.when($flickityReady).done ->
         $('.concept-slider')
         .on 'staticClick.flickity', (event, pointer, cellElement, cellIndex) -> $(this).flickity 'select', cellIndex

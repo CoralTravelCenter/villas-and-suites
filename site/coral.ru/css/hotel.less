@@ -58,9 +58,88 @@ section.hero {
 	}
 
 	&.hotel-xnav {
+		.transit(box-shadow);
+		.contenu {
+			padding: 0.5em 2em;
+		}
 		&.is_stuck {
 			z-index: 1;
-			box-shadow: 0 2px 16px fade(black, 10%);
+			box-shadow: 0 4px 32px fade(black, 10%);
+		}
+		ul.hotel-selector {
+			width: 100%;
+			margin: 0;
+			max-height: 20em;
+			overflow: auto;
+			&.open {
+				>li {
+					height: 4em;
+					opacity: 1;
+					&.selected {
+						background: @coral-page-bg;
+						.hotel-name {
+							font-size: unset;
+						}
+					}
+					.action {
+						background: url("data-url:/site/coral.ru/inline-assets/icon-right-arrow.svg") center / 33% 33% no-repeat !important;
+					}
+				}
+			}
+			>li {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				line-height: 1;
+				overflow: hidden;
+				height: 0;
+				opacity: 0;
+				border-radius: .5em;
+				.transit(height);
+				.transit(opacity);
+				.transit(background);
+				cursor: pointer;
+				&.heading {
+					position: sticky;
+					top: 0;
+					background: white;
+					box-shadow: 0 2px 4px white;
+					font-weight: 700;
+				}
+				.logo {
+					width: 4em * (16/9);
+					height: 4em;
+					object-fit: cover;
+					margin-right: 2em;
+				}
+				.country-name {
+					flex-grow: 1;
+					text-align: center;
+					padding: 1em;
+				}
+				.hotel-name {
+					font-weight: 700;
+					.transit(font-size);
+				}
+				.location {
+					margin: 0 2em 0 auto;
+				}
+				.action {
+					//border: 1px solid #000;
+					align-self: stretch;
+					width: 3em;
+				}
+				&.selected {
+					height: 4em;
+					opacity: 1;
+					.hotel-name {
+						font-size: 2em;
+					}
+					.action {
+						background: url("data-url:/site/coral.ru/inline-assets/icon-burger.svg") center / 50% no-repeat;
+					}
+				}
+			}
 		}
 	}
 
