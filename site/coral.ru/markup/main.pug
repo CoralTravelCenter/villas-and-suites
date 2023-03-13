@@ -75,6 +75,8 @@ body
                                                     if hotel.url
                                                         a.about-hotel(href=hotel.url) Подробнее об отеле
                                                     a.learn-more(href='#learn-more') Узнать больше
+                                                    if hotel.bookOnline
+                                                        a.book-online(href=hotel.bookOnline, target='_blank') Забронировать онлайн
                                                 div  
 
                 .logo-nav-flicker

@@ -729,6 +729,7 @@
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     //price: '123 456',
                                     url: './bayou-villas/',
+                                    bookOnline: 'https://www.coral.ru/',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/bayou-villas/poster-frame.jpg',

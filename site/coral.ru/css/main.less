@@ -388,13 +388,19 @@ section.hero {
 								font-size: (40/20em);
 							}
 							.actions {
+								display: flex;
+								flex-wrap: wrap;
+								justify-content: center;
+								>* {
+									margin: .5em;
+								}
 								>*:nth-child(n+2) {
-									margin-left: 1em;
+									//margin-left: 1em;
 								}
 								.about-hotel {
 									background: @coral-ramp-bg;
 								}
-								.learn-more {
+								.learn-more, .book-online {
 									background: transparent;
 									color: @coral-main-yellow!important;
 									box-shadow: inset 0 0 0 2px @coral-main-yellow;
@@ -419,13 +425,17 @@ section.hero {
 					&.open {
 						opacity: 1;
 						transform: none;
+						@media screen and (max-width: @mobile-breakpoint) {
+						    max-height: 100vw;
+						}
 					}
-
 					@media screen and (max-width: @mobile-breakpoint) {
 						position: relative;
 						width: 100vw;
 						height: 25em;
+						max-height: 0;
 						background: linear-gradient(179.97deg, rgba(31, 31, 31, 0.44), rgba(0, 0, 0, 0.4)), url('/site/coral.ru/assets/decor-bg-mobile.jpg') center / cover no-repeat;
+						.transit(max-height);
 					}
 					#ymap {
 						.abs100x100();
