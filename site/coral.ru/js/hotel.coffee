@@ -32,6 +32,11 @@ ASAP ->
             unless $.contains $hotel_selector.closest('section').get(0), e.target
                 $hotel_selector.removeClass 'open'
 
+    $(document).on 'click', '.hotel-selector [data-xlink]', ->
+        $this = $(this)
+        unless $this.hasClass 'selected'
+            self.location.href = $this.attr 'data-xlink'
+
     $.when($flickityReady).done ->
         $('.concept-slider')
         .on 'staticClick.flickity', (event, pointer, cellElement, cellIndex) -> $(this).flickity 'select', cellIndex

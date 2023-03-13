@@ -720,6 +720,190 @@
                                         },
                                     ]
                                 },
+                                GloriaGolfResort: {
+                                    name: 'Gloria Golf Resort 5* Deluxe',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/logo-gloria-golf.png',
+                                    location: 'Кемер',
+                                    latlng: [36.84095, 31.112335],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    //price: '123 456',
+                                    url: './gloria-golf-resort/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/poster-frame-x720.jpg'
+                                        },
+                                        vid: '776226407',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Gloria Villa',
+                                            capacityWording: '4 Взрослых + 2 Ребенка',
+                                            capacityValue: '70 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '24' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '70 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '24 виллы площадью 70 м²' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Gift', k: 'Подарочный комплимент от отеля'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети Gloria'},
+                                                { i: '#Consultant', k: 'Услуги отдела по работе с гостями вилл'},
+                                                { i: '#Restaurat', k: 'Доступны к бронированию рестораны а’ля карт в 3 отелях сети Gloria (кроме платных)'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/gloria-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Executiva Villa',
+                                            capacityWording: '4 Взрослых + 2 Ребенка',
+                                            capacityValue: '80 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '18' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '80 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '18 вилл площадью 80 м²' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Gift', k: 'Подарочный комплимент от отеля'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети Gloria'},
+                                                { i: '#Consultant', k: 'Услуги отдела по работе с гостями вилл'},
+                                                { i: '#Restaurat', k: 'Доступны к бронированию рестораны а’ля карт в 3 отелях сети Gloria (кроме платных)'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/executiva-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Owner Villa',
+                                            capacityWording: '4 Взрослых + 2 Ребенка',
+                                            capacityValue: '190 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '190 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '4 виллы площадью 190 м²' },
+                                                { i: '#Jacuzzi', k: 'Терраса с джакузи'},
+                                                { i: '#Pool', k: 'Частный бассейн (с возможностью подогрева)'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня (без возможности приготовления еды)', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'VIP-трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Gift', k: 'Подарочный комплимент от отеля'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети Gloria'},
+                                                { i: '#Butler', k: 'Личные дворецкий и горничная'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Consultant', k: 'Услуги отдела по работе с гостями вилл'},
+                                                { i: '#Restaurat', k: 'Доступны к бронированию рестораны а’ля карт в 3 отелях сети Gloria (кроме платных)'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                                { i: '#Buggi', k: 'Электромобиль багги'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/villas/owner-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
                                 BayouVillas: {
                                     name: 'Bayou Villas',
                                     logo: '/site/coral.ru/assets/turkey/hotels/bayou-villas/logo-bayou-villas.png',
@@ -729,7 +913,7 @@
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     //price: '123 456',
                                     url: './bayou-villas/',
-                                    bookOnline: 'https://www.coral.ru/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/bayou-villas-antalya/?q=%7b%22Bgn%22%3a%2227.03.2023%22%2c%22End%22%3a%2202.04.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c10%2c14%22%2c%22Gest%22%3a%222%22%2c%22Q%22%3a%22eW0pKJ3nsAs9N7NZ3jDTuECTOcbOfYXUa0mb9VoBBZCjJeXAz3uGwWdRdxzqPm%2fJzKTVwZdnC59rH9AcIkxbBWSz8mJZkEVojy29mjhRhGANxOaDIAIY%2bPv1xzseOO2O6fmIh77Z0flpR3a%2fUnZIRJqGxIvdO38qEVP749XRR0U%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/bayou-villas/poster-frame.jpg',
@@ -1067,6 +1251,7 @@
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     //price: '123 456',
                                     url: './lujo/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/lujo-hotel-bodrum-bodrum/?q=%7b%22Bgn%22%3a%2224.04.2023%22%2c%22End%22%3a%2230.04.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c10%2c14%22%2c%22Gest%22%3a%222%22%2c%22Q%22%3a%22nKVY6H1WCiQF3dspKxRgcidN6XGjDJPeL5kxHPY9u3aLTtwqDQaEv4c42jZCiFZW2gmH5P3y70M1%2fkiP6h7pIvQonRm7r3%2bHoCTiGGZMFhN2cm094wz8bdt%2faPDUUBqAdgrlEqKX3I2%2b15OP8FrPcKsSlqwRKt7wZSFT7AnM4FI%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/lujo/poster-frame.jpg',
