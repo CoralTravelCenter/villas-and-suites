@@ -525,6 +525,199 @@
                                         '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-03.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-04.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Royal Golf Villa',
+                                            capacityWording: '4 Взрослых + 2 Ребенка',
+                                            capacityValue: '200 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '16' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '200 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '16 вилл площадью 200 м²' },
+                                                { i: '#Wood', k: 'Вид на озеро и поле для гольфа', v: '&check;' },
+                                                { i: '#Pool', k: 'Частный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Dress', k: 'Туалеты', v: '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Consultant', k: 'Отдел по работе с VIP-гостями'},
+                                                { i: '#Registration', k: 'VIP-регистрация при заезде и выезде на вилле'},
+                                                { i: '#Tent', k: 'Скидка 15% на пляжные павильоны (обслуживание напитками включено)'},
+                                                { i: '#Fasttrack', k: 'Бесплатная услуга Fast Track для гостей, проживающих более 7 ночей'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Butler', k: 'Личный дворецкий'},
+                                                { i: '#SPA', k: 'Скидка 10% на платные процедуры в SPA'},
+                                                { i: '#Restaurat', k: 'Одно бесплатное посещение а-ля карт ресторана в период отдыха'},
+                                                { i: '#Restaurat', k: 'Ресторан «Sofra by the Lake» для гостей вилл'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-golf-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Sultan Villa',
+                                            capacityWording: '6 Взрослых + 3 Ребенка',
+                                            capacityValue: '467 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '6' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '467 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '6 вилл площадью 467 м²' },
+                                                { i: '#Lake', k: 'Вид на озеро или поле для гольфа', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Бассейн (c подогревом)', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная с камином', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;' },
+                                                { i: '#Study', k: 'Рабочая зона', v: '1' },
+                                                { i: '#Dress', k: 'Туалет', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Consultant', k: 'Отдел по работе с VIP-гостями'},
+                                                { i: '#Diamond', k: 'Бесплатный CIP терминал в аэропорту (при проживании не менее 7 дней)'},
+                                                { i: '#Lounge', k: 'Бесплатный доступ в CIP лаунжв а/п Анталии для гостей, проживающих более 7 ночей'},
+                                                { i: '#Butler', k: 'Личный дворецкий'},
+                                                { i: '#Registration', k: 'VIP-регистрация при заезде и выезде на вилле'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Tent', k: 'Павильон на пляже либо на пирсе'},
+                                                { i: '#Cold_Wine', k: 'Холодильник для винн'},
+                                                { i: '#Breakfast', k: '24 часа обслуживание номеров - скидка 30% на меню'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                                { i: '#Restaurat', k: 'Одно бесплатное посещение а-ля карт ресторана в период отдыха'},
+                                                { i: '#Restaurat', k: 'Ресторан «Sofra by the Lake» для гостей вилл'},
+                                                { i: '#Restaurat', k: 'Бесплатное посещение A La Carte (при проживании не менее 7 дней)'},
+                                                { i: '#Breakfast', k: 'Один бесплатный завтрак на вилле (при проживании не менее 7 дней)'},
+                                                { i: '#SPA', k: 'Скидка 25% на платные процедуры в SPA'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-sultan-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Presidential Villa',
+                                            capacityWording: '8 Взрослых + 4 Ребенка',
+                                            capacityValue: '750 м²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '750 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '1 вилла площадью 750 м²' },
+                                                { i: '#Lake', k: 'Вид на озеро или поле для гольфа', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Бассейн (c подогревом)', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная с камином', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bar', k: 'Бар', v: '&check;' },
+                                                { i: '#Study', k: 'Рабочая зона'},
+                                                { i: '#Dress', k: 'Туалет'},
+                                                { i: '#Bathroom', k: 'Ванная комната'},
+                                                { i: '#Jacuzzi', k: 'Джакузи'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Consultant', k: 'Отдел по работе с VIP-гостями'},
+                                                { i: '#Diamond', k: 'Бесплатный CIP терминал в аэропорту (при проживании не менее 7 дней)'},
+                                                { i: '#Registration', k: 'VIP-регистрация при заезде и выезде на вилле'},
+                                                { i: '#SPA', k: 'Скидка 25% на платные процедуры в SPA'},
+                                                { i: '#Lounge', k: 'Бесплатный доступ в CIP лаунжв а/п Анталии для гостей, проживающих более 7 ночей'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Tent', k: 'Павильон на пляже либо на пирсе'},
+                                                { i: '#Butler', k: 'Личный дворецкий'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                                { i: '#Breakfast', k: '24 часа обслуживание номеров - скидка 30% на меню'},
+                                                { i: '#Restaurat', k: 'Одно бесплатное посещение а-ля карт ресторана в период отдыха'},
+                                                { i: '#Restaurat', k: 'Ресторан «Sofra by the Lake» для гостей вилл'},
+                                                { i: '#Restaurat', k: 'Бесплатное посещение A La Carte (при проживании не менее 7 дней)'},
+                                                { i: '#Breakfast', k: 'Один бесплатный завтрак на вилле (при проживании не менее 7 дней)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/villas/kempinski-presidential-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
                                     ]
                                 },
                                 BayouVillas: {
