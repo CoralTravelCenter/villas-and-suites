@@ -33,7 +33,7 @@ export class Ymap
         @hotels.forEach (hotel) =>
             hotel.placemark = new ymaps.Placemark hotel.latlng,
                 balloonContentHeader: hotel.name
-                balloonContentBody: "от <strong>#{ hotel.price }</strong> &#x20BD"
+                balloonContentBody: hotel.price ? "от <strong>#{ hotel.price }</strong> &#x20BD"
                 hotelData: hotel
             ,
                 zIndex: 0
