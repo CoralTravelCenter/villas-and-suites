@@ -24,7 +24,7 @@ ASAP ->
         $this = $(this)
         $hotel_selector.toggleClass 'open'
         if $hotel_selector.hasClass 'open'
-            setTimeout (-> $this.get(0).scrollIntoView behavior: 'smooth'), 500
+            setTimeout (-> $this.get(0).scrollIntoView behavior: 'smooth', block: 'nearest'), 500
     $(document).on 'keyup', (e) ->
         $hotel_selector.removeClass 'open' if e.keyCode == 27
     $(document).on 'click', (e) ->
@@ -63,8 +63,12 @@ ASAP ->
         , 100
 
     watchIntersection 'section.kv', { threshold: .25 },
-        -> $('.container-tabItem.activeTab.sticky').removeClass 'hidden'
-        -> $('.container-tabItem.activeTab.sticky').addClass 'hidden'
+        ->
+            $('.container-tabItem.activeTab.sticky').removeClass 'hidden'
+            $('.container-topside').removeClass 'hidden'
+        ->
+            $('.container-tabItem.activeTab.sticky').addClass 'hidden'
+            $('.container-topside').addClass 'hidden'
 
     $(document).on 'click', '[data-action="disclose"]', ->
         $this = $(this)
