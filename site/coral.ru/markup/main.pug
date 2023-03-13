@@ -69,7 +69,8 @@ body
                                                 .stars= hotel.stars
                                                 .name= hotel.name
                                                 .msg= hotel.msg
-                                                .price-info.rur от #{ hotel.price }
+                                                if hotel.price
+                                                    .price-info.rur от #{ hotel.price }
                                                 .actions
                                                     if hotel.url
                                                         a.about-hotel(href=hotel.url) Подробнее об отеле
