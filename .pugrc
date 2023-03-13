@@ -435,6 +435,71 @@
                                         '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-03.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-04.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/susesi-luxury/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'VIP Villa',
+                                            capacityWording: '',
+                                            capacityValue: '',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '750 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/villas/susesi-vip-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 750 м²' },
+                                                { i: '#Pool', k: 'Большой сад с открытым бассейном', v: '&check;' },
+                                                { i: '#First_line', k: '100 метров до моря', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостинная', v: '1' },
+                                                { i: '#Breakfast', k: 'Столовая', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bar', k: 'Бар', v: '1' },
+                                                { i: '#Living_room', k: 'Комната для персонала', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Парная', v: '&check;' },
+                                                { i: '#Pool_2', k: 'Крытый бассейн 29 м²', v: '&check;' },
+                                                { i: '#Sport', k: 'Комната для фитнеса', v: '&check;' },
+                                                { h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '4'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4'},
+                                                { i: '#Jacuzzi', k: 'Джакузи в главной спальной комнате', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'VIP-трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#IdentificationCard', k: 'Экспресс-регистрация'},
+                                                { i: '#Gift', k: 'Приветственный букет цветов и шампанское Moet Chandon, свежие фруктовые соки и канапе с икрой по прибытии'},
+                                                { i: '#Service', k: 'Круглосуточный сервис'},
+                                                { i: '#Flower_2', k: 'Свежие цветы на протяжении всего отдыха'},
+                                                { i: '#Breakfast', k: 'Завтрак, обед и ужин (по меню)'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Suitecase', k: 'Ранний заезд и поздний выезд (при наличии свободных номеров)'},
+                                            ]
+                                        }
                                     ]
                                 },
                                 KempinskiVillasBelek: {
