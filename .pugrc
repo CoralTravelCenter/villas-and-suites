@@ -26,7 +26,7 @@
                                     latlng: [36.57905, 30.58471],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-//                                    price: '123 456',
+                                    //price: '123 456',
                                     url: './maxx-royal-kemer-resort/',
                                     video: {
                                         poster: {
@@ -41,6 +41,375 @@
                                         '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-03.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-04.jpg',
                                         '/site/coral.ru/assets/turkey/hotels/maxx-royal/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Maxx Laguna Villa 1 спальня',
+                                            capacityWording: '3 Взрослых + 1 Ребенок + 1 Инфант ',
+                                            capacityValue: '150 м²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальня', value: '1' },
+                                                { key: 'площадь', value: '150 м&sup2;' }
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-1b-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '4 виллы площадью 150 м²' },
+                                                { i: '#Pool', k: 'Прямой выход к бассейну с террасы', v:  '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1' },
+                                                { i: '#Jacuzzi', k: 'Терраса с джакузи', v: '&check;'},
+                                                { i: '#Pool', k: 'Вид на бассейн', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Fruits', k: 'Фрукты в день заезда'},
+                                                { i: '#Lounge', k: 'Maxx Royal CIP лаунж и Fast Track (при обратном вылете)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Tent', k: 'Частный павильон на пляже'},
+                                                { i: '#Bar_2', k: 'Мaкси-бар'},
+                                                { i: '#Breakfast', k: 'Континентальный завтрак'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Consultant', k: 'Maxx ассистент'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Maxx Laguna Duplex Villa 2 спальни',
+                                            capacityWording: '5 Взрослых + 1 Ребенок + 1 Инфант ',
+                                            capacityValue: '250 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '46' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '250 м&sup2;' }
+                                            ],
+                                            infos: [
+                                                { h: '46 двухэтажных вилл площадью 250 м²' },
+                                                { i: '#Pool', k: 'Прямой выход к бассейну с террасы', v: '&check;'},
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостинная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { i: '#Jacuzzi', k: 'Терраса с джакузи', v: '&check;' },
+                                                { i: '#Pool', k: 'Вид на бассейн', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Fruits', k: 'Фрукты в день заезда'},
+                                                { i: '#Lounge', k: 'Maxx Royal CIP лаунж и Fast Track (при обратном вылете)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Tent', k: 'Частный павильон на пляже'},
+                                                { i: '#Bar_2', k: 'Мaкси-бар'},
+                                                { i: '#Breakfast', k: 'Континентальный завтрак'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Consultant', k: 'Maxx ассистент'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex2b-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Maxx Laguna Duplex Villa 3 спальни',
+                                            capacityWording: '10 Взрослых + 1 Инфант ',
+                                            capacityValue: '310 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '9' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '310 м&sup2;' }
+                                            ],
+                                            infos: [
+                                                { h: '9 номеров площадью 310 м²' },
+                                                { i: '#Pool', k: 'Прямой выход к бассейну с террасы', v: '&check;'},
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостинная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '2' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { i: '#Jacuzzi', k: 'Терраса с джакузи', v: '&check;' },
+                                                { i: '#Pool', k: 'Вид на бассейн', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Fruits', k: 'Фрукты в день заезда'},
+                                                { i: '#Lounge', k: 'Maxx Royal CIP лаунж и Fast Track (при обратном вылете)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Tent', k: 'Частный павильон на пляже'},
+                                                { i: '#Bar_2', k: 'Мaкси-бар'},
+                                                { i: '#Breakfast', k: 'Континентальный завтрак'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Consultant', k: 'Maxx ассистент'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-duplex3b-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Royal Beach Villa 3 спальни',
+                                            capacityWording: '10 Взрослых + 1 Инфант ',
+                                            capacityValue: '310 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '11' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '250 м&sup2;' }
+                                            ],
+                                            infos: [
+                                                { h: '11 вилл площадью 250 м²' },
+                                                { i: '#First_line', k: 'Открытый бассейн и сад с прямым выходом к пляжу с эксклюзивными павильонами Cabana:', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная, совмещенная с кухней', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '3' },
+                                                { i: '#Dress', k: 'Туалет', v: '3' },
+                                                { i: '#Jacuzzi', k: 'Терраса с джакузи', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Парная', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Индивидуальный трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Fruits', k: 'Фруктовая тарелка и орешки'},
+                                                { i: '#Gift', k: 'Шампанское Dom Perignon или Cristal Brut, печенье «Макарон» и цветы в день заезда'},
+                                                { i: '#Service', k: 'Бесплатное обслуживание вилл'},
+                                                { i: '#Lounge', k: 'Услуга Maxx Protocol (услуги CIP терминала)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Tent', k: 'Частный павильон на пляже'},
+                                                { i: '#Excursion', k: 'Экскурсия на лодке при проживании от 7 ночей (один раз за время пребывания)'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Consultant', k: 'Maxx ассистент'},
+                                                { i: '#Bar_2', k: 'Мaкси-бар'},
+                                                { i: '#Butler', k: 'Услуги частного дворецкого'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach3b-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Royal Beach Villa 4 спальни',
+                                            capacityWording: '12 Взрослых + 1 Инфант ',
+                                            capacityValue: '350 м²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '3' },
+                                                { key: 'гостей', value: '12' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '350 м&sup2;' }
+                                            ],
+                                            infos: [
+                                                { h: '3 виллы площадью 350 м²' },
+                                                { i: '#Road', k: 'Прямой выход из сада к пляжу с эксклюзивными павильонами', v: '&check;' },
+                                                { i: '#Pool', k: 'Сад и терраса с открытым бассейном', v: '&check;' },
+                                                { i: '#First_line', k: 'Первая береговая линия', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостинная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '3' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Парная', v: '&check;' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Jacuzzi', k: 'Терраса с джакузи', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Индивидуальный трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Fruits', k: 'Фруктовая тарелка и орешки'},
+                                                { i: '#Gift', k: 'Шампанское Dom Perignon или Cristal Brut, печенье «Макарон» и цветы в день заезда'},
+                                                { i: '#Service', k: 'Бесплатное обслуживание вилл'},
+                                                { i: '#Lounge', k: 'Услуга Maxx Protocol (услуги CIP терминала)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Tent', k: 'Частный павильон на пляже'},
+                                                { i: '#Excursion', k: 'Экскурсия на лодке при проживании от 7 ночей (один раз за время пребывания)'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Consultant', k: 'Maxx ассистент'},
+                                                { i: '#Bar_2', k: 'Мaкси-бар'},
+                                                { i: '#Butler', k: 'Услуги частного дворецкого'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-beach4b-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Presidential Villa 5 Спален',
+                                            capacityWording: '14 Взрослых + 1 Инфант ',
+                                            capacityValue: '450 м²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '14' },
+                                                { key: 'спален', value: '5' },
+                                                { key: 'площадь', value: '450 м&sup2;' }
+                                            ],
+                                            infos: [
+                                                { h: '1 вилла площадью 450 м²' },
+                                                { i: '#Road', k: 'Прямой выход из сада к пляжу и отдельный павильон', v: '&check;' },
+                                                { i: '#Pool', k: 'Сад и терраса с открытым бассейном', v: '&check;' },
+                                                { i: '#First_line', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи в главной спальной комнате', v: '&check;' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '5' },
+                                                { i: '#Study', k: 'Кабинет', v: '1' },
+                                                { i: '#Living_room', k: 'Гостинная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '6' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '3' },
+                                                { i: '#Pool_2', k: 'Крытый бассейн', v: '&check;' },
+                                                { i: '#Sport', k: 'Комната для фитнеса', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи на верхней террасе', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Steam_room', k: 'Парная и турецкая баня', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Индивидуальный трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Fruits', k: 'Фруктовая тарелка и орешки'},
+                                                { i: '#Gift', k: 'Шампанское Dom Perignon или Cristal Brut, печенье «Макарон» и цветы в день заезда'},
+                                                { i: '#Service', k: 'Бесплатное обслуживание вилл'},
+                                                { i: '#Lounge', k: 'Услуга Maxx Protocol (услуги CIP терминала)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Tent', k: 'Частный павильон на пляже'},
+                                                { i: '#Excursion', k: 'Экскурсия на лодке при проживании от 7 ночей (один раз за время пребывания)'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Consultant', k: 'Maxx ассистент'},
+                                                { i: '#Bar_2', k: 'Мaкси-бар'},
+                                                { i: '#Butler', k: 'Услуги частного дворецкого'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/maxx-royal/villas/maxxroyal-presidential-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
                                     ]
                                 },
                                 SusesiLuxuryResortDeluxe: {
@@ -50,7 +419,7 @@
                                     latlng: [36.856434, 31.039511],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-//                                    price: '123 456',
+                                    //price: '123 456',
                                     url: './susesi-luxury-resort-deluxe/',
                                     video: {
                                         poster: {
@@ -75,7 +444,7 @@
                                     latlng: [36.860012, 30.997336],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-//                                    price: '123 456',
+                                    //price: '123 456',
                                     url: './kempinski-villas-belek/',
                                     video: {
                                         poster: {
@@ -100,7 +469,7 @@
                                     latlng: [36.856802, 30.856275],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-//                                    price: '123 456',
+                                    //price: '123 456',
                                     url: './bayou-villas/',
                                     video: {
                                         poster: {
@@ -437,7 +806,7 @@
                                     latlng: [37.137846, 27.560884],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-//                                    price: '123 456',
+                                    //price: '123 456',
                                     url: './lujo/',
                                     video: {
                                         poster: {
@@ -718,7 +1087,7 @@
                                     latlng: [27.142883, 33.827488],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-//                                    price: '123 456',
+                                    //price: '123 456',
                                     url: './rixos-premium-magawish/',
                                     video: {
                                         poster: {
