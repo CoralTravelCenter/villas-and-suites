@@ -1752,6 +1752,331 @@
                                         },
                                     ]
                                 },
+                                CorneliaAzure: {
+                                    name: 'Cornelia Azure Villas',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/logo-cornelia-azure.png',
+                                    location: 'Белек',
+                                    latlng: [36.849428, 31.083909],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './cornelia-azure/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/poster-frame-x720.jpg'
+                                        },
+                                        vid: '781480600',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Azure Villas 2 Bedrooms',
+                                            capacityWording: '5 Взрослых + 1 Ребенок',
+                                            capacityValue: '180 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '26' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '180 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '26 вилл площадью 180-230 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Hammock', k: 'Гамак', v: '&check;'},
+                                                { i: '#Wood', k: 'Сад', v: '&check;'},
+                                                { i: '#Pool', k: 'Выход к общему бассейну с морской водой', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Индивидуальный трансфер из аэропорта и обратно в подарок'},
+                                                { i: '#Vip', k: 'Шатл между отелем Cornelia Diamond Golf & Spa и AZURE виллами'},
+                                                { i: '#Registration', k: 'Ускоренная процедура регистрации'},
+                                                { i: '#Flower', k: 'Встреча гостей вилл с цветами'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Consultant', k: 'Услуги отдела по работе с гостями вилл'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#SPA', k: 'Cкидка 10% на все платные услуги СПА центра'},
+                                                { i: '#SPA', k: 'Приоритет при бронировании услуг Crassula Spa центра'},
+                                                { i: '#Golf_2', k: 'Бесплатный первый урок игры в гольф'},
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании A’la Carte ресторанов в Cornelia Diamond Golf & Spa'},
+                                                { i: '#Golf', k: 'Бесплатная игра в гольф'},
+                                                { i: '#Fruits', k: 'Фрукты, вино и сладости в день заезда'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Officiant', k: 'Круглосуточный бесплатный сервис в номер'},
+                                                { i: '#Animation', k: 'Встреча маленьких гостей анимационной командой'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств для ухода за телом Hermes'},
+                                                { i: '#Tenis', k: 'Бесплатное использование теннисных кортов'},
+                                                { i: '#Newspapers', k: 'Распределение ежедневных газет по национальностям гостей'},
+                                                { i: '#Tent', k: 'Возможность бесплатного использования пляжной VIP зоны'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-2b-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Azure Villas 3 Bedrooms',
+                                            capacityWording: '6 Взрослых + 3 Ребенка',
+                                            capacityValue: '220 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '7' },
+                                                { key: 'гостей', value: '9' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '220 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '7 вилл площадью 220-310 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Hammock', k: 'Гамак', v: '&check;'},
+                                                { i: '#Wood', k: 'Сад', v: '&check;'},
+                                                { i: '#Pool', k: 'Выход к общему бассейну с морской водой', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Индивидуальный трансфер из аэропорта и обратно в подарок'},
+                                                { i: '#Vip', k: 'Шатл между отелем Cornelia Diamond Golf & Spa и AZURE виллами'},
+                                                { i: '#Registration', k: 'Ускоренная процедура регистрации'},
+                                                { i: '#Flower', k: 'Встреча гостей вилл с цветами'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Consultant', k: 'Услуги отдела по работе с гостями вилл'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#SPA', k: 'Cкидка 10% на все платные услуги СПА центра'},
+                                                { i: '#SPA', k: 'Приоритет при бронировании услуг Crassula Spa центра'},
+                                                { i: '#Golf_2', k: 'Бесплатный первый урок игры в гольф'},
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании A’la Carte ресторанов в Cornelia Diamond Golf & Spa'},
+                                                { i: '#Golf', k: 'Бесплатная игра в гольф'},
+                                                { i: '#Fruits', k: 'Фрукты, вино и сладости в день заезда'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Officiant', k: 'Круглосуточный бесплатный сервис в номер'},
+                                                { i: '#Animation', k: 'Встреча маленьких гостей анимационной командой'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств для ухода за телом Hermes'},
+                                                { i: '#Tenis', k: 'Бесплатное использование теннисных кортов'},
+                                                { i: '#Newspapers', k: 'Распределение ежедневных газет по национальностям гостей'},
+                                                { i: '#Tent', k: 'Возможность бесплатного использования пляжной VIP зоны'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-azure/villas/azure-3b-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
+                                VoyageBelekGolf: {
+                                    name: 'Voyage Belek Golf & SPA',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/logo-voyage-belek-golf.png',
+                                    location: 'Белек',
+                                    latlng: [36.847018, 31.072549],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './voyage-belek-golf/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/poster-frame-x720.jpg'
+                                        },
+                                        //vid: '781480600',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-05.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-06.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Duplex Villa Garden',
+                                            capacityWording: '3 Взрослых + 1 Ребенок',
+                                            capacityValue: '75 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '12' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '75 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '12 вилл площадью 75 м²'},
+                                                { i: '#Wood', k: 'Вид на cад', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Suitecase', k: 'Express заселение в 14:00 часов'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну'},
+                                                { i: '#Breakfast', k: 'Доставка завтрака в номер по желанию'},
+                                                { i: '#Consultant', k: 'Voyage-ассистент'},
+                                                { i: '#Bar', k: 'Макси-бар'},
+                                                { i: '#Fruits', k: 'Ежедневная доставка в номер свежих фруктов'},
+                                                { i: '#Bathroom_accessories', k: 'Особый набор принадлежностей'},
+                                                { i: '#Cake', k: 'Ежедневная доставка кондитерских изделий'},
+                                                { i: '#Towel', k: 'Ежедневная доставка пляжных полотенец'},
+                                                { i: '#Gift', k: 'В день приезда бутылка вина и шоколад доставляются в номер'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/duplex-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Laguna Duplex Villa',
+                                            capacityWording: '3 Взрослых + 2 Ребенка',
+                                            capacityValue: '75 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '61' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '75 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '61 вилла площадью 75-90 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Выход к общему бассейну через террасу', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Suitecase', k: 'Express заселение в 14:00 часов'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну'},
+                                                { i: '#Breakfast', k: 'Доставка завтрака в номер по желанию'},
+                                                { i: '#Consultant', k: 'Voyage-ассистент'},
+                                                { i: '#Bar', k: 'Макси-бар'},
+                                                { i: '#Fruits', k: 'Ежедневная доставка в номер свежих фруктов'},
+                                                { i: '#Bathroom_accessories', k: 'Особый набор принадлежностей'},
+                                                { i: '#Cake', k: 'Ежедневная доставка кондитерских изделий'},
+                                                { i: '#Towel', k: 'Ежедневная доставка пляжных полотенец'},
+                                                { i: '#Gift', k: 'В день приезда бутылка вина и шоколад доставляются в номер'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/villas/laguna-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
                                 BayouVillas: {
                                     name: 'Bayou Villas',
                                     logo: '/site/coral.ru/assets/turkey/hotels/bayou-villas/logo-bayou-villas.png',
