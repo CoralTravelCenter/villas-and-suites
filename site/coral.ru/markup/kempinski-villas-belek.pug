@@ -21,12 +21,7 @@ body
             p Этот роскошный 5-звездочный отель с&nbsp;концепцией Luxury Все Включено которая дополняется услугами Кемпински и&nbsp;обладает историческим и&nbsp;культурным духом. Благодаря своим просторным помещениям и&nbsp;небольшому количеству гостей, отель является синонимом изысканного&nbsp;отдыха.
             p Расположенный недалеко от&nbsp;Анталии и&nbsp;многочисленных исторических достопримечательностей, в&nbsp;одном из&nbsp;самых живописных уголков Турецкой Ривьеры. Отель имеет собственный пляж, отмеченный Голубым флагом и&nbsp;находится рядом с&nbsp;двумя полями для гольфа.
 
-    section.hero.concept
-        article
-            .contenu
-                .concept-slider
-                    each visual in this_hotel.visuals
-                        .slide(style!=({ 'background-image': `url(${ visual })` }))
+    +hotel-concept-slider(this_hotel)
 
     section.hero.villas-heading
         article
@@ -34,59 +29,9 @@ body
                 h2 Виллы
                 p Kempinski Villas Belek&nbsp;&mdash; это современные виллы, в&nbsp;которых преобладают материалы, сочетающую традиционную и&nbsp;современную архитектуру. Мы&nbsp;предлагаем своим гостям роскошь, комфорт и&nbsp;незабываемый отдых с&nbsp;привилегированным обслуживанием.
 
-    section.hero.villas-contactsheet
-        article
-            .contenu
-                ul
-                    each villa in this_hotel.villas
-                        - visual2show = villa.visuals && villa.visuals.length && villa.visuals.find(v => v.default) || villa.visuals[0]
-                        li
-                            if visual2show
-                                .visual(style={ 'background-image': `url(${ visual2show.xxl })` })
-                            .name= villa.name
-                            .capacity
-                                span!= villa.capacityWording
-                                span!= villa.capacityValue
-                            .actions
-                                button.with-down-arrow(data-scrollto=`[data-scrollto-target="${ villa.name }"]`) Подробнее
+    +villas-contactsheet(this_hotel)
 
-    each villa in this_hotel.villas
-        section.hero.villa(data-scrollto-target=villa.name)
-            article
-                .contenu
-                    h2= villa.name
-                    if villa.visuals && villa.visuals.length
-                        .villa-showroom
-                            - default_visual = villa.visuals.find(v => v.default) || villa.visuals[0]
-                            .main-pane
-                                each visual, idx in villa.visuals
-                                    .main-item(class={ shown: idx === 0 })
-                                        img(src=visual.xxl)
-                            .nav-pane
-                                each visual, idx in villa.visuals
-                                    .nav-item(class={ selected: idx === 0 }, style!=`background-image: url(${ visual.xxs })`)
-                    if villa.keyFacts && villa.keyFacts.length
-                        ul.key-facts
-                            each fact in villa.keyFacts
-                                li
-                                    .key!= fact.key
-                                    .value!= fact.value
-                    if (villa.infos && villa.infos.length) || (villa.privileges && villa.privileges.length)
-                        .infosheets
-                            .infosheets-nav
-                                if villa.infos && villa.infos.length
-                                    button Информация о вилле
-                                if villa.privileges && villa.privileges.length
-                                    button Привилегии
-                            .infosheets-slider
-                                if villa.infos && villa.infos.length
-                                    .slide.infos
-                                        h3 Информация о вилле
-                                        +infosheet_list(villa.infos)
-                                if villa.privileges && villa.privileges.length
-                                    .slide.privileges
-                                        h3 Привилегии
-                                        +infosheet_list(villa.privileges)
+    +villas(this_hotel)
 
     section.hero.fin-c2a
         article

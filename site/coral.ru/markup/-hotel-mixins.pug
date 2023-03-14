@@ -1,3 +1,72 @@
+mixin hotel-concept-slider(hotel)
+    if hotel.visuals && hotel.visuals.length
+        section.hero.concept
+            article
+                .contenu
+                    .concept-slider
+                        each visual in hotel.visuals
+                            .slide(style!=({ 'background-image': `url(${ visual })` }))
+
+
+mixin villas-contactsheet(hotel)
+    if hotel.villas && hotel.villas.length > 1
+        section.hero.villas-contactsheet
+            article
+                .contenu
+                    ul
+                        each villa in hotel.villas
+                            - visual2show = villa.visuals && villa.visuals.length && villa.visuals.find(v => v.default) || villa.visuals[0]
+                            li
+                                if visual2show
+                                    .visual(style={ 'background-image': `url(${ visual2show.xxl })` })
+                                .name= villa.name
+                                .capacity
+                                    span!= villa.capacityWording
+                                    span!= villa.capacityValue
+                                .actions
+                                    button.with-down-arrow(data-scrollto=`[data-scrollto-target="${ villa.name }"]`) Подробнее
+
+mixin villas(hotel)
+    if hotel.villas
+        each villa in hotel.villas
+            section.hero.villa(data-scrollto-target=villa.name)
+                article
+                    .contenu
+                        h2= villa.name
+                        if villa.visuals && villa.visuals.length
+                            .villa-showroom
+                                - default_visual = villa.visuals.find(v => v.default) || villa.visuals[0]
+                                .main-pane
+                                    each visual, idx in villa.visuals
+                                        .main-item(class={ shown: idx === 0 })
+                                            img(src=visual.xxl)
+                                .nav-pane
+                                    each visual, idx in villa.visuals
+                                        .nav-item(class={ selected: idx === 0 }, style!=`background-image: url(${ visual.xxs })`)
+                        if villa.keyFacts && villa.keyFacts.length
+                            ul.key-facts
+                                each fact in villa.keyFacts
+                                    li
+                                        .key!= fact.key
+                                        .value!= fact.value
+                        if (villa.infos && villa.infos.length) || (villa.privileges && villa.privileges.length)
+                            .infosheets
+                                .infosheets-nav
+                                    if villa.infos && villa.infos.length
+                                        button Информация о вилле
+                                    if villa.privileges && villa.privileges.length
+                                        button Привилегии
+                                .infosheets-slider
+                                    if villa.infos && villa.infos.length
+                                        .slide.infos
+                                            h3 Информация о вилле
+                                            +infosheet_list(villa.infos)
+                                    if villa.privileges && villa.privileges.length
+                                        .slide.privileges
+                                            h3 Привилегии
+                                            +infosheet_list(villa.privileges)
+
+
 mixin infosheet_list(list)
     ul
         each item in list
