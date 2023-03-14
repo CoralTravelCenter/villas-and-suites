@@ -2409,6 +2409,753 @@
                                             ]
                                         },
                                     ]
+                                },
+                                NGPhaselisBay: {
+                                    name: 'NG Phaselis Bay',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/logo-ng-phaselis-bay.png',
+                                    location: 'Кемер',
+                                    latlng: [36.643222, 30.557994],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './ng-phaselis-bay/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/poster-frame-x720.jpg'
+                                        },
+                                        //vid: '781480600',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Corner Suite Unique Sea View',
+                                            capacityWording: '4 Взрослых + 1 Ребенок',
+                                            capacityValue: '90 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '6' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '90 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '6 сьютов площадью 90 м²'},
+                                                { i: '#Wood', k: 'Вид на море', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса или балкон', v: '&check;'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i: '#Diamond', k: 'Услуга Premium CIP'},
+                                                { i: '#Registration', k: 'Express Check-In & Check-Out'},
+                                                { i: '#Baby', k: 'Специальный набор для детей'},
+                                                { i: '#Restaurat', k: 'Преимущество в бронировании A’la carte ресторанов'},
+                                                { i: '#Bar', k: 'Executive мини-бар'},
+                                                { i: '#Fruits', k: 'Свежие фрукты в номере по приезду'},
+                                                { i: '#Pillows', k: 'Меню подушек (5 видов)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Bar', k: 'Специальный приветственный комплимент Premium'},
+                                                { i: '#Bathroom_accessories', k: 'Premium гигиенический набор'},
+                                                { i: '#Cosmetic', k: 'Избранная косметика (Etro, Marvis)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/corner-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'NG Suite Unique Sea View',
+                                            capacityWording: '5 Взрослых + 1 Ребенок',
+                                            capacityValue: '115 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '115 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '5 сьютов площадью 115 м²'},
+                                                { i: '#Wood', k: 'Вид на море', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Кухня', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i: '#Diamond', k: 'Услуга Premium CIP'},
+                                                { i: '#Registration', k: 'Express Check-In & Check-Out'},
+                                                { i: '#Baby', k: 'Специальный набор для детей'},
+                                                { i: '#Restaurat', k: 'Преимущество в бронировании A’la carte ресторанов'},
+                                                { i: '#Bar', k: 'Executive мини-бар'},
+                                                { i: '#Fruits', k: 'Свежие фрукты в номере по приезду'},
+                                                { i: '#Pillows', k: 'Меню подушек (5 видов)'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Bar', k: 'Специальный приветственный комплимент Premium'},
+                                                { i: '#Bathroom_accessories', k: 'Premium гигиенический набор'},
+                                                { i: '#Cosmetic', k: 'Избранная косметика (Etro, Marvis)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/ng-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Queen Suite Unique Sea View',
+                                            capacityWording: '7 Взрослых + 2 Ребенок',
+                                            capacityValue: '210 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '9' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '210 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '2 сьюта площадью 210 м²'},
+                                                { i: '#Wood', k: 'Вид на море', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса или французский балкон', v: '&check;'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '3'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i: '#Diamond', k: 'Услуга Premium CIP'},
+                                                { i: '#Registration', k: 'Express Check-In & Check-Out'},
+                                                { i: '#Baby', k: 'Специальный набор для детей'},
+                                                { i: '#Bathroom_accessories', k: 'Premium гигиенический набор'},
+                                                { i: '#Restaurat', k: 'Преимущество в бронировании A’la carte ресторанов'},
+                                                { i: '#Bar', k: 'Executive мини-бар'},
+                                                { i: '#Fruits', k: 'Свежие фрукты в номере по приезду'},
+                                                { i: '#Pillows', k: 'Меню подушек (5 видов)'},
+                                                { i: '#Tent', k: 'Павильон'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Bar', k: 'Специальный приветственный комплимент Premium'},
+                                                { i: '#Cosmetic', k: 'Избранная косметика (Etro, Marvis)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/queen-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'NG King Villa',
+                                            capacityWording: '7 Взрослых + 2 Ребенок',
+                                            capacityValue: '300 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '7' },
+                                                { key: 'гостей', value: '9' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '300 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '7 вилл площадью 300 м²'},
+                                                { i:'#Wood', k: 'Вид на лес', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i:'#Pool', k: 'Частный бассейн', v: '&check;'},
+                                                { i:'#Wood', k: 'Частный сад', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '2'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '2'},
+                                                {h: '2 этаж'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '3'},
+                                                { i:'#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i:'#Diamond', k: 'Услуга Premium CIP'},
+                                                { i:'#Bar', k: 'Специальный приветственный комплимент Premium'},
+                                                { i:'#Registration', k: 'Express Check-In & Check-Out'},
+                                                { i:'#Laundry', k: 'Услуги прачечной'},
+                                                { i:'#Baby', k: 'Специальный набор для детей'},
+                                                { i:'#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i:'#Restaurat', k: 'Преимущество в бронировании A’la carte ресторанов'},
+                                                { i:'#Gamepad', k: 'PlayStation (по депозиту)'},
+                                                { i:'#Bar', k: 'Premium мини-бар'},
+                                                { i:'#Fruits', k: 'Свежие фрукты в номере по приезду'},
+                                                { i:'#Buggi', k: 'Гольф-кар'},
+                                                { i:'#Pillows', k: 'Меню подушек (5 видов)'},
+                                                { i:'#Service', k: 'Room Service'},
+                                                { i:'#Butler', k: 'Услуги личного дворецкого'},
+                                                { i:'#Tent', k: 'Павильон'},
+                                                { i:'#Bathroom_accessories', k: 'Premium гигиенический набор'},
+                                                { i:'#Cosmetic', k: 'Избранная косметика (Etro, Marvis)'},
+                                                { i:'#Vip', k: 'Предоставление автомобиля с шофером (по резервации)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/villas/king-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
+                                SpiceHotel: {
+                                    name: 'Spice Hotel & SPA',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/spice-hotel/logo-spice-hotel.png',
+                                    location: 'Белек',
+                                    latlng: [36.850139, 31.064652],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './spice-hotel/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/spice-hotel/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/spice-hotel/poster-frame-x720.jpg'
+                                        },
+                                        vid: '789966315',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Susam Villa',
+                                            capacityWording: '10 Взрослых',
+                                            capacityValue: '506 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спален', value: '5' },
+                                                { key: 'площадь', value: '506 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: 'Вилла площадью 506 м²'},
+                                                { i:'#View_sea', k: 'Вид на море', v: '&check;'},
+                                                { i:'#Pool', k: 'Личный бассейн', v: '&check;'},
+                                                { i:'#Wood', k: 'Личный сад', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i:'#Sauna', k: 'Сауна', v: '&check;'},
+                                                { i:'#Steam_room', k: 'Турецкая баня', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Кухня', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '5'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '5'},
+                                                { i:'#Wardrobe', k: 'Гардеробная', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i:'#Registration', k: 'Экспресс регистрация в номере'},
+                                                { i:'#First_line', k: 'Бесплатный павильон на пляже и пользование VIP зоной на пляже'},
+                                                { i:'#SPA', k: '10% скидка на услуги SPA'},
+                                                { i:'#Fruits', k: 'При заезде корзина с экзотическими фруктами'},
+                                                { i:'#Bar', k: "Бутылка вина ежедневно"},
+                                                { i:'#Service', k: "Сервис в номер (стандартное меню)"},
+                                                { i:'#Laundry', k: "Услуги прачечной"},
+                                                { i:'#Bar', k: "Расширенный мини-бар"},
+                                                { i:'#Breakfast', k: "Завтрак, обед и ужин в собственном VIP Defne A'la Carte ресторане"},
+                                                { i:'#Chief', k: "Бесплатное посещение A'la Carte ресторанов"},
+                                                { i:'#Bathroom_accessories', k: "VIP набор ванных и комнатных принадлжностей"},
+                                                { i:'#Bedroom_sleep', k: "Подготовка номера ко сну"},
+                                                { i:'#Suitecase', k: "Поздний выезд 15:00 (при наличии свободных номеров)"},
+                                                { i:'#Consultant', k: "Индивидуальное VIP обслуживание"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/susam-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Safran Villa',
+                                            capacityWording: '6 Взрослых',
+                                            capacityValue: '185 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '185 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '5 вилл площадью 185 м²'},
+                                                { i:'#First_line', k: 'Первая береговая линия', v: '&check;'},
+                                                { i:'#Pool', k: 'Личный бассейн', v: '&check;'},
+                                                { i:'#Wood', k: 'Личный сад', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '2'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Кухня', v: '1'},
+                                                { i:'#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i:'#Registration', k: 'Экспресс регистрация в номере'},
+                                                { i:'#First_line', k: 'Бесплатный павильон на пляже и пользование VIP зоной на пляже'},
+                                                { i:'#SPA', k: '10% скидка на услуги SPA'},
+                                                { i:'#Fruits', k: 'При заезде корзина с экзотическими фруктами'},
+                                                { i:'#Bar', k: "Бутылка вина ежедневно"},
+                                                { i:'#Service', k: "Сервис в номер (стандартное меню)"},
+                                                { i:'#Laundry', k: "Услуги прачечной"},
+                                                { i:'#Bar', k: "Расширенный мини-бар"},
+                                                { i:'#Breakfast', k: "Завтрак, обед и ужин в собственном VIP Defne A'la Carte ресторане"},
+                                                { i:'#Chief', k: "Бесплатное посещение A'la Carte ресторанов"},
+                                                { i:'#Bathroom_accessories', k: "VIP набор ванных и комнатных принадлжностей"},
+                                                { i:'#Bedroom_sleep', k: "Подготовка номера ко сну"},
+                                                { i:'#Suitecase', k: "Поздний выезд 15:00 (при наличии свободных номеров)"},
+                                                { i:'#Consultant', k: "Индивидуальное VIP обслуживание"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/safran-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Mint Villa',
+                                            capacityWording: '4 Взрослых',
+                                            capacityValue: '147 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '6' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '247 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '6 вилл площадью 247 м²'},
+                                                { i:'#Wood', k: 'Вид на море', v: '&check;'},
+                                                { i:'#Pool', k: 'Личный бассейн', v: '&check;'},
+                                                { i:'#Wood', k: 'Летний дворик', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '2'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i:'#Registration', k: 'Экспресс регистрация в номере'},
+                                                { i:'#First_line', k: 'Бесплатный павильон на пляже и пользование VIP зоной на пляже'},
+                                                { i:'#SPA', k: '10% скидка на услуги SPA'},
+                                                { i:'#Fruits', k: 'При заезде корзина с экзотическими фруктами'},
+                                                { i:'#Bar', k: "Бутылка вина ежедневно"},
+                                                { i:'#Service', k: "Сервис в номер (стандартное меню)"},
+                                                { i:'#Laundry', k: "Услуги прачечной"},
+                                                { i:'#Bar', k: "Расширенный мини-бар"},
+                                                { i:'#Breakfast', k: "Завтрак, обед и ужин в собственном VIP Defne A'la Carte ресторане"},
+                                                { i:'#Chief', k: "Бесплатное посещение A'la Carte ресторанов"},
+                                                { i:'#Bathroom_accessories', k: "VIP набор ванных и комнатных принадлжностей"},
+                                                { i:'#Bedroom_sleep', k: "Подготовка номера ко сну"},
+                                                { i:'#Suitecase', k: "Поздний выезд 15:00 (при наличии свободных номеров)"},
+                                                { i:'#Consultant', k: "Индивидуальное VIP обслуживание"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/mint-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Ginger Villa',
+                                            capacityWording: '2 Взрослых',
+                                            capacityValue: '116 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '10' },
+                                                { key: 'гостя', value: '2' },
+                                                { key: 'спальня', value: '1' },
+                                                { key: 'площадь', value: '116 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '10 вилл площадью 116 м²'},
+                                                { i:'#Wood', k: 'Вид на лес', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i:'#Wood', k: 'Частный сад', v: '&check;'},
+                                                { i:'#Pool', k: 'Бассейн VIP зоны', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i:'#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'Индивидуальный VIP-трансфер (аэропорт-отель-аэропорт)'},
+                                                { i:'#Consultant', k: 'Индивидуальное обслуживание сотрудниками VIP-residence'},
+                                                { i:'#Registration', k: 'Экспресс Chek-in/Chek-Out'},
+                                                { i:'#First_line', k: 'Павильоны на VIP пляже (1 день бесплатно)'},
+                                                { i:'#Breakfast', k: 'Бесплатное посещение A’La Carte ресторанов'},
+                                                { i:'#Chief', k: 'Бесплатное посещение VIP-ресторана Defne'},
+                                                { i:'#Fruits', k: 'Корзина с экзотическими фруктами в день заезда'},
+                                                { i:'#SPA', k: '10% скидка на услуги SPA-центра'},
+                                                { i:'#Bar', k: 'Расширенный мини бар и вино ежедневно'},
+                                                { i:'#Suitecase', k: 'Поздний выезд до 15:00 (по наличию)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/ginger-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Presidential Suite',
+                                            capacityWording: '6 Взрослых + 1 Ребенок',
+                                            capacityValue: '500 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '7' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '500 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '1 сьют площадью 500 м²'},
+                                                { i:'#View_sea', k: 'Вид на море', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i:'#Sauna', k: 'Сауна', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i:'#Steam_room', k: 'Турецкая баня', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Study', k: 'Рабочий кабинет', v: '1'},
+                                                { i:'#Kitchen', k: 'Кухня', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Wardrobe', k: 'Гардеробная', v: '1'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '3'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i:'#Registration', k: 'Экспресс регистрация в номере'},
+                                                { i:'#First_line', k: 'Бесплатный павильон на пляже и пользование VIP зоной на пляже'},
+                                                { i:'#SPA', k: '10% скидка на услуги SPA'},
+                                                { i:'#Fruits', k: 'При заезде корзина с экзотическими фруктами'},
+                                                { i:'#Bar', k: "Бутылка вина ежедневно"},
+                                                { i:'#Service', k: "Сервис в номер (стандартное меню)"},
+                                                { i:'#Laundry', k: "Услуги прачечной"},
+                                                { i:'#Bar', k: "Расширенный мини-бар"},
+                                                { i:'#Breakfast', k: "Завтрак, обед и ужин в собственном VIP Defne A'la Carte ресторане"},
+                                                { i:'#Chief', k: "Бесплатное посещение A'la Carte ресторанов"},
+                                                { i:'#Bathroom_accessories', k: "VIP набор ванных и комнатных принадлжностей"},
+                                                { i:'#Bedroom_sleep', k: "Подготовка номера ко сну"},
+                                                { i:'#Suitecase', k: "Поздний выезд 15:00 (при наличии свободных номеров)"},
+                                                { i:'#Consultant', k: "Индивидуальное VIP обслуживание"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/presidential-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'King Suite',
+                                            capacityWording: '3 Взрослых + 2 Ребенка',
+                                            capacityValue: '185 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '185 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '2 сьюта площадью 185 м²'},
+                                                { i:'#Wood', k: 'Вид на море и горы', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Балкон', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '2'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Vip', k: 'VIP-трансфер из аэропорта и обратно'},
+                                                { i:'#Registration', k: 'Экспресс регистрация в номере'},
+                                                { i:'#First_line', k: 'Бесплатный павильон на пляже и пользование VIP зоной на пляже'},
+                                                { i:'#SPA', k: '10% скидка на услуги SPA'},
+                                                { i:'#Fruits', k: 'При заезде корзина с экзотическими фруктами'},
+                                                { i:'#Bar', k: "Бутылка вина ежедневно"},
+                                                { i:'#Service', k: "Сервис в номер (стандартное меню)"},
+                                                { i:'#Laundry', k: "Услуги прачечной"},
+                                                { i:'#Bar', k: "Расширенный мини-бар"},
+                                                { i:'#Breakfast', k: "Завтрак, обед и ужин в собственном VIP Defne A'la Carte ресторане"},
+                                                { i:'#Chief', k: "Бесплатное посещение A'la Carte ресторанов"},
+                                                { i:'#Bathroom_accessories', k: "VIP набор ванных и комнатных принадлжностей"},
+                                                { i:'#Bedroom_sleep', k: "Подготовка номера ко сну"},
+                                                { i:'#Suitecase', k: "Поздний выезд 15:00 (при наличии свободных номеров)"},
+                                                { i:'#Consultant', k: "Индивидуальное VIP обслуживание"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/king-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Honeymoon Suite',
+                                            capacityWording: '2 Взрослых',
+                                            capacityValue: '105 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '2' },
+                                                { key: 'спальни', value: '1' },
+                                                { key: 'площадь', value: '105 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '2 сьюта площадью 185 м²'},
+                                                { i:'#Wood', k: 'Вид на море/на лес', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терасса', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Registration', k: 'VIP регистрация в номере при заезде'},
+                                                { i:'#Fruits', k: 'VIP set up в день заезда (вино и фрукты)'},
+                                                { i:'#First_line', k: 'Павильон на пляже (1 день)'},
+                                                { i:'#Restaurat', k: "Завтрак в номер (1 раз)"},
+                                                { i:'#SPA', k: "10% скидка на услуги SPA"},
+                                                { i:'#Breakfast', k: "Романтический ужин в A'la Carte ресторане"},
+                                                { i:'#Suitecase', k: 'Поздний выезд 15:00 (при наличии свободных номеров)' }
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/spice-hotel/villas/honey-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
+                                BellisDeluxe: {
+                                    name: 'Bellis Deluxe',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/logo-bellis-deluxe.png',
+                                    location: 'Белек',
+                                    latlng: [36.857051, 31.023656],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './bellis-deluxe/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/poster-frame-x720.jpg'
+                                        },
+                                        vid: '789966839',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-05.jpg',
+                                    ]
                                 }
                             }
                         },
@@ -2679,7 +3426,65 @@
                                             ]
                                         }
                                     ]
-                                }
+                                },
+                                DMarisBay: {
+                                    name: 'D Maris Bay',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/logo-d-maris-bay.png',
+                                    location: 'Мармарис',
+                                    latlng: [36.766091, 28.050238],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './d-maris-bay/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/poster-frame-x720.jpg'
+                                        },
+                                        vid: '789967316',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'The Villa',
+                                            capacityWording: '',
+                                            capacityValue: '',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '310 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/d-maris-bay/villas/the-05-x200.jpg'
+                                                },
+                                            ]
+                                        }
+                                    ]
+                                },
                             }
                         }
                     }
