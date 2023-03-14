@@ -736,11 +736,11 @@
                                         vid: '776226407',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -919,11 +919,11 @@
                                         vid: '776227754',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -1403,11 +1403,11 @@
                                         vid: '776228098',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -1557,11 +1557,11 @@
                                         vid: '781011105',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -1768,11 +1768,11 @@
                                         vid: '781480600',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/cornelia-azure/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -1941,12 +1941,12 @@
                                         //vid: '781480600',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-05.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-06.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/hotel-visual-06.jpg',
                                     ],
                                     villas: [
                                         {
@@ -2095,11 +2095,11 @@
                                         vid: '784348182',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bayou-villas/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -2426,11 +2426,11 @@
                                         //vid: '781480600',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -2695,11 +2695,11 @@
                                         vid: '789966315',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -3150,11 +3150,11 @@
                                         vid: '789966839',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
@@ -3563,11 +3563,11 @@
                                         vid: '789967316',
                                     },
                                     visuals: [
-                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-01.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-02.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-03.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-04.jpg',
-                                        'site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-05.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/d-maris-bay/hotel-visual-05.jpg',
                                     ],
                                     villas: [
                                         {
