@@ -727,7 +727,6 @@
                                     latlng: [36.84095, 31.112335],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    //price: '123 456',
                                     url: './gloria-golf-resort/',
                                     video: {
                                         poster: {
@@ -902,6 +901,644 @@
                                                 },
                                             ]
                                         },
+                                    ]
+                                },
+                                GloriaSerenityResort: {
+                                    name: 'Gloria Serenity Resort 5* Deluxe',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/logo-gloria-serenity.png',
+                                    location: 'Белек',
+                                    latlng: [36.840866, 31.107842],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './gloria-serenity-resort/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/poster-frame-x720.jpg'
+                                        },
+                                        vid: '776227754',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Garden Villa',
+                                            capacityWording: '4 Взрослых + 1 Ребенок + 1 Инфант',
+                                            capacityValue: '86 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '52' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '86 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '52 виллы площадью 86 м²' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса с джакузи', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Dress', k: 'Таулет', v: '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Restaurat', k: 'Ресторан Route 66'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/garden-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Pool Villa',
+                                            capacityWording: '4 Взрослых + 1 Ребенок + 1 Инфант',
+                                            capacityValue: '86 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '34' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '86 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '34 виллы площадью 86 м²' },
+                                                { i: '#Wood', k: 'Зона отдыха на террасе с выходом в общий бассейн для вилл', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи на террасе', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Dress', k: 'Туалет', v: '2' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Restaurat', k: 'Ресторан Route 66'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/pool-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Deluxe Villa',
+                                            capacityWording: '6 Взрослых + 2 Ребенка',
+                                            capacityValue: '200 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '10' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '200 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '10 вилл площадью 200 м²' },
+                                                { i: '#Pool', k: 'Собственный бассейн 52 м² с возможностью подогрева и наполнения морской водой (по запросу)', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Hammock', k: 'Гамак у бассейна', v: '&check;'},
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1'},
+                                                { i: '#Dress', k: 'Таулет', v: '1'},
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня'},
+                                                { i: '#Bathroom', k: 'Ванная комната с джакузи'},
+                                                { i: '#Dress', k: 'Таулет'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Restaurat', k: 'Ресторан Route 66'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной Беспроводной Интернет'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/deluxe-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Serenity Villa',
+                                            capacityWording: '6 Взрослых + 2 Ребенка',
+                                            capacityValue: '200 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '200 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '1 вилла площадью 200 м²' },
+                                                { i: '#Pool', k: 'Открытый общий бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '1'},
+                                                { i: '#Hammock', k: 'Гамак у бассейна', v: '&check;'},
+                                                { h: '1 этаж' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '2'},
+                                                { i: '#Dress', k: 'Таулет', v: '2'},
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1'},
+                                                { i: '#Jacuzzi', k: 'Джакузи рядом с кроватью', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#Buggi', k: 'Ресторан Route 66'},
+                                                { i: '#Restaurat', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной Беспроводной Интернет'},
+                                                { i: '#Butler', k: 'Личный Дворецкий'},
+                                                { i: '#Chief', k: 'Личный Повар'},
+                                                { i: '#Maid', k: 'Личная Горничная'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/serenity-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Queen Villa',
+                                            capacityWording: '8 Взрослых + 2 Ребенка',
+                                            capacityValue: '250 m²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '250 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 250 м²' },
+                                                { i: '#Pool', k: 'Частный открытый бассейн (возможность наполнения морской водой и подогрева в зимний период)', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса 150 м² с камином и джакузи нa открытом воздухе', v: '&check;'},
+                                                { i: '#Wood', k: 'Вид на сад, бассейн и гольф-поле', v: '&check;'},
+                                                { i: '#Hammock', k: 'Гамак у бассейна', v: '&check;'},
+                                                { h: '1 этаж' },
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная с камином', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '3'},
+                                                { i: '#Dress', k: 'Туалет', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной Беспроводной Интернет'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Ресторан Route 66'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                                { i: '#Butler', k: 'Личный Дворецкий'},
+                                                { i: '#Maid', k: 'Личная Горничная'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/queen-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'VIP Villa',
+                                            capacityWording: '7 Взрослых + 2 Ребенка',
+                                            capacityValue: '400 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '400 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '1 вилла площадью 400 м²'},
+                                                { i: '#Pool', k: 'Частный открытый бассейн с возможностью подогрева и наполнения морской водой (по запросу)', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса:', v: '&check;'},
+                                                { i: '#Hammock', k: 'Гамак у бассейна:', v: '&check;'},
+                                                { i: '#Elevator', k: 'Лифт:', v: '&check;'},
+                                                { i: '#Massage_Table', k: '2 массажных стола:', v: '&check;'},
+                                                { i: '#Sport', k: 'Зона для занятий спортом:', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Kitchen', k: 'Кухня', v: '1'},
+                                                { i: '#Dining_room', k: 'Столовая зона', v: '1'},
+                                                { i: '#Bar', k: 'Бар', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Study', k: 'Кабинет', v: '1'},
+                                                { i: '#Shower', k: 'Душ', v: '2'},
+                                                { i: '#Dress', k: 'Туалет', v: '2'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '1'},
+                                                { i: '#Steam_room', k: 'Парная', v: '1'},
+                                                { i: '#Sauna', k: 'Сауна', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '3'},
+                                                { i: '#Dress', k: 'Туалет', v: '3'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Restaurat', k: 'Ресторан Route 66'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной Беспроводной Интернет'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                                { i: '#Butler', k: 'Личный Дворецкий'},
+                                                { i: '#Maid', k: 'Личная Горничная'},
+                                                { i: '#Chief', k: 'Личный Повар'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/vip-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Presidential Villa',
+                                            capacityWording: '12 Взрослых + 1 Ребенок + 1 Инфант',
+                                            capacityValue: '1400 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '12' },
+                                                { key: 'спален', value: '6' },
+                                                { key: 'площадь', value: '1400 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '1 вилла площадью 1400 м²'},
+                                                { i: '#Pool', k: 'Частный открытый бассейн с подогревом', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Jacuzzi', k: 'Балкон с джакузи', v: '&check;'},
+                                                { i: '#Hammock', k: 'Гамак у бассейна', v: '&check;'},
+                                                { i: '#Elevator', k: 'Лифт', v: '&check;'},
+                                                { i: '#Massage_Table', k: 'Cпа-зона', v: '&check;'},
+                                                { i: '#Sport', k: 'Зона для занятий спортом', v: '&check;'},
+                                                { i: '#Cinema', k: 'Кинотеатр', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Kitchen', k: 'Кухня', v: '1'},
+                                                { i: '#Dining_room', k: 'Столовая зона', v: '1'},
+                                                { i: '#Bar', k: 'Бар', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня (для персонала)', v: '2'},
+                                                { i: '#Study', k: 'Кабинет', v: '1'},
+                                                { i: '#Shower', k: 'Душ', v: '2'},
+                                                { i: '#Dress', k: 'Туалет', v: '3'},
+                                                { i: '#Steam_room', k: 'Турецкая баня', v: '1'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '1'},
+                                                { i: '#Sauna', k: 'Сауна', v: '1'},
+                                                { i: '#Billiard', k: 'Бильярдная', v: '&check;'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '6'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '3'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                                { i: '#Dress', k: 'Туалет', v: '6'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Restaurat', k: 'Ресторан Route 66'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Bedroom_sleep', k: 'Сервис Turn-down'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной Беспроводной Интернет'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом Bvlgari'},
+                                                { i: '#Butler', k: 'Личный Дворецкий'},
+                                                { i: '#Chief', k: 'Личный Повар'},
+                                                { i: '#Maid', k: 'Личная Горничная'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/villas/presidential-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
+                                GloriaVerdeResort: {
+                                    name: 'Gloria Verde Resort 5*',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/logo-gloria-verde.png',
+                                    location: 'Белек',
+                                    latlng: [36.845971, 31.08881],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './gloria-verde-resort/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/poster-frame-x720.jpg'
+                                        },
+                                        vid: '776228098',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/gloria-verde-resort/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Select Villa',
+                                            capacityWording: '3 Взрослых + 2 Ребенка',
+                                            capacityValue: '86 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '20' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '86 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '20 двухэтажных вилл площадью 86 м²'},
+                                                {h: '1 этаж'},
+                                                { i: '#Living_room', k: 'Гостиная с выходом на террасу', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Laundry', k: 'Стиральная машина', v: '1'},
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем:', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная с джакузи и душем', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'Трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Consultant', k: 'Услуги отдела по работе c гостями вилл'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                                { i: '#Restaurat', k: 'Ресторан Select'},
+                                                { i: '#Bar', k: 'Бар Select'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Select', k: 'Фитнес, сауна, детская игровая комната в комплексе Select villas'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/select-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Presidential Villa',
+                                            capacityWording: '8 Взрослых + 3 Ребенка',
+                                            capacityValue: '700 m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '11' },
+                                                { key: 'спален', value: '6' },
+                                                { key: 'площадь', value: '700 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '1 вилла площадью 700 м²'},
+                                                { i: '#Wood', k: 'Вид на сад или поле для гольфа', v: '&check;'},
+                                                { i: '#Pool', k: 'Бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Treadmill', k: 'Фитнес-зона', v: '&check;'},
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '3'},
+                                                { i: '#Study', k: 'Рабочий кабинет', v: '1'},
+                                                { i: '#Kitchen', k: 'Кухня', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната с душем', v: '3'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня King size', v: '1'},
+                                                { i: '#Bedroom', k: 'Спальня Queen size', v: '2'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3'},
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Vip', k: 'VIP-трансфер в аэропорт – отель – аэропорт'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24 часа (по меню)'},
+                                                { i: '#Fasttrack', k: 'Услуга Fast Track в аэропорту'},
+                                                { i: '#Gift', k: 'Специальный set-up в номер при заезде'},
+                                                { i: '#Buggi', k: 'Багги'},
+                                                { i: '#Consultant', k: 'Услуги Отдела по работе с гостями вилл'},
+                                                { i: '#All-inclusive', k: 'Концепция «Все включено» в 3 отелях сети'},
+                                                { i: '#Tent', k: 'Павильон на пляже'},
+                                                { i: '#Butler', k: 'Личный дворецкий, горничная, повар'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивный набор средств по уходу за телом'},
+                                                { i: '#Restaurat', k: 'Ресторан Select'},
+                                                { i: '#Bar', k: 'Бар Select'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Restaurat', k: 'Рестораны а’ля карт в 3 отелях сети (кроме платных)'},
+                                                { i: '#Select', k: 'Фитнес, сауна, детская игровая комната в комплексе Select villas'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/villas/presidential-05-x200.jpg'
+                                                },
+                                            ]
+                                        }
                                     ]
                                 },
                                 BayouVillas: {
