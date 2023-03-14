@@ -3155,6 +3155,126 @@
                                         'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-03.jpg',
                                         'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-04.jpg',
                                         'site/coral.ru/assets/turkey/hotels/bellis-deluxe/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Bellis Villa',
+                                            capacityWording: '',
+                                            capacityValue: ' m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '8' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '200 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '8 вилл площадью 200 м²'},
+                                                { i:'#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i:'#Pool', k: 'Личный бассейн', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Балкон и терасса', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Кухня', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                                {h: '2 этаж'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '2'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '2'},
+                                                { i:'#Wardrobe', k: 'Гардеробная', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Service', k: 'Бесплатное круглосуточное обслуживание виллы'},
+                                                { i:'#Consultant', k: 'Ассистент (батлер), сопровождающий гостей по всем вопросам'},
+                                                { i:'#Fruits', k: 'Комплимент в виде 8-ми бутылок импортного алкоголя, фруктов, шампанского и сладостей при заезде гостей'},
+                                                { i:'#Chief', k: 'Питание в отдельном ресторане ВИП Лаундж'},
+                                                { i:'#Restaurat', k: 'Доставка на Виллу 24 часа'},
+                                                { i:'#Breakfast', k: 'Неограниченное посещение Аля Карт ресторанов'},
+                                                { i:'#First_line', k: 'Павильон на пляже с обслуживанием со стороны официантов'},
+                                                { i:'#Maid', k: 'Уборка два раза в день'},
+                                                { i:'#Laundry', k: 'Услуги прачечной (2 раза в неделю химчистка)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/bellis-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Diamond Villa',
+                                            capacityWording: '',
+                                            capacityValue: ' m²',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостя', value: '3' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '200 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '1 вилла площадью 200 м²'},
+                                                { i:'#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i:'#First_line', k: '20 метров до пляжа', v: '&check;'},
+                                                { i:'#Pool', k: 'Личный бассейн', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терасса', v: '&check;'},
+                                                { i:'#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Кухня', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '3'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Service', k: 'Бесплатное круглосуточное обслуживание виллы'},
+                                                { i:'#Consultant', k: 'Ассистент (батлер), сопровождающий гостей по всем вопросам'},
+                                                { i:'#Fruits', k: 'Комплимент в виде 8-ми бутылок импортного алкоголя, фруктов, шампанского и сладостей при заезде гостей'},
+                                                { i:'#Chief', k: 'Питание в отдельном ресторане ВИП Лаундж'},
+                                                { i:'#Restaurat', k: 'Доставка на Виллу 24 часа'},
+                                                { i:'#Breakfast', k: 'Неограниченное посещение Аля Карт ресторанов'},
+                                                { i:'#First_line', k: 'Павильон на пляже с обслуживанием со стороны официантов'},
+                                                { i:'#Maid', k: 'Уборка два раза в день'},
+                                                { i:'#Laundry', k: 'Услуги прачечной (2 раза в неделю химчистка)'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/bellis-deluxe/villas/diamond-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
                                     ]
                                 }
                             }
@@ -3509,7 +3629,6 @@
                                     latlng: [27.142883, 33.827488],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    //price: '123 456',
                                     url: './rixos-premium-magawish/',
                                     video: {
                                         poster: {
@@ -3518,7 +3637,178 @@
                                         },
                                         vid: '803785010',
                                         anamorphic: true
-                                    }
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Pool Villa',
+                                            capacityWording: '3 Взрослых + 1 Ребенок',
+                                            capacityValue: '105-129 м²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '104' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'спальни', value: '1' },
+                                                { key: 'площадь', value: '120 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '104 виллы площадью 105-129 м²'},
+                                                { i:'#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i:'#Pool', k: 'Выход к общему бассейну', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терасса', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Fruits', k: 'Предоставление цветов и фруктов (По прибытию)'},
+                                                { i:'#Maid', k: 'Ежедневная уборка'},
+                                                { i:'#Breakfast', k: "Разнообразная кухня 6 Ресторанов A’la Carte"},
+                                                { i:'#Bar', k: "Мини-бар"},
+                                                { i:'#Bathroom_accessories', k: 'Фирменные роскошные принадлежности для ванной комнаты'}
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/pool-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Executive Pool Villa',
+                                            capacityWording: '5 Взрослых + 2 Ребенка',
+                                            capacityValue: '240 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '18' },
+                                                { key: 'гостей', value: '7' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '240 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '18 вилл площадью 240 м²'},
+                                                { i:'#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i:'#Pool', k: 'Выход к общему бассейну', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терасса', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Study', k: 'Рабочая зона', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '3'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '3'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Fruits', k: 'Предоставление цветов и фруктов (По прибытию)'},
+                                                { i:'#Vip', k: 'Трансфер из/в аэропорт (Executive Pool Villa)'},
+                                                { i:'#Fasttrack', k: 'Fast Track в аэропорту и отеле'},
+                                                { i:'#Maid', k: 'Ежедневная уборка'},
+                                                { i:'#Butler', k: 'Личный батлер'},
+                                                { i:'#Bar', k: 'Мини-бар'},
+                                                { i:'#Bathroom_accessories', k: "Фирменные роскошные принадлежности для ванной комнаты"},
+                                                { i:'#Breakfast', k: "Разнообразная кухня 6 Ресторанов A’la Carte"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/executive-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Royal Villa',
+                                            capacityWording: '8 Взрослых + 2 Ребенка',
+                                            capacityValue: '944 м²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '944 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '4 виллы площадью 944 м²'},
+                                                { i:'#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i:'#Pool', k: 'Личный бассейн', v: '&check;'},
+                                                { i:'#Wood', k: 'Личный сад', v: '&check;'},
+                                                { i:'#Balcony-or-Terrace', k: 'Терасса', v: '&check;'},
+                                                { i:'#Living_room', k: 'Гостиная', v: '1'},
+                                                { i:'#Kitchen', k: 'Кухня', v: '1'},
+                                                { i:'#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i:'#Bathroom', k: 'Ванная комната', v: '4'},
+                                                { i:'#Bedroom', k: 'Спальня', v: '4'},
+                                            ],
+                                            privileges: [
+                                                { i:'#Fruits', k: 'Предоставление цветов и фруктов (По прибытию)'},
+                                                { i:'#Vip', k: 'Трансфер из/в аэропорт (Royal Villa)'},
+                                                { i:'#Fasttrack', k: 'Fast Track в аэропорту и отеле'},
+                                                { i:'#First_line', k: 'Павильон на пляже'},
+                                                { i:'#Maid', k: 'Горничная'},
+                                                { i:'#Restaurat', k: 'Личный официант'},
+                                                { i:'#Chief', k: 'Личный повар'},
+                                                { i:'#Butler', k: 'Личный батлер'},
+                                                { i:'#Bar', k: "Мини-бар"},
+                                                { i:'#Bathroom_accessories', k: "Фирменные роскошные принадлежности для ванной комнаты"},
+                                                { i:'#Breakfast', k: "Разнообразная кухня 6 Ресторанов A’la Carte"},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/villas/royal-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
                                 }
                             }
                         }
