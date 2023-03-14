@@ -1541,6 +1541,217 @@
                                         }
                                     ]
                                 },
+                                CorneliaDiamond: {
+                                    name: 'Cornelia Diamond Golf Resort & Spa',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/logo-cornelia-diamond.png',
+                                    location: 'Белек',
+                                    latlng: [36.857556, 31.036571],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './cornelia-diamond/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/poster-frame-x720.jpg'
+                                        },
+                                        vid: '781011105',
+                                    },
+                                    visuals: [
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-01.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-02.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-03.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-04.jpg',
+                                        'site/coral.ru/assets/turkey/hotels/cornelia-diamond/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Lapis Villa',
+                                            capacityWording: '4 Взрослых + 1 Ребенок',
+                                            capacityValue: '100 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'спальни', value: '2' },
+                                                { key: 'площадь', value: '100 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '5 вилл площадью 100 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v:  '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса с выходом к общему бассейну', v:  '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната с джакузи', v: '1'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Registration', k: 'Ускоренная процедура регистрации'},
+                                                { i: '#Flower', k: 'Встреча гостей вилл с цветами и шампанским'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#SPA', k: 'Cкидка 10% на услуги СПА центра'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Restaurat', k: 'Отдельная ложа в главном ресторане Diamond'},
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании A’la Carte ресторанов'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Bathroom_accessories', k: 'Обновление VIP принадлежностей номера'},
+                                                { i: '#Breakfast', k: 'Заказ завтрака в номер'},
+                                                { i: '#Tenis', k: 'Бесплатное использование теннисных кортов'},
+                                                { i: '#Fruits', k: 'Фрукты, вино и сладости в день заезда'},
+                                                { i: '#Tent', k: 'Пляжная VIP зона'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/lapis-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Turquoise Villa',
+                                            capacityWording: '6 Взрослых + 1 Ребенок',
+                                            capacityValue: '100 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '12' },
+                                                { key: 'гостей', value: '7' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '100 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '12 вилл площадью 100 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса с выходом к общему бассейну', v: '&check;'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '3'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                                { i: '#Dress', k: 'Туалет', v: '2'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Registration', k: 'Ускоренная процедура регистрации'},
+                                                { i: '#Flower', k: 'Встреча гостей вилл с цветами и шампанским'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#SPA', k: 'Cкидка 10% на услуги СПА центра'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Restaurat', k: 'Отдельная ложа в главном ресторане Diamond'},
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании A’la Carte ресторанов'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Bathroom_accessories', k: 'Обновление VIP принадлежностей номера'},
+                                                { i: '#Breakfast', k: 'Заказ завтрака в номер'},
+                                                { i: '#Tenis', k: 'Бесплатное использование теннисных кортов'},
+                                                { i: '#Fruits', k: 'Фрукты, вино и сладости в день заезда'},
+                                                { i: '#Tent', k: 'Пляжная VIP зона'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/turquoise-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Sapphire & Amber Villa',
+                                            capacityWording: '6 Взрослых + 1 Ребенок',
+                                            capacityValue: '160 m²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '10' },
+                                                { key: 'гостей', value: '7' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '160 м&sup2;' },
+                                            ],
+                                            infos: [
+                                                {h: '10 вилл площадью 160 м²'},
+                                                { i: '#Pool_View', k: 'Вид на бассейн', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса с выходом к общему бассейну', v: '&check;'},
+                                                {h: '1 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '1'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1'},
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1'},
+                                                { i: '#Dress', k: 'Туалет', v: '2'},
+                                                { i: '#Bar', k: 'Мини-бар', v: '&check;'},
+                                                {h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Dress', k: 'Туалет', v: '2'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Registration', k: 'Ускоренная процедура регистрации'},
+                                                { i: '#Flower', k: 'Встреча гостей вилл с цветами и шампанским'},
+                                                { i: '#Laundry', k: 'Услуги прачечной'},
+                                                { i: '#Restaurat', k: 'Приоритет при бронировании A’la Carte ресторанов'},
+                                                { i: '#SPA', k: 'Cкидка 10% на услуги СПА центра'},
+                                                { i: '#Restaurat', k: 'Отдельная ложа в главном ресторане Diamond'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка номера ко сну'},
+                                                { i: '#Wi-fi', k: 'Высокоскоростной беспроводной интернет'},
+                                                { i: '#Bathroom_accessories', k: 'Обновление VIP принадлежностей номера'},
+                                                { i: '#Breakfast', k: 'Заказ завтрака в номер'},
+                                                { i: '#Tenis', k: 'Бесплатное использование теннисных кортов'},
+                                                { i: '#Fruits', k: 'Фрукты, вино и сладости в день заезда'},
+                                                { i: '#Tent', k: 'Пляжная VIP зона'},
+                                            ],
+                                            visuals: [
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/villas/sapphire-05-x200.jpg'
+                                                },
+                                            ]
+                                        },
+                                    ]
+                                },
                                 BayouVillas: {
                                     name: 'Bayou Villas',
                                     logo: '/site/coral.ru/assets/turkey/hotels/bayou-villas/logo-bayou-villas.png',

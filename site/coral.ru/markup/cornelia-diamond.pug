@@ -1,0 +1,129 @@
+- var this_hotel = data.countries.turkey.regions.antalia.hotels.CorneliaDiamond
+
+include ./-hotel-mixins.pug
+
+body
+    link(rel='stylesheet', href='/site/coral.ru/css/hotel.less')
+
+    include ../inline-assets/features-sprite.svg
+
+    section.hero.underbrow.kv
+        article
+            .contenu
+                h2.h1 Элитный отдых для тех, кто ценит комфорт
+                p Приватные виллы, где все продумано до мелочей
+
+    include ./-hotels-xnav.pug
+
+    section.hero.hotel-intro: article: .contenu
+        div
+            p Великолепный современный отель с&nbsp;необычной архитектурой, окруженный хвойным лесом и&nbsp;ухоженными садами. Отличается прекрасным сервисом и&nbsp;изысканной кухней. А&nbsp;также поражает многообразием развлечений и&nbsp;возможностей для активного отдыха на&nbsp;любой вкус и&nbsp;для всех возрастов.
+
+    section.hero.concept
+        article
+            .contenu
+                .concept-slider
+                    each visual in this_hotel.visuals
+                        .slide(style!=({ 'background-image': `url(${ visual })` }))
+
+    section.hero.villas-heading
+        article
+            .contenu
+                h2 Виллы
+                p Условия детально продуманного комфорта и&nbsp;завораживающие виды на&nbsp;Средиземное море.
+
+    section.hero.villas-contactsheet
+        article
+            .contenu
+                ul
+                    each villa in this_hotel.villas
+                        - visual2show = villa.visuals && villa.visuals.length && villa.visuals.find(v => v.default) || villa.visuals[0]
+                        li
+                            if visual2show
+                                .visual(style={ 'background-image': `url(${ visual2show.xxl })` })
+                            .name= villa.name
+                            .capacity
+                                span!= villa.capacityWording
+                                span!= villa.capacityValue
+                            .actions
+                                button.with-down-arrow(data-scrollto=`[data-scrollto-target="${ villa.name }"]`) Подробнее
+
+    each villa in this_hotel.villas
+        section.hero.villa(data-scrollto-target=villa.name)
+            article
+                .contenu
+                    h2= villa.name
+                    if villa.visuals && villa.visuals.length
+                        .villa-showroom
+                            - default_visual = villa.visuals.find(v => v.default) || villa.visuals[0]
+                            .main-pane
+                                each visual, idx in villa.visuals
+                                    .main-item(class={ shown: idx === 0 })
+                                        img(src=visual.xxl)
+                            .nav-pane
+                                each visual, idx in villa.visuals
+                                    .nav-item(class={ selected: idx === 0 }, style!=`background-image: url(${ visual.xxs })`)
+                    if villa.keyFacts && villa.keyFacts.length
+                        ul.key-facts
+                            each fact in villa.keyFacts
+                                li
+                                    .key!= fact.key
+                                    .value!= fact.value
+                    if (villa.infos && villa.infos.length) || (villa.privileges && villa.privileges.length)
+                        .infosheets
+                            .infosheets-nav
+                                if villa.infos && villa.infos.length
+                                    button Информация о вилле
+                                if villa.privileges && villa.privileges.length
+                                    button Привилегии
+                            .infosheets-slider
+                                if villa.infos && villa.infos.length
+                                    .slide.infos
+                                        h3 Информация о вилле
+                                        +infosheet_list(villa.infos)
+                                if villa.privileges && villa.privileges.length
+                                    .slide.privileges
+                                        h3 Привилегии
+                                        +infosheet_list(villa.privileges)
+
+    section.hero.fin-c2a
+        article
+            .contenu
+                .contact-block
+                    .info
+                        h3 Заполните заявку и наш менеджер поможет вам с подбором тура!
+                        .actions
+                            a.ramp(href='#app-form', data-ym-reachgoal='elite-ost-z') Оставить заявку
+
+    #learn-more
+        a(href='#_') &zwj;
+        .popin-container
+            a.dismiss(href='#_') &zwj;
+            .body
+                h4 Чтобы выбрать виллу и&nbsp;узнать её&nbsp;стоимость, забронировать или уточнить детали:
+                .token.callcenter
+                h4 Позвоните в call-центр
+                a.phome-number(href='tel:+74952321202') +7 (495) 232 12 02
+                .token.eliteservice-marker
+                .eliteservice-banner ELITE SERVICE
+                h4 Приезжайте в ближайший офис
+                p Офисы в&nbsp;Москве и&nbsp;регионах <a href="https://www.coral.ru/where-to-buy/?coral_elite_service=1&elite" target="_blank">Coral Elite Service</a>
+            .foot
+                h4 Напишите в чат
+                .contact-us
+                    .lefty
+                        h5 Ответим через 1 минуту
+                        p с 9:00 до 21:00
+                    .launchpad
+                        a.whatsapp(href='https://wa.me/74952321206?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!', target='_blank')
+                        a.vk(href='https://vk.me/coraltravel', target='_blank')
+                        a.telegram(href='https://t.me/coraltravel_telegrambot', target='_blank')
+                        a.msg(href='https://bcrw.apple.com/urn:biz:d3809fd0-e2fe-4027-b27e-ae34bf28e38c', target='_blank')
+
+    #app-form
+        a(href='#_') &zwj;
+        .popin-container
+            iframe#smIframe-zie4semg3q6u509k(src="https://app2.salesmanago.pl/ms/sid/end4k5eqd4o8yidi/zie4semg3q6u509k.htm")
+            a.dismiss(href='#_') &times;
+
+    script(type='module', src='/site/coral.ru/js/hotel.coffee')
