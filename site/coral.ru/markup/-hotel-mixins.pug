@@ -42,7 +42,7 @@ mixin villas(hotel)
                                             img(src=visual.xxl)
                                 .nav-pane
                                     each visual, idx in villa.visuals
-                                        .nav-item(class={ selected: idx === 0 }, style!=`background-image: url(${ visual.xxs })`)
+                                        .nav-item(class={ selected: idx === 0 }, style!=`background-image: url(${ visual.xxs })`): span &zwj;
                         if villa.keyFacts && villa.keyFacts.length
                             ul.key-facts
                                 each fact in villa.keyFacts

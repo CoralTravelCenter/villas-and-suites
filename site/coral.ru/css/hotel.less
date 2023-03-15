@@ -316,6 +316,7 @@ section.hero {
 					margin-top: 1em;
 				}
 				.nav-item {
+					position: relative;
 					flex: 1 1 100%;
 					margin: 0.5em 0;
 					background: center / cover no-repeat;
@@ -326,6 +327,9 @@ section.hero {
 					@media screen and (max-width: @mobile-breakpoint) {
 						margin: 0 0.5em;
 						height: 4em;
+					}
+					>span {
+						position: absolute;
 					}
 					&:first-child {
 						margin-top: 0!important;

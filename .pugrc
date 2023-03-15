@@ -26,7 +26,6 @@
                                     latlng: [36.57905, 30.58471],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    //price: '123 456',
                                     url: './maxx-royal-kemer-resort/',
                                     video: {
                                         poster: {
@@ -419,7 +418,6 @@
                                     latlng: [36.856434, 31.039511],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    //price: '123 456',
                                     url: './susesi-luxury-resort-deluxe/',
                                     video: {
                                         poster: {
@@ -503,14 +501,14 @@
                                     ]
                                 },
                                 KempinskiVillasBelek: {
-                                    name: 'Kempinski Villas Belek',
-                                    logo: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/logo-kempinski-villas.png',
+                                    name: 'Kempinski Hotel The Dome Belek',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/logo-kempinski-hotel-the-dome.png',
                                     location: 'Белек',
                                     latlng: [36.860012, 30.997336],
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
-                                    //price: '123 456',
                                     url: './kempinski-villas-belek/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/kempinski-hotel-the-dome-belek-belek/?special&q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%222%22%2c%22Q%22%3a%22tZksBmsPBltxPZQa5HTINdEVH99n2UEP1Bx39gq46m5RuGHFpb6QmK8UaRZXQnx9BvS2gQQstX3TVvwbRhYBAhu4p5p7U0I9yEfui0A%2bC77iTZNSdIgW6jUNfIx5zAmcnHu%2fkTTZHHb0LsqokpF1dqx%2flCkTpKNCtzHLlNMwuaU%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/poster-frame.jpg',
