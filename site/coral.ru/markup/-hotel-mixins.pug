@@ -67,6 +67,8 @@ mixin villas(hotel)
                                             +infosheet_list(villa.privileges)
                         .actions
                             a(href='#learn-more', data-ym-reachgoal='elite-ost-z') Выбрать виллу
+                            if hotel.bookOnline
+                                a.book-online(href=hotel.bookOnline, target='_blank') Забронировать онлайн
 
 
 mixin infosheet_list(list)
