@@ -230,6 +230,9 @@ section.hero {
 					overflow-y: hidden;
 					overflow-x: auto;
 					scroll-snap-type: both mandatory;
+					@media screen and (max-width: @mobile-breakpoint) {
+						height: (9/16) * 100vw;
+					}
 					&::-webkit-scrollbar {
 						display: none;
 					}
