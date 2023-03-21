@@ -27,6 +27,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './maxx-royal-kemer-resort/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/maxx-royal-kemer-resort-kemer/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%227M3%2bfCPFQqK1JwCvT3YPeHjFNkzfHjWjWeXvrGK1QFO46f4%2bCoIh5G%2frUkLU4iyFcIkqbPfcq5nWNz%2fpDiLrfPam%2fVbEBtHfcLpFKJxm70GIOIZuHHM%2fAsTaIAEOwArjaSt6z0p%2fk7HQud%2bc4dpHLCR1V%2b76OhPzh%2fK8k3myo%2fo%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/maxx-royal/poster-frame.jpg',
@@ -419,6 +420,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './susesi-luxury-resort-deluxe/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/susesi-luxury-resort-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22X2XWDAdoo0aHPqQMRUUtDYjDTUXj7AaNXMUITqVqaxNCmOUs8sV03nGMEYzgUMVIzdAn2qSyIMkYTEurCkYKe%2fxup5Tk5K9qOMJ6%2bl%2bUXwgftZayWcEz5m4tQac94fEKvqcnGaMKvzpfaxK5iTINH01H1ROUhs5wbQrrMfd6gFc%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/susesi-luxury/poster-frame.jpg',
@@ -508,7 +510,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './kempinski-villas-belek/',
-                                    bookOnline: 'https://www.coral.ru/hotels/turkey/kempinski-hotel-the-dome-belek-belek/?special&q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%222%22%2c%22Q%22%3a%22tZksBmsPBltxPZQa5HTINdEVH99n2UEP1Bx39gq46m5RuGHFpb6QmK8UaRZXQnx9BvS2gQQstX3TVvwbRhYBAhu4p5p7U0I9yEfui0A%2bC77iTZNSdIgW6jUNfIx5zAmcnHu%2fkTTZHHb0LsqokpF1dqx%2flCkTpKNCtzHLlNMwuaU%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/kempinski-hotel-the-dome-belek-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22DcULtfseaxesdxLvbAtCgMJrynedYMPl5bZmDYc4pZjmQmhTWBF9j5njkXwuby1mZW5gV4d08TeTq4ZnuvYzEK%2bwcHnAKP2TgaMdg3DljV0tg2Yj9S%2b2sTc7et9%2fQhjda2x0vH%2bzH8hCNYVB4EkevzLqwyMM%2fLLeKmmbj2pb6gE%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/kempinski-villas-belek/poster-frame.jpg',
@@ -726,6 +728,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './gloria-golf-resort/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/gloria-golf-resort-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22d06XVpqTHQP1xP32XxM1Mpi2hSK8nfB6LH%2bR5SFjfeOsGChgNPZILhMXmMI8E88qUihGhbWw9re%2fm%2brsegw4%2b%2f4PeiZazFnMaG4YwH5q5S3nkOiMQHeI6aBBFvIn3EJj1w2%2fk31baJpO1LbY3CyZKoKi3B%2b%2fjzzfrehP%2bbYX%2fUc%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/gloria-golf-resort/poster-frame.jpg',
@@ -909,6 +912,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './gloria-serenity-resort/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/gloria-serenity-resort-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%224dbKn4qlP2bUc%2f80HFUeaJ9nvhP%2b9pzFYdFZz0u3kB0mfG8fp099byJMITghvQ39ZVFj4DTMYRGozuHBvvJnuNHUaJBgodxpIQ66TA%2fLAnEZ6t%2fW9fiwGkma%2f8jmuvkyPiUYvX7gONWzaO%2fsG9GUw8sCf4E7imTn2ZCPHkuOzio%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/gloria-serenity-resort/poster-frame.jpg',
@@ -1393,6 +1397,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './gloria-verde-resort/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/gloria-verde-resort-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22qD0%2bF4hz2Th33gmnyMF1RVHKcVYP4a%2fOTulGin2CtzRaMtgPYWBzUDajo9%2f64ciZsWCuJqgT5Wty%2fCoaKN%2fRHVpiTFT1fNUCIJVDhKEOMDMDKHAyfj0WOEWKETTgF6EzzP2pqc7FNM1Yu3Mn1nG1s%2fiiwH9csO%2b4UcEtb9Fu6ks%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/gloria-verde-resort/poster-frame.jpg',
@@ -1547,6 +1552,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './cornelia-diamond/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/cornelia-diamond-golf-resort-spa-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22%2fmtiTQI1t4Gc1g84A4eLoN42QboAzjYSxoyiFPwQY7LF9pq9wO2UCWz99BRZpfUQKG7lWf5Y8eyKvB0ffiIDLJewM3OR9D%2fP%2fYtdpwZUA%2bkTR99Mvx57OeH2ByWyH98%2bm%2f2q24Nw4Vt2TK%2bMT6DXocTx%2bTq6YjMsYl828krZT2iIlfcjFDA1ePR3zPmhLYxy%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/cornelia-diamond/poster-frame.jpg',
@@ -1931,6 +1937,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './voyage-belek-golf/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/voyage-belek-golf-spa-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%225cGRKfPEiG4yIUhTjusmFvXsZ%2bE1lir4Qcl82b3e937JZDhGExlStX%2bFrLJ6cLbcYB2Aw9yRiyMfdAijYyBQ5t7d0OWOjuc8Wdm87BggZHmmNSBszcdzkYzck7T8M2Q2p5hGGndnVeAfufTXKehVLC%2fAc6tbgb3cTwWUvhIz%2fso%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/voyage-belek-golf/poster-frame.jpg',
@@ -2416,6 +2423,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './ng-phaselis-bay/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/ng-phaselis-bay-kemer/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22xrgXV7%2fKI0DLS6E4ukkfMNFZZtstz8d7Nq5t5m%2bdDZddA0uQLmiw%2b9uvcYqJ%2fnoBkhOzrhd4ASi1Iqum4O5dVsXiRDdrw2yDI1vbppxbkJ0orNmIdd756N5fA8P1Ece31zBX7YzMHlAOO5X%2f1zmTeQ%3d%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/ng-phaselis-bay/poster-frame.jpg',
@@ -2685,12 +2693,14 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './spice-hotel/',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/spice-hotel-spa-belek/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22NwDyQBA8ECHmDJEc4BCcfG9WYqOME2b%2fssvRRYoRfI6NvyUerYLnLT%2fA5yCPnEY84iy6Sc3zb3J1YxaTeat8LzhBf5ipaqzDbFrdhO9IPAED%2bpvqTr3pxteW%2fruto1TPtyp%2blE61Vec%2fJIgWw68Vgr%2bb7nsQRHLgC71mZ8o0Mb4%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/spice-hotel/poster-frame.jpg',
                                             mobile: '/site/coral.ru/assets/turkey/hotels/spice-hotel/poster-frame-x720.jpg'
                                         },
                                         vid: '789966315',
+                                        anamorphic: true
                                     },
                                     visuals: [
                                         '/site/coral.ru/assets/turkey/hotels/spice-hotel/hotel-visual-01.jpg',
@@ -3289,7 +3299,7 @@
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     //price: '123 456',
                                     url: './lujo/',
-                                    bookOnline: 'https://www.coral.ru/hotels/turkey/lujo-hotel-bodrum-bodrum/?q=%7b%22Bgn%22%3a%2224.04.2023%22%2c%22End%22%3a%2230.04.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c10%2c14%22%2c%22Gest%22%3a%222%22%2c%22Q%22%3a%22nKVY6H1WCiQF3dspKxRgcidN6XGjDJPeL5kxHPY9u3aLTtwqDQaEv4c42jZCiFZW2gmH5P3y70M1%2fkiP6h7pIvQonRm7r3%2bHoCTiGGZMFhN2cm094wz8bdt%2faPDUUBqAdgrlEqKX3I2%2b15OP8FrPcKsSlqwRKt7wZSFT7AnM4FI%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
+                                    bookOnline: 'https://www.coral.ru/hotels/turkey/lujo-hotel-bodrum-bodrum/?q=%7b%22Bgn%22%3a%2215.05.2023%22%2c%22End%22%3a%2221.05.2023%22%2c%22Dr%22%3a%223%22%2c%22Acc%22%3a%227%2c8%2c9%2c10%2c11%2c12%2c13%2c14%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22SlHOAixiN0pmKfKsSOGrGXk9HG9AcG8KkXnownAXIEzMUarDn1TUHGMGZ3ls8QeeWwKVEeI%2fevkohKTHkFHQqpbsgSnA%2b9OOcZ6oFkSkCZnRgCfTcbwgHCgZ%2bFRJyhD%2frw8nF0WYFWsIpQfQRQKnBNpj5ic8IuEJZqq4w2H5jaY%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/turkey/hotels/lujo/poster-frame.jpg',
@@ -3628,6 +3638,7 @@
                                     stars: '*****',
                                     msg: 'Уточните стоимость виллы удобным способом',
                                     url: './rixos-premium-magawish/',
+                                    bookOnline: 'https://www.coral.ru/hotels/egypt/rixos-premium-magawish-hurghada/?q=%7b%22Bgn%22%3a%2204.05.2023%22%2c%22End%22%3a%2204.05.2023%22%2c%22Dr%22%3a%220%22%2c%22Acc%22%3a%227%2c9%22%2c%22Gest%22%3a%224%22%2c%22Q%22%3a%22mQX4VmmyUBEj9T%2b6Cbr1NyfXDPY2m8T4B%2fF4PfAke97gE0EQYzwIj%2fAtJZ6ojeE86bhj4O%2biu6P%2f2va0evO8fNuvdc6Bthzbr%2btE%2b2jst%2bxT98TZ4UXd89jIuZpVyP5%2btDVWY%2bHvX%2bG43CBADND6VDzl1ku8e3Mc3cqhwgVr6Lg%3d%22%2c%22Ts%22%3a0%2c%22Las%22%3afalse%2c%22AcId%22%3a0%2c%22FDate%22%3a%220001-01-01T00%3a00%3a00Z%22%2c%22Ref%22%3afalse%2c%22Pstatus%22%3afalse%2c%22TransferPrice%22%3a0.0%2c%22Chr%22%3atrue%2c%22Rglr%22%3afalse%2c%22Srt%22%3a1%7d',
                                     video: {
                                         poster: {
                                             desktop: '/site/coral.ru/assets/egypt/hotels/rixos-premium-magawish/poster-frame.jpg',
