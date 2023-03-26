@@ -4,7 +4,7 @@ export class Ymap
     constructor: (options) ->
         @options = {
             el: '#ymap'
-            ymaps_api: '//api-maps.yandex.ru/2.1.64/?lang=ru_RU'
+            ymaps_api: '//api-maps.yandex.ru/2.1.64/?apikey=49de5080-fb39-46f1-924b-dee5ddbad2f1&lang=ru-RU'
             hotels: null
             appState: null
             iconDefault: '/site/coral.ru/assets/ymap-marker-default.png'
