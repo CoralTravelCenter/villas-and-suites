@@ -79,7 +79,7 @@ mixin infosheet_list(list)
             else
                 li
                     if item.i
-                        span.i: svg: use(href=item.i)
+                        span.i: svg(viewBox='0 0 20 21'): use(href=item.i)
                     span.k!= item.k
                     if item.v
                         span.v!= item.v

@@ -87,3 +87,11 @@ ASAP ->
         $this.closest('.villa-showroom')
             .find('.main-item').eq(idx).addClass('shown')
             .siblings('.shown').removeClass('shown')
+
+    $(document).on 'wheel', '.flickity-enabled', _.debounce (e) ->
+        e.stopPropagation()
+        if e.originalEvent.deltaX > 0
+            $(this).flickity('next')
+        else if e.originalEvent.deltaX < 0
+            $(this).flickity('previous')
+    , 40, leading: yes, trailing: no

@@ -172,3 +172,11 @@ ASAP ->
         $('[data-action=ymap-toggle]').toggleClass 'active'
         $('.ymap-comp').toggleClass 'open'
         window.ymap = ymap = new Ymap(hotels: HOTELS_DATA, appState: app_state).init() unless ymap
+
+    $(document).on 'wheel', '.flickity-enabled', _.debounce (e) ->
+        e.stopPropagation()
+        if e.originalEvent.deltaX > 0
+            $(this).flickity('next')
+        else if e.originalEvent.deltaX < 0
+            $(this).flickity('previous')
+    , 40, leading: yes, trailing: no
