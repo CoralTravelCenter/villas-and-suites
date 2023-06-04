@@ -3613,6 +3613,822 @@
                                         }
                                     ]
                                 },
+                                BePremium: {
+                                    name: 'Be Premium Bodrum',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/be-premium/logo-be-premium.png',
+                                    location: 'Бодрум',
+                                    latlng: [37.100075, 27.491306],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './be-premium/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/be-premium/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/be-premium/poster-frame-x720.jpg'
+                                        },
+                                        vid: '832551110',
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/be-premium/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/be-premium/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/be-premium/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/be-premium/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/be-premium/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Maldivian Villa ',
+                                            capacityWording: '4&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '105&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостя', value: '4' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '195 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/maldivian-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '4 виллы площадью 195 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Wood', k: 'Частный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Бассейн', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи на террасе', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v:'1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dress', k: 'Туалет', v: '1' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '1' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Dress', k: 'Туалет', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Newspapers', k: 'Распределение ежедневных газет по национальностям гостей' },
+                                                { i: '#Consultant', k: 'Be Assistant' },
+                                                { i: '#Vip', k: 'VIP трансфер из аэропорта' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну' },
+                                                { i: '#Butler', k: 'Личный дворецкий' },
+                                                { i: '#Pillows', k: 'Меню подушек' },
+                                                { i: '#Laundry', k: 'Услуги прачечной и глажки' },
+                                                { i: '#Gift', k: '"Welcome Set-Up" по прибытии' },
+                                                { i: '#Breakfast', k: 'Премиум завтрак' },
+                                                { i: '#Baby', k: 'Концепция младенцев Duja Moji' },
+                                                { i: '#Sound_System', k: 'Bose Sound System' },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Deluxe Villa',
+                                            capacityWording: '4&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '245&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '245 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/deluxe-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '4 виллы площадью 245 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Wood', k: 'Частный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Бассейн', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '1' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Consultant', k: 'Be Assistant' },
+                                                { i: '#Sound_System', k: 'Bose Sound System' },
+                                                { i: '#Pillows', k: 'Меню подушек' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну' },
+                                                { i: '#Gift', k: '"Welcome Set-Up" по прибытии' },
+                                                { i: '#Baby', k: 'Концепция младенцев Duja Moji' },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Premium Villa',
+                                            capacityWording: '7&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '535&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '4' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '535 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/premium-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '4 виллы  площадью 535 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса и балкон', v: '&check;' },
+                                                { i: '#Elevator', k: 'Лифт', v: '&check;' },
+                                                { k: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { k: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Newspapers', k: 'Распределение ежедневных газет по национальностям гостей' },
+                                                { i: '#Consultant', k: 'Be Assistant' },
+                                                { i: '#Helicopter', k: 'Трансфер на вертолете' },
+                                                { i: '#Vip', k: 'VIP трансфер из аэропорта' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну'},
+                                                { i: '#Butler', k: 'Личный дворецкий'},
+                                                { i: '#Pillows', k: 'Меню подушек'},
+                                                { i: '#Laundry', k: 'Услуги прачечной и глажки'},
+                                                { i: '#Bungalo', k: 'Cabana на пляже'},
+                                                { i: '#Gift', k: '"Welcome Set-Up" по прибытии'},
+                                                { i: '#Breakfast', k: 'Премиум завтрак'},
+                                                { i: '#Baby', k: 'Концепция младенцев Duja Moji'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Grand Villa',
+                                            capacityWording: '9&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '725&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спален', value: '5' },
+                                                { key: 'площадь', value: '725 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/be-premium/villas/grand-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '5 вилла площадью 725 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Wood', k: 'Частный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Бассейн', v: '&check;' },
+                                                { i: '#Pool', k: 'Закрытый бассейн', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна и Турецкая баня', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Elevator', k: 'Лифт', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#', k: 'Гостиная', v: '1' },
+                                                { i: '#', k: 'Спальня', v: '1' },
+                                                { i: '#', k: 'Гардероб', v: '1' },
+                                                { i: '#', k: 'Ванная комната', v: '1' },
+                                                { i: '#', k: 'Столовая', v: '1' },
+                                                { i: '#', k: 'Кухня', v: '1' },
+                                                { i: '#', k: 'Мини-бар', v: '1' },
+                                                { h: '2 этаж'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи в главной спальне', v: '&check;' },
+                                                { i: '#Massage_Table', k: 'Массажный кабинет', v: '&check;' },
+                                                { i: '#Treadmill', k: 'Беговая дорожка', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Diamond', k: 'BE Premium Protocol Service (использование терминала CIP в аэропорту)' },
+                                                { i: '#Lounge', k: 'CIP Lounge и Fast Track Сервисы' },
+                                                { i: '#Newspapers', k: 'Распределение ежедневных газет по национальностям гостей' },
+                                                { i: '#Vip', k: 'VIP трансфер из аэропорта' },
+                                                { i: '#Bungalo', k: 'Cabana на пляже' },
+                                                { i: '#Helicopter', k: 'Трансфер на вертолете' },
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну' },
+                                                { i: '#Butler', k: 'Личный дворецкий' },
+                                                { i: '#Laundry', k: 'Услуги прачечной и глажки' },
+                                                { i: '#Gift', k: '"Welcome Set-Up" по прибытии' },
+                                                { i: '#Breakfast', k: 'Премиум завтрак' },
+                                                { i: '#Consultant', k: 'Be Assistant' },
+                                                { i: '#Baby', k: 'Концепция младенцев Duja Moji' },
+                                                { i: '#Sound_System', k: 'Bose Sound System' },
+                                                { i: '#Pillows', k: 'Меню подушек' },
+                                            ]
+                                        },
+                                    ]
+                                },
+                                Mandarin: {
+                                    name: 'Mandarin Oriental',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/logo-mandarin-oriental.png',
+                                    location: 'Бодрум',
+                                    latlng: [37.127993, 27.410526],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './mandarin-oriental/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/poster-frame-x720.jpg'
+                                        },
+                                        vid: '832551585',
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Blue Beach Villa Three Bedrooms',
+                                            capacityWording: '7&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '182&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '182 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-3-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 182 м²' },
+                                                { i: '#Wood', k: 'Вид на сад', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra' },
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума' },
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле' },
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд' },
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания' },
+                                                { i: '#Officiant', k: 'Служба гостевого опыта' },
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет' },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Blue Beach Villa Four Bedrooms',
+                                            capacityWording: '8&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '232&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '9' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '232 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/blue-beach-4-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 232 м²' },
+                                                { i: '#Wood', k: 'Вид на сад', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' }
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Lily Villa',
+                                            capacityWording: '9&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '640&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'спальни', value: '4' },
+                                                { key: 'площадь', value: '640 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/lily-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 640 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v:  '4'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v:  '5'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Melissa Villa',
+                                            capacityWording: '11&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '560&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '12' },
+                                                { key: 'спален', value: '5' },
+                                                { key: 'площадь', value: '560 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/melissa-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 560 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '5' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '5' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Magnolia Villa',
+                                            capacityWording: '11&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '560&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '12' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '560 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/magnolia-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 560 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '5' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '5' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]                                        },
+                                        {
+                                            name: 'Paradise Bay Villa',
+                                            capacityWording: '9&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '640&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '640 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/paradise-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 640 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v:  '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v:  '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v:  '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v:'1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Sport', k: 'Комната для фитнеса', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '5' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Alisya Beach Villa',
+                                            capacityWording: '16&nbsp;Взрослых',
+                                            capacityValue: '670&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '16' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '670 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/alisya-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 670 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '8' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '9' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Mandarin Villa',
+                                            capacityWording: '13&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '710&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '14' },
+                                                { key: 'спален', value: '6' },
+                                                { key: 'площадь', value: '710 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/mandarin-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 710 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Бассейн с подогревом', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Sport', k: 'Фитнес-зал', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '6' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '6' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Presidential Villa',
+                                            capacityWording: '15&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '910&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '16' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '910 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mandarin-oriental/villas/presidential-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 910 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '3' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Sport', k: 'Фитнес-зал', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '7' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '6' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Breakfast', k: 'Ежедневный завтрак в ресторане Sofra'},
+                                                { i: '#Fasttrack', k: 'Platinum CIP ускоренное обслуживание прибытия и отъезда в аэропорту Бодрума'},
+                                                { i: '#Vip', k: 'Один бесплатный трансфер от/до аэропорта на роскошном автомобиле'},
+                                                { i: '#Registration', k: 'На вилле регистрация заезда и отъезд'},
+                                                { i: '#SPA', k: 'Кредит на спа в размере 200 евро за весь период проживания'},
+                                                { i: '#Officiant', k: 'Служба гостевого опыта'},
+                                                { i: '#Wi-fi', k: 'Бесплатный высокоскоростной доступ в Интернет'},
+                                            ]
+                                        },
+                                    ]
+                                }
                             }
                         }
                     }
