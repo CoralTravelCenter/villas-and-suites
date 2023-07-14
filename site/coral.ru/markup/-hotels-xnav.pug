@@ -9,6 +9,6 @@ section.hero.hotel-xnav
                         each hotel, hotel_key in region.hotels
                             li(class={ selected: hotel === this_hotel }, data-xlink=`../${ hotel.url }`)
                                 img.logo(src=hotel.logo)
-                                span.hotel-name= hotel.name
+                                span.hotel-name!= hotel.name
                                 span.location #{ hotel.location }<span class='hidden-on-mobile'>, #{ country.name }</span>
                                 span.action

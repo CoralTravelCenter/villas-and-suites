@@ -4428,6 +4428,66 @@
                                             ]
                                         },
                                     ]
+                                },
+                                Caresse: {
+                                    name: 'Caresse, a&nbsp;Luxury Collection Resort&nbsp;&&nbsp;Spa',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/caresse-resort/logo-caresse-resort.png',
+                                    location: 'Бодрум',
+                                    latlng: [37.022396, 27.389102],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './caresse-resort/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/caresse-resort/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/caresse-resort/poster-frame-x720.jpg'
+                                        },
+                                        vid: '845205523',
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Caresse Residence',
+                                            capacityWording: '7&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '182&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '182 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-05-x200.jpg',
+                                                },
+                                            ]
+                                        },
+
+                                    ]
                                 }
                             }
                         }

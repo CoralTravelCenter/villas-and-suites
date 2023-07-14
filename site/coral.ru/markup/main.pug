@@ -67,7 +67,7 @@ body
                                                 .location= hotel.location
                                                     button(data-action='ymap-toggle') &zwj;
                                                 .stars= hotel.stars
-                                                .name= hotel.name
+                                                .name!= hotel.name
                                                 .msg= hotel.msg
                                                 if hotel.price
                                                     .price-info.rur от #{ hotel.price }
