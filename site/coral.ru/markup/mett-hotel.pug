@@ -1,0 +1,57 @@
+- var this_hotel = data.countries.turkey.regions.aegean.hotels.Mett
+
+include ./-hotel-mixins.pug
+
+body
+    link(rel='stylesheet', href='/site/coral.ru/css/hotel.less')
+
+    include ../inline-assets/features-sprite.svg
+
+    section.hero.underbrow.kv
+        article
+            .contenu
+                h2.h1 Элитный отдых для тех, кто ценит комфорт
+                p Приватные виллы, где все продумано до мелочей
+
+    include ./-hotels-xnav.pug
+
+    section.hero.hotel-intro: article: .contenu
+        div
+            p
+                :typo
+                    Замечательная архитектура и великолепные виды.
+                    <br>Высокопрофессиональный штат, наполняющий отдых гостей теплом и радушием.
+                    <br>Великолепная кухня и превосходный СПА-центр.
+
+    +hotel-concept-slider(this_hotel)
+
+    section.hero.villas-heading
+        article
+            .contenu
+                h2 Виллы
+                p
+                    :typo
+                        Исключительный комфорт и специальное обслуживание.
+
+    +villas-contactsheet(this_hotel)
+
+    +villas(this_hotel)
+
+    section.hero.fin-c2a
+        article
+            .contenu
+                .contact-block
+                    .info
+                        h3 Заполните заявку и наш менеджер поможет вам с подбором тура!
+                        .actions
+                            a.ramp(href='#app-form', data-ym-reachgoal='elite-ost-z') Оставить заявку
+
+    include ./-learn-more-popin.pug
+
+    #app-form
+        a(href='#_') &zwj;
+        .popin-container
+            iframe#smIframe-zie4semg3q6u509k(src="https://app2.salesmanago.pl/ms/sid/end4k5eqd4o8yidi/zie4semg3q6u509k.htm")
+            a.dismiss(href='#_') &times;
+
+    script(type='module', src='/site/coral.ru/js/hotel.coffee')

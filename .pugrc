@@ -18,8 +18,174 @@
                             name: 'Анталийское побережье',
                             default: true,
                             hotels: {
-                                MaxxRoyalKemerResort: {
+                                ElaExcellence: {
                                     default: true,
+                                    name: 'Ela Excellence Resort Belek',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/ela-excellence/logo-ela-excellence.png',
+                                    location: 'Белек',
+                                    latlng: [36.855913, 31.042583],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './ela-excellence/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/ela-excellence/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/ela-excellence/poster-frame-x720.jpg'
+                                        },
+                                        vid: '846293166',
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/ela-excellence/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ela-excellence/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ela-excellence/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ela-excellence/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/ela-excellence/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: 'Villa Ela Palace',
+                                            capacityWording: '???',
+                                            capacityValue: '297 м²',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '297 м&sup2;' }
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/ela-palace-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '5 вилл площадью 297 м²' },
+                                                { i: '#Wood', k: 'Вид на сад', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Открытый бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3' },
+                                                { i: '#Sauna', k: 'Сауна и Турецкая баня', v: '&check;' },
+                                                { i: '#Wardrobe', k: 'Гардероб', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Diamond', k: 'Бесплатный CIP терминал в аэропорту (при проживании не менее 7 дней)'},
+                                                { i: '#Gift', k: 'Персональное приветствие в аэропорту'},
+                                                { i: '#Vip', k: 'VIP-трансфер аэропорт-отель в оба конца'},
+                                                { i: '#Consultant', k: 'Ассистент Ela'},
+                                                { i: '#Registration', k: 'Быстрая регистрация на вилле'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну'},
+                                                { i: '#Butler', k: 'Услуги батлера'},
+                                                { i: '#Flower', k: '"Welcome Set-Up" по прибытии'},
+                                                { i: '#Restaurat', k: 'Приоритет бронирования в ресторанах A’la Carte'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24/7'},
+                                                { i: '#Breakfast', k: 'Завтрак A’la Carte в ресторане La Sofa'},
+                                                { i: '#Bungalo', k: 'Обслуживание частных пляжных сьютов'},
+                                                { i: '#Bar', k: 'Макси-бар Excellence'},
+                                                { i: '#Coffee', k: 'Зерновая кофемашина'},
+                                                { i: '#BBQ', k: 'Услуга барбекю со специальным комплексным меню один раз в неделю (при проживании не менее 7 дней)'},
+                                            ]
+                                        },
+                                        {
+                                            name: 'Villa Sultan Palace',
+                                            capacityWording: '???',
+                                            capacityValue: '794 м²',
+                                            keyFacts: [
+                                                { key: 'виллы', value: '2' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '794 м&sup2;' }
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default:true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-01-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-02-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-03-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-04-x200.jpg'
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/ela-excellence/villas/sultan-palace-05-x200.jpg'
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 794 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Pool', k: 'Открытый бассейн', v: '&check;' },
+                                                { i: '#Sauna', k: 'Сауна и Турецкая баня', v: '&check;' },
+                                                { i: '#Sport', k: 'Фитнес-центр', v: '&check;' },
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;' },
+                                                { h: '1 этаж' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Столовая', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Bar', k: 'Мини-бар', v: '1' },
+                                                { h: '2 этаж' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Diamond', k: 'Бесплатный CIP терминал в аэропорту (при проживании не менее 7 дней)'},
+                                                { i: '#Gift', k: 'Персональное приветствие в аэропорту'},
+                                                { i: '#Vip', k: 'VIP-трансфер аэропорт-отель в оба конца'},
+                                                { i: '#Consultant', k: 'Ассистент Ela'},
+                                                { i: '#Registration', k: 'Быстрая регистрация на вилле'},
+                                                { i: '#Bedroom_sleep', k: 'Подготовка постели ко сну'},
+                                                { i: '#Butler', k: 'Услуги батлера'},
+                                                { i: '#Flower', k: '"Welcome Set-Up" по прибытии'},
+                                                { i: '#Restaurat', k: 'Приоритет бронирования в ресторанах A’la Carte'},
+                                                { i: '#Service', k: 'Обслуживание номеров 24/7'},
+                                                { i: '#Breakfast', k: 'Завтрак A’la Carte в ресторане La Sofa'},
+                                                { i: '#Bungalo', k: 'Обслуживание частных пляжных сьютов'},
+                                                { i: '#Bar', k: 'Макси-бар Excellence'},
+                                                { i: '#Coffee', k: 'Зерновая кофемашина'},
+                                                { i: '#BBQ', k: 'Услуга барбекю со специальным комплексным меню один раз в неделю (при проживании не менее 7 дней)'},
+                                            ]
+                                        }
+                                    ]
+                                },
+                                MaxxRoyalKemerResort: {
                                     name: 'Maxx Royal Kemer Resort',
                                     logo: '/site/coral.ru/assets/turkey/hotels/maxx-royal/logo-maxx-royal.png',
                                     location: 'Кемер',
@@ -4453,14 +4619,67 @@
                                     ],
                                     villas: [
                                         {
+                                            name: 'Caresse King Villa',
+                                            capacityWording: '3&nbsp;Взрослых + 2&nbsp;Ребенка',
+                                            capacityValue: '305&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '305 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/king-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 305 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;'},
+                                                { i: '#Jacuzzi', k: 'Джакузи', v: '&check;'},
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;'},
+                                                { i: '#Living_room', k: 'Гостиная', v: '1'},
+                                                { i: '#Kitchen', k: 'Кухня', v: '1'},
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1'},
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '2'},
+                                                { i: '#Bedroom', k: 'Спальня', v: '2'},
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2'},
+                                            ],
+                                            privileges: [
+                                                { i: '#Maid', k: 'Ежедневная уборка'},
+                                                { i: '#Fruits', k: 'Цветы и фрукты (По прибытию)'},
+                                                { i: '#Bar', k: 'Мини-бар'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивные туалетно-косметические принадлежности в ванной комнате'},
+                                                { i: '#Buggi', k: 'Багги сервис' }
+                                            ]
+                                        },
+                                        {
                                             name: 'Caresse Residence',
-                                            capacityWording: '7&nbsp;Взрослых + 1&nbsp;Ребенок',
-                                            capacityValue: '182&nbsp;м&sup2;',
+                                            capacityWording: '2&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '125&nbsp;м&sup2;',
                                             keyFacts: [
                                                 { key: 'виллы', value: '2' },
-                                                { key: 'гостей', value: '8' },
-                                                { key: 'спальни', value: '3' },
-                                                { key: 'площадь', value: '182 м&sup2;' },
+                                                { key: 'гостя', value: '3' },
+                                                { key: 'этажа', value: '2' },
+                                                { key: 'площадь', value: '125 м&sup2;' },
                                             ],
                                             visuals: [
                                                 {
@@ -4484,9 +4703,283 @@
                                                     xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-05-x1100.jpg',
                                                     xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-05-x200.jpg',
                                                 },
+                                            ],
+                                            infos: [
+                                                { h: '2 виллы площадью 125 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Балкон', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '1' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '2' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v: '1' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Maid', k: 'Ежедневная уборка'},
+                                                { i: '#Fruits', k: 'Цветы и фрукты (По прибытию)'},
+                                                { i: '#Bar', k: 'Мини-бар'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивные туалетно-косметические принадлежности в ванной комнате'},
+                                                { i: '#Buggi', k: 'Багги сервис' }
+                                            ]
+                                        },
+                                        {
+                                            name: 'Premiere Residence 3 Bedroom Pool',
+                                            capacityWording: '5&nbsp;Взрослых + 2&nbsp;Ребенка',
+                                            capacityValue: '375&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '6' },
+                                                { key: 'спальни', value: '3' },
+                                                { key: 'площадь', value: '375 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/caresse-resort/villas/residence-3-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 375 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Balcony-or-Terrace', k: 'Терраса', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '1' },
+                                                { i: '#Kitchen', k: 'Мини-кухня', v: '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '3' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '3' },
+                                            ],
+                                            privileges: [
+                                                { i: '#Maid', k: 'Ежедневная уборка'},
+                                                { i: '#Fruits', k: 'Цветы и фрукты (По прибытию)'},
+                                                { i: '#Bar', k: 'Мини-бар'},
+                                                { i: '#Bathroom_accessories', k: 'Эксклюзивные туалетно-косметические принадлежности в ванной комнате'},
+                                                { i: '#Buggi', k: 'Багги сервис' }
                                             ]
                                         },
 
+                                    ]
+                                },
+                                Mett: {
+                                    name: 'Mett Hotel &&nbsp;Beach Resort Bodrum',
+                                    logo: '/site/coral.ru/assets/turkey/hotels/mett-hotel/logo-mett-hotel.png',
+                                    location: 'Бодрум',
+                                    latlng: [37.024273, 27.415279],
+                                    stars: '*****',
+                                    msg: 'Уточните стоимость виллы удобным способом',
+                                    url: './mett-hotel/',
+                                    video: {
+                                        poster: {
+                                            desktop: '/site/coral.ru/assets/turkey/hotels/mett-hotel/poster-frame.jpg',
+                                            mobile: '/site/coral.ru/assets/turkey/hotels/mett-hotel/poster-frame-x720.jpg'
+                                        },
+                                        vid: '845205523',
+                                    },
+                                    visuals: [
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-01.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-02.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-03.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-04.jpg',
+                                        '/site/coral.ru/assets/turkey/hotels/caresse-resort/hotel-visual-05.jpg',
+                                    ],
+                                    villas: [
+                                        {
+                                            name: '4 Bedrooms Villa',
+                                            capacityWording: '7&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '300&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '300 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 300 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '2' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' },
+                                            ]
+                                        },
+                                        {
+                                            name: '4 Bedrooms Villa with pool',
+                                            capacityWording: '7&nbsp;Взрослых + 1&nbsp;Ребенок',
+                                            capacityValue: '300&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '8' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '300 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/4-bedroom-pool-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '5 вилл площадью 300 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '2' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' },
+                                            ]
+                                        },
+                                        {
+                                            name: '5 Bedrooms Villa with pool',
+                                            capacityWording: '10&nbsp;Взрослых',
+                                            capacityValue: '370&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилл', value: '5' },
+                                                { key: 'гостей', value: '10' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '370 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/5-bedroom-pool-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: '5 вилл площадью 300 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Wood', k: 'Личный сад', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v: '1' },
+                                                { i: '#Dining_room', k: 'Обеденная зона', v: '2' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '5' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' },
+                                            ]
+                                        },
+                                        {
+                                            name: 'Villa Poseidon',
+                                            capacityWording: '5&nbsp;Взрослых',
+                                            capacityValue: '340&nbsp;м&sup2;',
+                                            keyFacts: [
+                                                { key: 'вилла', value: '1' },
+                                                { key: 'гостей', value: '5' },
+                                                { key: 'этажа', value: '3' },
+                                                { key: 'площадь', value: '340 м&sup2;' },
+                                            ],
+                                            visuals: [
+                                                {
+                                                    default: true,
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-01-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-01-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-02-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-02-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-03-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-03-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-04-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-04-x200.jpg',
+                                                },
+                                                {
+                                                    xxl: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-05-x1100.jpg',
+                                                    xxs: '/site/coral.ru/assets/turkey/hotels/mett-hotel/villas/poseidon-05-x200.jpg',
+                                                },
+                                            ],
+                                            infos: [
+                                                { h: 'Вилла площадью 340 м²' },
+                                                { i: '#View_sea', k: 'Вид на море', v: '&check;' },
+                                                { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
+                                                { i: '#Sauna', k: 'Хамам', v: '&check;' },
+                                                { i: '#Living_room', k: 'Гостиная', v: '1' },
+                                                { i: '#Kitchen', k: 'Кухня', v:  '1' },
+                                                { i: '#Wardrobe', k: 'Гардеробная', v:  '1' },
+                                                { i: '#Bedroom', k: 'Спальня', v: '2' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '1' },
+                                            ]
+                                        },
                                     ]
                                 }
                             }
