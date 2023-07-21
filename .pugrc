@@ -4924,7 +4924,7 @@
                                                 },
                                             ],
                                             infos: [
-                                                { h: '5 вилл площадью 300 м²' },
+                                                { h: '5 вилл площадью 370 м²' },
                                                 { i: '#View_sea', k: 'Вид на море', v: '&check;' },
                                                 { i: '#Pool', k: 'Личный бассейн', v: '&check;' },
                                                 { i: '#Wood', k: 'Личный сад', v: '&check;' },
@@ -4932,16 +4932,16 @@
                                                 { i: '#Kitchen', k: 'Кухня', v: '1' },
                                                 { i: '#Dining_room', k: 'Обеденная зона', v: '2' },
                                                 { i: '#Bedroom', k: 'Спальня', v: '5' },
-                                                { i: '#Bathroom', k: 'Ванная комната', v: '4' },
+                                                { i: '#Bathroom', k: 'Ванная комната', v: '5' },
                                             ]
                                         },
                                         {
                                             name: 'Villa Poseidon',
-                                            capacityWording: '5&nbsp;Взрослых',
+                                            capacityWording: '4&nbsp;Взрослых',
                                             capacityValue: '340&nbsp;м&sup2;',
                                             keyFacts: [
                                                 { key: 'вилла', value: '1' },
-                                                { key: 'гостей', value: '5' },
+                                                { key: 'гостя', value: '4' },
                                                 { key: 'этажа', value: '3' },
                                                 { key: 'площадь', value: '340 м&sup2;' },
                                             ],
